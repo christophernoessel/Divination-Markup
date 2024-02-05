@@ -44,7 +44,11 @@ class MarkupManager():
     def __init__(self, file_path):
         self.source_path = file_path
         self.source_text = read_file_contents(self.source_path)
+        
         self.sentences = split_into_sentences(self.source_text)
+        # sentences is a list, each entry a dict with index, parse flag, and text
+        # print(self.sentences[:10])
+        
         self.sentence_index = 0
         
         datetime_suffix = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
@@ -52,7 +56,7 @@ class MarkupManager():
 
     def find_last_marked_sentence(self):
         for index in range(len(self.sentences) - 1, -1, -1):
-            sentence = self.sentences[index]
+            sentence = self.sentences[index]['text']
             if '<apodosis' in sentence:
                 return index  # Return immediately when a marked sentence is found
         return 0  # Return 0 if no marked sentence is found
@@ -60,24 +64,14 @@ class MarkupManager():
     def get_total_sentences(self):
         return len(self.sentences)
 
-    def get_next_sentence(self):
-        if self.sentence_index > len(self.sentence_list):
-            return "EOF"
-        else:
-            return self.sentence_list[sentence_index]
-        self.sentence_index += 1
-        
     def get_sentence(self, sentence_index):
         return self.sentences[sentence_index]
 
-    def set_sentence(self, sentence_index, new_text):
+    def set_sentence_text(self, sentence_index, new_text):
         if len(self.sentences) < sentence_index < 0:
             return "Index out of range"
-        self.sentences[sentence_index] = new_text
+        self.sentences[sentence_index]['text'] = new_text
         return self.sentences[sentence_index]
-
-    def set_index(self, new_index):
-        self.sentence_index = new_index
 
     def autosave(self):
         self.write_file(True)
@@ -94,7 +88,7 @@ class MarkupManager():
         
         contents = ""
         for sentence in self.sentences:
-            contents += f"{sentence}\n"
+            contents += f"{sentence['text']}\n"
             
         with open(new_filename, 'w') as file:
             file.write(contents) # this completely overwrites existing content
