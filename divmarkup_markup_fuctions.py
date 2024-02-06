@@ -3,6 +3,7 @@ from divmarkup_text_functions   import *
 from file_functions             import *
 import os
 import re
+import difflib
 
 date_suffix_re_pattern = r"_\d{4}-\d{2}-\d{2}_\d{2}-\d{2}-\d{2}"
 
@@ -47,7 +48,9 @@ class MarkupManager():
         
         self.sentences = split_into_sentences(self.source_text)
         # sentences is a list, each entry a dict with index, parse flag, and text
-        # print(self.sentences[:10])
+        ## print('\n\n')
+        ## print(self.sentences[:25])
+        ## write_dicts_to_file(self.sentences) # this was for debugging.
         
         self.sentence_index = 0
         
@@ -92,7 +95,8 @@ class MarkupManager():
             
         with open(new_filename, 'w') as file:
             file.write(contents) # this completely overwrites existing content
-
+        self.last_written_file = new_filename
+        
         if not is_autosave: print(f"{new_filename} written.")
         return new_filename
     

@@ -4,6 +4,7 @@ from divmarkup_ask_chatgpt      import *
 from divmarkup_text_functions   import *
 from divmarkup_wordnet_fuctions import *
 from divmarkup_markup_fuctions  import *
+##from divmarkup_context_window   import *
 
 # UTILITIES
 from datetime import date
@@ -13,6 +14,8 @@ import re
 import nltk
 from nltk.corpus import wordnet as wn
 #nltk.download('wordnet')
+
+skip_lines = []
 
 
 def main():
@@ -24,10 +27,14 @@ def main():
     # get the file to with the text to markup
     print("Please select the file to markup.")
     file_path = select_file() #select a divinatory txt file
+    print(f"opening {file_path}")
 
     #file_path = "/Users/christophernoessel/Documents/divination xml/universal_divtext_markup.py/marked_up_i_ching.txt"
     ask_chatgpt = AskChatGPT() # this manages conversations with chatGPT
     markup_manager = MarkupManager(file_path) # this holds the text we’ll be parsing
+
+##    long_text = read_file_contents(file_path)
+##    initialize_context_window(long_text)
 
     # Where to start?
     start_at = markup_manager.find_last_marked_sentence() #allows us to leave off jobs and return to them later
@@ -38,20 +45,28 @@ def main():
         response = input(f"Do you want to begin processing the file after {start_at}? y/n\n")
         if response == 'n': start_at = 0
 
-    # ==================== CHATGPT SUGGESTING APODOSIS
-
     if (start_at >= number_of_sentences):
         print(f"There are apparently no more sentences to process in that file.")
-        exit()
+        #exit()
+
+    print(f"starting at {start_at}")
+
+    # ==================== CHATGPT SUGGESTING APODOSIS
 
     for x in range(start_at, number_of_sentences):
         sentence = markup_manager.get_sentence(x)
+        ## print(f"sentence {x}: {sentence}")
+
+        if sentence['parse'] == False:
+            print(f"Not parsing {x}: {sentence}")
+            continue
+        
         
         # Get chatGPT’s suggestion
-        response_json = ask_chatgpt.recommend_apodosis(sentence)
+        response_json = ask_chatgpt.recommend_apodosis(sentence['text'])
         
         full_sentence      = response_json["full"] # things get weird if the response doesn't match input
-        if full_sentence  != sentence:
+        if full_sentence  != sentence['text']:
             print(f"chatGPT returned {full_sentence} for {sentence}, and that ain’t right. Not sure what to do.")
                     
         print(f"\nGiven the sentence: {full_sentence}")
@@ -71,7 +86,7 @@ def main():
         
         finalized_apososis_selection = False
         parse_this_apodosis = False
-        modification_prompt = "\n    [RETURN] = proceed. k = skip. [slice:notation] substring. w = write file"
+        modification_prompt = "\n    [RETURN] = proceed. k = skip. [slice:notation] substring. w = write file, exit = nuff said"
 
         while (finalized_apososis_selection == False):
             # displaying the sentence with the suggested apodosis in uppercase for easy human parsing
@@ -99,6 +114,9 @@ def main():
             
             elif modify_input == 'w': # write the file (so work can pause)
                 markup_manager.write_file()
+
+            elif modify_input == 'exit': # write the file (so work can pause)
+                break
                 
             else:
                 result_integer, result_string = slice_string_per_content(full_sentence, modify_input)
@@ -144,8 +162,8 @@ def main():
                         {'wn_only': synset_name_list},  # attributes_list
                         )
 
-                    markup_manager.set_sentence(x, new_sentence)
-                    markup_manager.autosave()
+                    markup_manager.set_sentence_text(x, new_sentence)
+                    markup_manager.autosave() # yes, every sentence
                     break
 
     file_name = markup_manager.write_file()
