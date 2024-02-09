@@ -58,7 +58,7 @@ def main():
         ## print(f"sentence {x}: {sentence}")
 
         if sentence['parse'] == False:
-            print(f"Not parsing {x}: {sentence}")
+            print(f"Skipping {x}: {sentence}")
             continue
         
         
@@ -96,7 +96,7 @@ def main():
             post_apodosis       = full_sentence[selection_end:].lower()
             sentence_with_capitalized_apodosis = pre_apodosis +apodosis_uppered +post_apodosis
             
-            print(f"Confirm: {sentence_with_capitalized_apodosis}\n")
+            print(f" ==================== Confirm: {sentence_with_capitalized_apodosis}\n")
 
             # prompting for modification
             modify_input = input(modification_prompt +'\n\n')

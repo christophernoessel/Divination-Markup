@@ -51,6 +51,8 @@ class MarkupManager():
         ## print('\n\n')
         ## print(self.sentences[:25])
         ## write_dicts_to_file(self.sentences) # this was for debugging.
+##        for x in range(58):
+##            print(f"initialized {x} {self.sentences[x]['text']}")
         
         self.sentence_index = 0
         
@@ -60,6 +62,7 @@ class MarkupManager():
     def find_last_marked_sentence(self):
         for index in range(len(self.sentences) - 1, -1, -1):
             sentence = self.sentences[index]['text']
+##            if index < 58: print(f"{index} {'<apodosis' in sentence}: {sentence}")
             if '<apodosis' in sentence:
                 return index  # Return immediately when a marked sentence is found
         return 0  # Return 0 if no marked sentence is found
