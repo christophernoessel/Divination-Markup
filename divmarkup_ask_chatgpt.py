@@ -50,7 +50,12 @@ class AskChatGPT():
     def __init__(self):
         pass
 
+    def no_gpt_error_message(self):
+        return 'no_gpt_error_message' # this way it’s clean for outside code to compare/check
+
     def recommend_apodosis(self, text_to_examine):
+        if not (isinstance(client, OpenAI)): return self.no_gpt_error_message()
+                
         full_apodosis_prompt = recommend_apodosis_pre_prompt + text_to_examine
 
         parse_attempts = 3
@@ -68,11 +73,13 @@ class AskChatGPT():
             else:
                 return response_json
         
-    def modify_apodosis():
+    def modify_apodosis(self):
         # maybe later
         pass
         
     def recommend_synsets(self, apodosis_to_examine):
+        if not (isinstance(client, OpenAI)): return self.no_gpt_error_message()
+        
         full_synset_prompt = recommend_synsets_pre_prompt + apodosis_to_examine # prepending the control prompt
         
         parse_attempts = 3

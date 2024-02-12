@@ -84,6 +84,11 @@ class selectedSynsetManager:
         self.display_number_to_synset = {}  # Mapping display numbers to synsets, allows easy control
         self.output_outdent = '    '
 
+
+    # CONSTANTS
+    def no_update(self):
+        return 'no_update'
+
     # MANAGING WORDS AND SYNSETS
     def create_dict_with_words(self, words):
         for word in words:
@@ -136,7 +141,7 @@ class selectedSynsetManager:
         return self.wordnet_data
 
     def get_synset_modification_prompt(self):
-        return "[ENTER]: OK. -|+: (de)select number or range. /:toggle deselected ?:lookup word &|x: add/delete word and all synsets \n\n"
+        return "[ENTER]:OK. -|+:(de)select number or range. ?:lookup s:synonyms &|x: add/delete word and all synsets /:toggle deselected \n\n"
 
     def get_synset_by_display_number(self, display_number): # user-supplied controls
         #print(f"display_number: {display_number}, display_number in self.display_number_to_synset: {display_number in self.display_number_to_synset}, self.display_number_to_synset: {self.display_number_to_synset}")
@@ -299,13 +304,20 @@ class selectedSynsetManager:
                               print(f"{self.output_outdent}{synset.name()}: {synset.definition()}")
                             print('\n')
                               
-                    return 'no update'
+                    return self.no_update()
 
                 case '&': # add word and its synsets
                     for each_word in control_list:
                         print(f"…adding '{each_word.strip()}'")
                         self.add_word_with_synsets(each_word.strip())
 
+                case 's': # list synonyms for word
+                    for each_word in control_list:
+                        synonym_list_list = wn.synonyms(each_word)
+                        flat_list = [item for sublist in synonym_list_list for item in sublist]
+                        as_string = ', '.join(flat_list)
+                        print(f"synonyms for {each_word}: {as_string}")
+                    
                 case _:
                     print('I did not recognize this input.')
                     return 'no update'

@@ -33,11 +33,9 @@ def main():
     ask_chatgpt = AskChatGPT() # this manages conversations with chatGPT
     markup_manager = MarkupManager(file_path) # this holds the text we’ll be parsing
 
-##    long_text = read_file_contents(file_path)
-##    initialize_context_window(long_text)
-
     # Where to start?
     start_at = markup_manager.find_last_marked_sentence() #allows us to leave off jobs and return to them later
+    start_at += 1 # start with the next one
     number_of_sentences = markup_manager.get_total_sentences()
     
     if start_at > 0:
@@ -64,19 +62,26 @@ def main():
         
         # Get chatGPT’s suggestion
         response_json = ask_chatgpt.recommend_apodosis(sentence['text'])
+        print(f"response_json: '{response_json}'")
         
-        full_sentence      = response_json["full"] # things get weird if the response doesn't match input
-        if full_sentence  != sentence['text']:
-            print(f"chatGPT returned {full_sentence} for {sentence}, and that ain’t right. Not sure what to do.")
-                    
-        print(f"\nGiven the sentence: {full_sentence}")
-        suggested_apodosis = response_json["apodosis"] #variable names, e.g. “apodosis" are specified in the pre_prompt
-        print(f"I think the apodosis is: {suggested_apodosis}")
-        selection_length    = len(suggested_apodosis)
-        selection_start     = full_sentence.find(suggested_apodosis)
+        if response_json == ask_chatgpt.no_gpt_error_message(): # NO chatgpt because error or no auth code or offline
+            print('No chatGPT, manual selection.')
+            selection_start = -1
+            full_sentence = sentence['text']
+            
+        else: # There 
+        
+            full_sentence      = response_json["full"] # things get weird if the response doesn't match input
+            if full_sentence  != sentence['text']:
+                print(f"chatGPT returned {full_sentence} for {sentence}, and that ain’t right. Not sure what to do.")
+                        
+            print(f"\nGiven the sentence: {full_sentence}")
+            suggested_apodosis = response_json["apodosis"] #variable names, e.g. “apodosis" are specified in the pre_prompt
+            print(f"I think the apodosis is: {suggested_apodosis}")
+            selection_length    = len(suggested_apodosis)
+            selection_start     = full_sentence.find(suggested_apodosis)
         
         if (selection_start == -1):
-            print("Python could not find the apodosis chatGPT says it found, so not showing anything")
             selection_start = selection_end = 0
         else:
             selection_end   = selection_start +selection_length
@@ -86,7 +91,7 @@ def main():
         
         finalized_apososis_selection = False
         parse_this_apodosis = False
-        modification_prompt = "\n    [RETURN] = proceed. k = skip. [slice:notation] substring. w = write file, exit = nuff said"
+        modification_prompt = "\n    [RETURN]:proceed, k:skip, [slice:notation]:substring, w:write file, exit:proceed"
 
         while (finalized_apososis_selection == False):
             # displaying the sentence with the suggested apodosis in uppercase for easy human parsing
@@ -129,27 +134,41 @@ def main():
 
         if (parse_this_apodosis == False): continue
 
-        
+
+
+
+
+
         # ==================== SELECTING WORDNET SYNSETS
         confirmed_apodosis = full_sentence[selection_start:selection_end]
 
-        gpt_suggestions = ask_chatgpt.recommend_synsets(confirmed_apodosis) # Get chatGPT’s suggestion
-
         selected_synset_manager = selectedSynsetManager() # a class in divmarkup_wordnet_functions that holds and handles the selection of synsets
-        selected_synset_manager.create_dict_with_synsetids(gpt_suggestions) # initialize the words
-        show_list = True # lookups shouldn’t re-show the list, so this allows control
-        synset_prompt = selected_synset_manager.get_synset_modification_prompt()
+        gpt_suggestions = ask_chatgpt.recommend_synsets(confirmed_apodosis) # Get chatGPT’s suggestion
+        synset_prompt = selected_synset_manager.get_synset_modification_prompt() # instructions for the user
+
+        if response_json == ask_chatgpt.no_gpt_error_message(): # NO gpt…
+            show_list = False
+            synset_prompt = f'No chatGPT suggestions. ' +synset_prompt
+            
+        else:
+            selected_synset_manager.create_dict_with_synsetids(gpt_suggestions) # initialize the words
+            show_list = True # lookups shouldn’t re-show the list, so this allows control
+
 
         while True:
             print(f"{sentence_with_capitalized_apodosis}") #defined above in apodosis selection
+            
             if show_list: selected_synset_manager.display() #show the current synsets
-            show_list = True # reset because it should be the default
 
+            show_list = True # reset it for next time because it should be the default
             modify_selected_synsets = input(synset_prompt) # prompt
             
             result = selected_synset_manager.process_input(modify_selected_synsets)
             
             match result:
+                case 'no_update':
+                    show_list = False
+                    
                 case 'finalized': # selected synsets are good to go
                     original_string = full_sentence
 
