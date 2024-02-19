@@ -90,7 +90,7 @@ class AskChatGPT():
             try:
                 gpt_suggestions = ast.literal_eval(chatgpt_response)
             except:
-                print(f"Attempt to decode chatGPTs response with ast failed. Trying {parse_attempt} more time(s).")
+                print(f"Attempt to decode chatGPTs response with ast failed. Trying {parse_attempts} more time(s).")
                 print(f"full response: {chatgpt_repsonse}")
                 if parse_attempts == 0:
                     print("Something must be wrong with chatgpt. Exiting.")
