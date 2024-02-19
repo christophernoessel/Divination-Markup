@@ -58,40 +58,16 @@ def main():
         if sentence['parse'] == False:
             print(f"Skipping {x}: {sentence}")
             continue
-        
-        
-        # Get chatGPT’s suggestion
-        response_json = ask_chatgpt.recommend_apodosis(sentence['text'])
-        print(f"response_json: '{response_json}'")
-        
-        if response_json == ask_chatgpt.no_gpt_error_message(): # NO chatgpt because error or no auth code or offline
-            print('No chatGPT, manual selection.')
-            selection_start = -1
-            full_sentence = sentence['text']
-            
-        else: # There 
-        
-            full_sentence      = response_json["full"] # things get weird if the response doesn't match input
-            if full_sentence  != sentence['text']:
-                print(f"chatGPT returned {full_sentence} for {sentence}, and that ain’t right. Not sure what to do.")
-                        
-            print(f"\nGiven the sentence: {full_sentence}")
-            suggested_apodosis = response_json["apodosis"] #variable names, e.g. “apodosis" are specified in the pre_prompt
-            print(f"I think the apodosis is: {suggested_apodosis}")
-            selection_length    = len(suggested_apodosis)
-            selection_start     = full_sentence.find(suggested_apodosis)
-        
-        if (selection_start == -1):
-            selection_start = selection_end = 0
-        else:
-            selection_end   = selection_start +selection_length
 
-        # ==================== OPPORTUNITY TO MODIFY THE SELECTION
+        selection_start = selection_end = 0
+        full_sentence = sentence['text']
+        
+        # ==================== PROMPT/OPPORTUNITY TO MODIFY THE SELECTION
         # In the future this might get moved to something like ApodosisSelectionManager()
         
         finalized_apososis_selection = False
         parse_this_apodosis = False
-        modification_prompt = "\n    [RETURN]:proceed, k:skip, [slice:notation]:substring, w:write file, exit:proceed"
+        modification_prompt = "\n    [RETURN]:proceed, k:skip, [slice:notation]:substring, askgpt: chatGPT’s suggestion, w:write file"
 
         while (finalized_apososis_selection == False):
             # displaying the sentence with the suggested apodosis in uppercase for easy human parsing
@@ -120,9 +96,29 @@ def main():
             elif modify_input == 'w': # write the file (so work can pause)
                 markup_manager.write_file()
 
-            elif modify_input == 'exit': # write the file (so work can pause)
+            elif modify_input == 'exit':
                 break
+
+            elif modify_input == 'askgpt': # this is opt-in since the efficacy is middling and the environmental costs high
+                # Get chatGPT’s suggestion
+                response_json = ask_chatgpt.recommend_apodosis(sentence['text'])
+                print(f"response_json: '{response_json}'")
                 
+                if response_json == ask_chatgpt.no_gpt_error_message(): # NO chatgpt because error or no auth code or offline
+                    print('chatGPT isn’t working, you’ll need to input the phrase or use slice notation for manual selection.')
+                    
+                else: # There 
+                    full_sentence      = response_json["full"] # things get weird if the response doesn't match input
+                    if full_sentence  != sentence['text']:
+                        print(f"chatGPT returned {full_sentence} for {sentence}, and that ain’t right. Not sure what to do.")
+                        
+                    else:            
+                        print(f"\nGiven the sentence: {full_sentence}. ", end='')
+                        suggested_apodosis = response_json["apodosis"] #variable names, e.g. “apodosis" are specified in the pre_prompt
+                        print(f"chatGPT thinks the apodosis is: {suggested_apodosis}")
+                        selection_length    = len(suggested_apodosis)
+                        selection_start     = full_sentence.find(suggested_apodosis)
+                    
             else:
                 result_integer, result_string = slice_string_per_content(full_sentence, modify_input)
                 match result_integer:
