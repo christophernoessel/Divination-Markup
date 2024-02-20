@@ -4,11 +4,10 @@ from nltk.corpus.reader.wordnet import Synset
 #nltk.download('wordnet')
 import re
 import sys
+from spellchecker import SpellChecker
+spell = SpellChecker()
 
 # WORDNET FUNCTIONS
-def get_synset_from_word(word):
-    return wn.synsets(word)
-
 def get_synset_definition(synset_name):
     # given a synset name, what’s the definition?
     synset = wn.synset(synset_name)
@@ -104,7 +103,29 @@ class selectedSynsetManager:
             for primary_word in primary_words:
                 self.add_word_with_synsets(primary_word, [synset_id])
 
+    def check_spelling(self, word):
+        results = wn.synsets(word)
+        if len(results) > 1:
+            return word
+        else:
+            alt_word = spell.correction(word)
+            if alt_word is None:
+                print(f'I could not find anything for "{word}" and spellchecker could not suggest an alternate spelling.')
+                return None
+            else:
+                results = wn.synsets(alt_word)
+                if len(results) == 0:
+                    print(f'Neither "{word}" nor spellchecker’s recommendation "{alt_word}" returned results.')
+                    return None
+                else:
+                    print(f'I could not find anything for "{word}" but did find something for "{alt_word}".')
+                    return alt_word
+            
+
     def add_word_with_synsets(self, word, selected_synsets = []):
+        word = self.check_spelling(word)
+        if word is None: return
+        
         synsets = wn.synsets(word, pos = wn.NOUN)
         self.wordnet_data[word] = {}
         
@@ -141,7 +162,7 @@ class selectedSynsetManager:
         return self.wordnet_data
 
     def get_synset_modification_prompt(self):
-        return "[ENTER]:OK. -|+:(de)select number or range. ?:lookup s:synonyms &|x: add/delete word and all synsets /:toggle deselected \n\n"
+        return "[ENTER]:OK. -|+:(de)select number/range, ?:lookup, s:synonyms, &|x: add/delete word+synsets, /:toggle deselected, g: ask chatGPT \n\n"
 
     def get_synset_by_display_number(self, display_number): # user-supplied controls
         #print(f"display_number: {display_number}, display_number in self.display_number_to_synset: {display_number in self.display_number_to_synset}, self.display_number_to_synset: {self.display_number_to_synset}")
@@ -183,7 +204,7 @@ class selectedSynsetManager:
 
     # USER COMMANDS
 
-    def process_input(self, input_string):
+    def process_input(self, input_string, ask_chatgpt, apodosis_for_chatGPT):
             if input_string == '':
                 control_character = oddment = '' 
             else:
@@ -265,7 +286,7 @@ class selectedSynsetManager:
                             synset_endcap_integer_list = []
                             
                             for each_number_string in endcap_list: # only 2, but we need to check each
-                                print(f"each_number_string: {each_number_string}")
+                                # print(f"each_number_string: {each_number_string}")
                                 as_int = int(each_number_string)
                                 if isinstance(as_int, int):
                                     synset_endcap_integer_list.append(as_int)
@@ -316,11 +337,20 @@ class selectedSynsetManager:
                         synonym_list_list = wn.synonyms(each_word)
                         flat_list = [item for sublist in synonym_list_list for item in sublist]
                         as_string = ', '.join(flat_list)
-                        print(f"synonyms for {each_word}: {as_string}")
+                        print(f"synonyms for {each_word}: {as_string}\n")
+                        return self.no_update()
                     
+                case 'g': # ask chatGPT is opt-in for efficacy and environmental concerns
+                    gpt_suggestions = ask_chatgpt.recommend_synsets(apodosis_for_chatGPT) # Get chatGPT’s suggestion
+                    if gpt_suggestions == ask_chatgpt.no_gpt_error_message(): # NO gpt…
+                        synset_prompt = f'chatGPT did not provide any responses. (Or may be broken?)'
+                    else:
+                        print(f"chatGPT suggests: {gpt_suggestions}")
+                        print(self.no_update())
+
                 case _:
                     print('I did not recognize this input.')
-                    return 'no update'
+                    return self.no_update()             
 
 if __name__ == "__main__":
     pass
@@ -334,6 +364,7 @@ if __name__ == "__main__":
 ##        print(f"\n\nexecuting command '{command}'")
 ##        result = selected_synset_manager.process_input(command)
 ##        if (result) != 'no update': selected_synset_manager.display()
+
 
     
         

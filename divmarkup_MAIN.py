@@ -4,7 +4,7 @@ from divmarkup_ask_chatgpt      import *
 from divmarkup_text_functions   import *
 from divmarkup_wordnet_fuctions import *
 from divmarkup_markup_fuctions  import *
-##from divmarkup_context_window   import *
+## from divmarkup_context_window   import *
 
 # UTILITIES
 from datetime import date
@@ -13,6 +13,7 @@ import sys
 import re
 import nltk
 from nltk.corpus import wordnet as wn
+
 #nltk.download('wordnet')
 
 skip_lines = []
@@ -139,17 +140,9 @@ def main():
         confirmed_apodosis = full_sentence[selection_start:selection_end]
 
         selected_synset_manager = selectedSynsetManager() # a class in divmarkup_wordnet_functions that holds and handles the selection of synsets
-        gpt_suggestions = ask_chatgpt.recommend_synsets(confirmed_apodosis) # Get chatGPT’s suggestion
         synset_prompt = selected_synset_manager.get_synset_modification_prompt() # instructions for the user
 
-        if response_json == ask_chatgpt.no_gpt_error_message(): # NO gpt…
-            show_list = False
-            synset_prompt = f'No chatGPT suggestions. ' +synset_prompt
-            
-        else:
-            selected_synset_manager.create_dict_with_synsetids(gpt_suggestions) # initialize the words
-            show_list = True # lookups shouldn’t re-show the list, so this allows control
-
+        show_list = False
 
         while True:
             print(f"{sentence_with_capitalized_apodosis}") #defined above in apodosis selection
@@ -159,7 +152,7 @@ def main():
             show_list = True # reset it for next time because it should be the default
             modify_selected_synsets = input(synset_prompt) # prompt
             
-            result = selected_synset_manager.process_input(modify_selected_synsets)
+            result = selected_synset_manager.process_input(modify_selected_synsets, ask_chatgpt, confirmed_apodosis) # SOLICIT INPUT
             
             match result:
                 case 'no_update':
@@ -180,6 +173,9 @@ def main():
                     markup_manager.set_sentence_text(x, new_sentence)
                     markup_manager.autosave() # yes, every sentence
                     break
+
+                case _:
+                    pass # If the result is neither "no_update" nor "finalized" it will refresh the list above, but it should not do that. 
 
     file_name = markup_manager.write_file()
     print(f"File written: {file_name}\n")
