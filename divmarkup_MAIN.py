@@ -18,7 +18,6 @@ from nltk.corpus import wordnet as wn
 
 skip_lines = []
 
-
 def main():
     # ==================== START
     now = datetime.now()
@@ -38,15 +37,39 @@ def main():
     start_at = markup_manager.find_last_marked_sentence() #allows us to leave off jobs and return to them later
     start_at += 1 # start with the next one
     number_of_sentences = markup_manager.get_total_sentences()
-    
-    if start_at > 0:
-        print(f"There are {number_of_sentences} sentences in this file. '<apodosis' appears last at {start_at}.")
-        response = input(f"Do you want to begin processing the file after {start_at}? y/n\n")
-        if response == 'n': start_at = 0
-
+    print(f"There are {number_of_sentences} sentences in this file.")
     if (start_at >= number_of_sentences):
-        print(f"There are apparently no more sentences to process in that file.")
-        #exit()
+        print(f"There are apparently no more sentences to process in that file? Congrats?")
+        exit()
+    
+    if start_at > 1:
+        print(f"'<apodosis' appears last at {start_at}.")
+        response_prompt = f"Do you want to begin processing the file after {start_at}?"
+    else:
+        response_prompt = "Do you want to begin processing the file at the beginning?"
+
+    while True:
+        response = input(f"{response_prompt} y for yes, or a line number.\n")
+
+        if response.lower() == 'y':
+            break # go with start_at
+        else:
+            try:
+                num = int(response)
+                if (num > number_of_sentences):
+                    print(f"That number is too high. Pick one lower than {number_of_sentences}.")
+                    continue
+                
+                if (num < 0):
+                    print("That number is too low. Numbers start at 0.")
+                    continue
+                
+                start_at = num
+                break
+                
+            except ValueError:
+                print("I did not understand that input. Try again.")
+
 
     print(f"starting at {start_at}")
 
@@ -89,7 +112,7 @@ def main():
                 break
             
             elif modify_input == '': # selection is OK as is…
-                print("OK. Running with this apodosis as is…")
+                print("OK. Running with this apodosis as is…\n\n")
                 finalized_apososis_selection == True
                 parse_this_apodosis = True
                 break
