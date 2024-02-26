@@ -18,6 +18,21 @@ from nltk.corpus import wordnet as wn
 
 skip_lines = []
 
+def phase_marker(phase_name):
+    match phase_name:
+        case 'apodosis':
+            lead_char = '❓'
+            num_lines = 2
+        case 'senses':
+            lead_char = '💬'
+            num_lines = 4
+    lead_string = lead_char * 50 + phase_name.upper()
+
+    print("\n" * 2)
+    for x in range(num_lines):
+       print(f"{lead_string}")
+    print("\n" * 2)
+
 def main():
     # ==================== START
     now = datetime.now()
@@ -76,6 +91,8 @@ def main():
     # ==================== CHATGPT SUGGESTING APODOSIS
 
     for x in range(start_at, number_of_sentences):
+        phase_marker('apodosis')
+        
         sentence = markup_manager.get_sentence(x)
         ## print(f"sentence {x}: {sentence}")
 
@@ -160,6 +177,8 @@ def main():
 
 
         # ==================== SELECTING WORDNET SYNSETS
+        phase_marker('senses')
+        
         confirmed_apodosis = full_sentence[selection_start:selection_end]
 
         selected_synset_manager = selectedSynsetManager() # a class in divmarkup_wordnet_functions that holds and handles the selection of synsets
