@@ -228,8 +228,12 @@ class selectedSynsetManager:
         
             match control_character:
                 case '': # Looks good as is, move on
-                    print("OK, marking up the apodosis with these synsets…")
-                    return 'finalized'
+                    if len(self.get_selected_synset_ids()) == 0:
+                        print("\nNo senses are selected. Please select some words/synsets.\n")
+                        return
+                    else:
+                        print("OK, marking up the apodosis with these synsets…")
+                        return 'finalized'
                     
                 case '/': # toggle show_deselected
                     current_state = self.show_deselected
