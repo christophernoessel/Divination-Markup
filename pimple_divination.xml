@@ -15,7 +15,7 @@ Again Varāhamihira, the famous sixth century A.D. Indian astronomer cum astrolo
 Except on one point to which I shall refer later, his list parallels, rather than coincides with, the Thai conceptions.
 In the Thai treatises a characteristic emphasis is placed on the advice that one should on no account place too much reliance on the deductions to made [sic] from pimples, but should weigh them together with any other portents that may be available.
 Thus if the findings from pimples and palmistry are bad, but other portents are good, the outlook should be regarded as mixed.
-Facial pimples, unlike those on the body, are more often <apodosis wn_only="misfortune.n.02">unfortunate than the reverse, especially for men</apodosis>.
+<token id="facial_pimples">Facial pimples, unlike those on the body, are more often <apodosis wn_only="misfortune.n.02">unfortunate than the reverse, especially for men</apodosis>.
 <apodosis wn_only="good_fortune.n.01">Good ones</apodosis> are black or vermilion, <apodosis wn_only="misfortune.n.02">not so</apodosis> are red, white and yellow ones.
 If slight, the <apodosis wn_only="misfortune.n.02">ill effect will be mild</apodosis>.
 Those in groups of seven or five are especially favourable: if on the left they denote <apodosis wn_only="wealth.n.02, wealth.n.01, wealth.n.03">wealth</apodosis>, if on the right, <apodosis wn_only="promotion.n.02, promotion.n.03, forwarding.n.02">promotion</apodosis>.
@@ -39,7 +39,8 @@ A pimple over the mouth means <apodosis wn_only="consequence.n.01, obloquy.n.01"
 A pimple at the corner of the eye, or a little away, portends an <apodosis wn_only="misalliance.n.01">unfortunate marriage</apodosis>.
 Pimples under the chin are <apodosis wn_only="luck.n.03, good_fortune.n.01">lucky</apodosis>.
 If black ones appear all over the face, this is <apodosis wn_only="misfortune.n.01, misfortune.n.02">bad</apodosis> in the young, but <apodosis wn_only="luck.n.03, good_fortune.n.01">good</apodosis> in older people.
-As already stated, pimples on the body are more likely to be <apodosis wn_only="luck.n.03, good_fortune.n.01">lucky</apodosis> especially in a hidden place.
+</token>
+<token id="facial_pimples">As already stated, pimples on the body are more likely to be <apodosis wn_only="luck.n.03, good_fortune.n.01">lucky</apodosis> especially in a hidden place.
 They often come in pairs.
 Black pimples, under the forearm and going down to the hand, are <apodosis wn_only="misfortune.n.02, misfortune.n.01, illness.n.01">not good, one is likely to be ill</apodosis>.
 But if near the wrist, that is <apodosis wn_only="money.n.01, enrichment.n.02, good_fortune.n.01">good and money will come</apodosis>.
@@ -61,5 +62,6 @@ One in the middle of the waist means <apodosis wn_only="isolation.n.01">must go 
 I have reserved to the last the one point on which Varāhamihira and the Thai treatises exhibit close agreement.
 According to the latter a pimple on the tip of the linga portends that <apodosis wn_only="good.n.02, child.n.02">the owner will be blessed with good children</apodosis>.
 For Varāhamihira, a similar appearance, in the words of Kern's translation, ‘on the membrum virile, brings <apodosis wn_only="damsel.n.01, child.n.02">a damsel and fine children</apodosis>’.
+</token>
 Diffusion or independent origin?
 </document>
