@@ -660,55 +660,40 @@ Six at the top means:
 above SUN THE GENTLE, WIND
 below CH’IEN THE CREATIVE, HEAVEN
 
-<protasis wn_only="hexagram.n.01, force.n.01, small.n.01, power.n.01, shadow.n.01">This hexagram means the force of the small--the power of the shadowy</protasis>--<apodosis wn_only="restraint.n.01, taming.n.01, impediment.n.01">that restrains, tames, impedes</apodosis>.
-
-<protasis wn_only="line.n.01, weakness.n.01, position.n.01, minister.n.01">A weak line in the fourth place, that of the minister</protasis>, <apodosis wn_only="control.n.01, line.n.01, strength.n.01">holds the five strong lines in check</apodosis>.
-
-In the Image <protasis wn_only="wind.n.01, sky.n.01">it is the wind blowing across the sky</protasis>. <apodosis wn_only="wind.n.01, restraint.n.01, cloud.n.01, breath.n.01, creation.n.01">The wind restrains the clouds, the rising breath of the Creative</apodosis>, and <apodosis wn_only="density.n.01, strength.n.01, rain.n.01">makes them grow dense, but as yet is not strong enough to turn them to rain</apodosis>.
-
-<protasis wn_only="hexagram.n.01, circumstance.n.01, configuration.n.01, element.n.01, strength.n.01, element.n.01, weakness.n.01">The hexagram presents a configuration of circumstances in which a strong element is temporarily held in leash by a weak element</protasis>. <apodosis wn_only="gentleness.n.01, success.n.01, outcome.n.01">It is only through gentleness that this can have a successful outcome</apodosis>.
+<protasis wn_only="hexagram.n.01, force.n.01, small.n.01, power.n.01, shadow.n.01">This hexagram means the force of the small--the power of the shadowy</protasis>--<apodosis wn_only="restraint.n.01, taming.n.01, impediment.n.01">that restrains, tames, impedes</apodosis>. <protasis wn_only="line.n.01, weakness.n.01, position.n.01, minister.n.01">A weak line in the fourth place, that of the minister</protasis>, <apodosis wn_only="control.n.01, line.n.01, strength.n.01">holds the five strong lines in check</apodosis>. In the Image <protasis wn_only="wind.n.01, sky.n.01">it is the wind blowing across the sky</protasis>. <apodosis wn_only="wind.n.01, restraint.n.01, cloud.n.01, breath.n.01, creation.n.01">The wind restrains the clouds, the rising breath of the Creative</apodosis>, and <apodosis wn_only="density.n.01, strength.n.01, rain.n.01">makes them grow dense, but as yet is not strong enough to turn them to rain</apodosis>. <protasis wn_only="hexagram.n.01, circumstance.n.01, configuration.n.01, element.n.01, strength.n.01, element.n.01, weakness.n.01">The hexagram presents a configuration of circumstances in which a strong element is temporarily held in leash by a weak element</protasis>. <apodosis wn_only="gentleness.n.01, success.n.01, outcome.n.01">It is only through gentleness that this can have a successful outcome</apodosis>.
 
 THE JUDGMENT
+<apodosis wn_only="subjugation.n.01, nobody.n.01, power.n.01">THE TAMING POWER OF THE SMALL</apodosis>
+<apodosis wn_only="success.n.02">Has success.</apodosis>
 <protasis wn_only="cloud.n.02,west.n.01,region.n.01">Dense clouds, no rain from our western region.</protasis>
 
-<apodosis wn_only="situation.n.01,china.n.01,king.n.10,court.n.01,east.n.01,tyrant.n.01">This image refers to the state of affairs in China at the time when King Wên, who came originally from the west, was in the east at the court of the reigning tyrant Chou Hsin.</apodosis>
-
-<apodosis wn_only="time.n.05,action.n.01,scale.n.01">The moment for action on a large scale had not yet arrived.</apodosis>
-
-<apodosis wn_only="king.n.10,tyrant.n.01,persuasion.n.01">King Wên could only keep the tyrant somewhat in check by friendly persuasion.</apodosis>
-
-<protasis wn_only="cloud.n.02,moisture.n.01,blessing.n.01,land.n.04,rain.n.01">Hence the image of many clouds, promising moisture and blessing to the land, although as yet no rain falls.</protasis>
-
-<apodosis wn_only="situation.n.01,prospect.n.01,success.n.03,obstacle.n.01,measure.n.01">The situation is not unfavorable; there is a prospect of ultimate success, but there are still obstacles in the way, and we can merely take preparatory measures.</apodosis>
-
-<apodosis wn_only="means.n.01,persuasion.n.01,influence.n.01">Only through the small means of friendly persuasion can we exert any influence.</apodosis>
-
-<apodosis wn_only="time.n.05,measure.n.01">The time has not yet come for sweeping measures.</apodosis>
-
-<apodosis wn_only="influence.n.01">However, we may be able, to a limited extent, to act as a restraining and subduing influence.</apodosis>
-
-<apodosis wn_only="purpose.n.01,determination.n.03,gentleness.n.01,adaptability.n.01,relation.n.01">To carry out our purpose we need firm determination within and gentleness and adaptability in external relations.</apodosis>
+<apodosis wn_only="situation.n.01,china.n.01,king.n.10,court.n.01,east.n.01,tyrant.n.01">This image refers to the state of affairs in China at the time when King Wên, who came originally from the west, was in the east at the court of the reigning tyrant Chou Hsin.</apodosis> <apodosis wn_only="time.n.05,action.n.01,scale.n.01">The moment for action on a large scale had not yet arrived.</apodosis> <apodosis wn_only="king.n.10,tyrant.n.01,persuasion.n.01">King Wên could only keep the tyrant somewhat in check by friendly persuasion.</apodosis> <protasis wn_only="cloud.n.02,moisture.n.01,blessing.n.01,land.n.04,rain.n.01">Hence the image of many clouds, promising moisture and blessing to the land, although as yet no rain falls.</protasis> <apodosis wn_only="situation.n.01,prospect.n.01,success.n.03,obstacle.n.01,measure.n.01">The situation is not unfavorable; there is a prospect of ultimate success, but there are still obstacles in the way, and we can merely take preparatory measures.</apodosis> <apodosis wn_only="means.n.01,persuasion.n.01,influence.n.01">Only through the small means of friendly persuasion can we exert any influence.</apodosis> <apodosis wn_only="time.n.05,measure.n.01">The time has not yet come for sweeping measures.</apodosis> <apodosis wn_only="influence.n.01">However, we may be able, to a limited extent, to act as a restraining and subduing influence.</apodosis> <apodosis wn_only="purpose.n.01,determination.n.03,gentleness.n.01,adaptability.n.01,relation.n.01">To carry out our purpose we need firm determination within and gentleness and adaptability in external relations.</apodosis>
 
 THE IMAGE
 <protasis wn_only="wind.n.01, heaven.n.01">The wind drives across heaven</protasis>:
-<apodosis wn_only="image.n.01, power.n.01">The image of THE TAMING POWER OF THE SMALL</apodosis>.
-<apodosis wn_only="man.n.01, appearance.n.01, nature.n.01">Thus the superior man
-Refines the outward aspect of his nature.</apodosis>
+The image of <apodosis wn_only="subjugation.n.01, nobody.n.01, power.n.01">THE TAMING POWER OF THE SMALL</apodosis>. <apodosis wn_only="man.n.01, appearance.n.01, nature.n.01">Thus the superior man Refines the outward aspect of his nature.</apodosis>
 
 <protasis wn_only="wind.n.01, cloud.n.01, sky.n.01">The wind can indeed drive the clouds together in the sky</protasis>; <protasis wn_only="air.n.01, body.n.01">yet, being nothing but air, without solid body</protasis>, <apodosis wn_only="effect.n.01">it does not produce great or lasting effects</apodosis>. <apodosis wn_only="individual.n.01, time_period.n.01, world.n.01, effect.n.01">So also an individual, in times when he can produce no great effect in the outer world</apodosis>, <apodosis wn_only="expression.n.01, nature.n.01">can do nothing except refine the expression of his nature in small ways</apodosis>.
 
 THE LINES
 
 Nine at the beginning means:
+
+<protasis wn_only="correction.n.01">Return to the way</apodosis>.
+<protasis wn_only="blamelessness.n.01">How could there be blame in this?</apodosis>
+<protasis wn_only="fortune.n.03">Good fortune.</apodosis>
+
 <protasis wn_only="man.n.01, strength.n.01, nature.n.01">It lies in the nature of a strong man to press forward.</protasis> <apodosis wn_only="obstruction.n.01, encounter.n.01">In so doing he encounters obstructions.</apodosis> <apodosis wn_only="return.n.01, way.n.04, situation.n.01">Therefore he returns to the way suited to his situation, where he is free to advance or to retreat.</apodosis> <apodosis wn_only="nature.n.01, thing.n.01, fortune.n.01">In the nature of things this will bring good fortune, for it is wise and reasonable not to try to obtain anything by force.</apodosis>
 
 Nine in the second place means:
+
 <protasis wn_only="return.n.01">He allows himself to be drawn into returning.</protasis>
 <apodosis wn_only="fortune.n.01">Good fortune.</apodosis>
 
 <protasis wn_only="desire.n.01, advancement.n.01, example.n.01, similarity.n.01, obstruction.n.01">One would like to press forward, but before going farther one sees from the example of others like oneself that this way is blocked.</protasis> <apodosis wn_only="effort.n.01, harmony.n.02, time.n.05, rationality.n.01, resoluteness.n.01, man.n.01, exposure.n.01, rebuff.n.01, withdrawal.n.01, mind.n.01">In such a case, if the effort to push forward is not in harmony with the time, a reasonable and resolute man will not expose himself to a personal rebuff, but will retreat with others of like mind.</apodosis> <apodosis wn_only="fortune.n.01, risk.n.01">This brings good fortune, because he does not needlessly jeopardize himself.</apodosis>
 
 Nine in the third place means:
+
 <protasis wn_only="spoke.n.01, wagon.n.01, wheel.n.01, burst.n.04">The spokes burst out of the wagon wheels.</protasis>
 <apodosis wn_only="man.n.01, wife.n.01, eye.n.01, roll.n.01">Man and wife roll their eyes.</apodosis>
 <protasis wn_only="attempt.n.01, consciousness.n.01, power.n.01">Here an attempt is made to press forward forcibly, in the consciousness that the obstructing power is slight.</protasis>
@@ -721,17 +706,19 @@ Nine in the third place means:
 <apodosis wn_only="rebuff.n.01, victory.n.01, dignity.n.01">He experiences a rebuff where he expected an easy victory, and he thus compromises his dignity.</apodosis>
 
 Six in the fourth place means:
+
 <protasis wn_only="sincerity.n.01">If you are sincere</protasis>, <apodosis wn_only="blood.n.01, fear.n.01, disappearance.n.01">blood vanishes and fear gives way</apodosis>.
 <apodosis wn_only="blame.n.01">No blame</apodosis>.
 <protasis wn_only="difficulty.n.01, position.n.01, counselor.n.01, man.n.01, power.n.01">If one is in the difficult and responsible position of counselor to a powerful man</protasis>, <apodosis wn_only="restraint.n.01, threat.n.01, bloodshed.n.01">on should restrain him in such a way that the threat of actual bloodshed may arise</apodosis>. <apodosis wn_only="power.n.01, truth.n.01, obstacle.n.01">Nonetheless, the power of disinterested truth is greater than all theses obstacles</apodosis>. <apodosis wn_only="weight.n.01, end.n.04, achievement.n.01, danger.n.01, bloodshed.n.01, fear.n.01, disappearance.n.01">It carries such weight that the end is achieved, and all danger of bloodshed and all fear disappear</apodosis>.
 
 Nine in the fifth place means:
+
 <protasis wn_only="sincerity.n.01, loyalty.n.01, attachment.n.01">If you are sincere and loyally attached</protasis>,
 <apodosis wn_only="wealth.n.01, neighbor.n.01">You are rich in your neighbor</apodosis>.
 
 <apodosis wn_only="loyalty.n.01, tie.n.01">Loyalty leads to firm ties</apodosis> because <apodosis wn_only="partner.n.03, complement.n.01">it means that each partner complements the other</apodosis>. <protasis wn_only="person.n.01, weakness.n.01">In the weaker person</protasis> <apodosis wn_only="loyalty.n.01, devotion.n.01">loyalty consists in devotion</apodosis>, <protasis wn_only="person.n.01, strength.n.01">in the stronger</protasis> <apodosis wn_only="loyalty.n.01, trustworthiness.n.01">it consists in trustworthiness</apodosis>. <protasis wn_only="relation.n.01, reinforcement.n.02">This relation of mutual reinforcement</protasis> <apodosis wn_only="wealth.n.01">leads to a true wealth</apodosis> that <apodosis wn_only="appearance.n.01, selfishness.n.01, hoarding.n.01, sharing.n.01, friend.n.01">is all the more apparent because it is not selfishly hoarded but is shared with friends</apodosis>. <apodosis wn_only="pleasure.n.01, sharing.n.01">Pleasure shared is pleasure doubled</apodosis>.
 
-<protasis wn_only="nine.n.01, top.n.01">Nine at the top means</protasis>:
+Nine at the top means:
 
 <apodosis wn_only="rain.n.01, rest.n.05">The rain comes, there is rest</apodosis>.
 <apodosis wn_only="character.n.03, effect.n.01">This is due to the lasting effect of character</apodosis>.
@@ -743,18 +730,23 @@ Nine in the fifth place means:
 <apodosis wn_only="success.n.01">Success is at hand</apodosis>. <apodosis wn_only="wind.n.01, rain.n.01">The wind has driven up the rain</apodosis>. <apodosis wn_only="standpoint.n.01">A fixed standpoint has been reach</apodosis>. <apodosis wn_only="reverence.n.01, character.n.03, effect.n.01">This has come about through the cumulation of small effects produced by reverence for a superior character</apodosis>. But <protasis wn_only="success.n.01, caution.n.01">a success thus secured bit by bit</protasis> <apodosis wn_only="caution.n.01">calls for great caution</apodosis>. <apodosis wn_only="illusion.n.01, danger.n.01">It would be a dangerous illusion for anyone to think he could presume upon it</apodosis>. <apodosis wn_only="female.n.01, principle.n.01, weakness.n.01, victory.n.01, vaunting.n.01, danger.n.01">The female principle, the weak element that has won the victory, should never persist in vaunting it--that would lead to danger</apodosis>. <apodosis wn_only="darkness.n.01, power.n.01, moon.n.01, strength.n.01, fullness.n.01">The dark power in the moon is strongest when the moon is almost full</apodosis>. <protasis wn_only="moon.n.01, fullness.n.01, sun.n.01, opposition.n.04">When it is full and directly opposite the sun</protasis>, <apodosis wn_only="waning.n.01">its waning is inevitable</apodosis>. <protasis wn_only="circumstance.n.01">Under such circumstances</protasis> <apodosis wn_only="contentment.n.01, achievement.n.01">one must be content with what has been achieved</apodosis>. <protasis wn_only="advance.n.01, time.n.05">To advance any further, before the appropriate time has come</protasis>, <apodosis wn_only="misfortune.n.01">would lead to misfortune</apodosis>.
 </token>
 
-<token id="lu">
-<protasis wn_only="hexagram.n.01, name.n.01, conduct.n.01, manner.n.01">The name of the hexagram means on the one hand the right way of conducting oneself.</protasis> <apodosis wn_only="heaven.n.01, father.n.01, lake.n.01, daughter.n.01, position.n.01, high.n.01, low.n.01, composure.n.01, conduct.n.01">Heaven, the father, is above, and the lake, the youngest daughter, is below. This shows the difference between high and low, upon which composure correct social conduct, depends.</apodosis> <protasis wn_only="hexagram.n.01, name.n.01, tread.n.01">On the other hand the word for the name of the hexagram, TREADING, means literally treading upon something.</protasis> <apodosis wn_only="trigram.n.01, tui.n.01, cheerfulness.n.01, ch'ien.n.01, strength.n.01">The small and cheerful [Tui] treads upon the large and strong [Ch'ien].</apodosis> <protasis wn_only="trigram.n.01, direction.n.03, movement.n.03">The direction of movement of the two primary trigrams is upward.</protasis> <apodosis wn_only="strength.n.01, weakness.n.01, i_ching.n.01, assumption.n.02">The fact that the strong treads on the weak is not mentioned in the Book of Changes, because it is taken for granted.</apodosis> <apodosis wn_only="weakness.n.01, strength.n.01, danger.n.01, cheerfulness.n.01, tui.n.01, presumption.n.02, irritation.n.01">For the weak to take a stand against the strong is not dangerous here, because it happened in good humor [Tui] and without presumption, so that the strong man is not irritated but takes it all in good part.</apodosis>
+<token id="lu">10 <token_alt_name>Lü</token_alt_name> / <token_alt_name>Treading</token_alt_name> [<token_name>conduct</token_name>]
+
+above CH'IEN THE CREATIVE, HEAVEN
+below TUI THE JOYOUS, LAKE
+
+<protasis wn_only="hexagram.n.01, name.n.01, conduct.n.01, manner.n.01">The name of the hexagram means on the one hand the right way of conducting oneself.</protasis> <apodosis wn_only="heaven.n.01, father.n.01, lake.n.01, daughter.n.01, position.n.01, high.n.01, low.n.01, composure.n.01, conduct.n.01">Heaven, the father, is above, and the lake, the youngest daughter, is below. This shows the difference between high and low, upon which composure correct social conduct, depends.</apodosis> <protasis wn_only="hexagram.n.01, name.n.01, tread.n.01">On the other hand the word for the name of the hexagram, TREADING, means literally treading upon something.</protasis> <apodosis wn_only="trigram.n.01, tui.n.01, cheerfulness.n.01, ch'ien.n.01, strength.n.01">The small and cheerful [Tui] treads upon the large and strong [Ch’ien].</apodosis> <protasis wn_only="trigram.n.01, direction.n.03, movement.n.03">The direction of movement of the two primary trigrams is upward.</protasis> <apodosis wn_only="strength.n.01, weakness.n.01, i_ching.n.01, assumption.n.02">The fact that the strong treads on the weak is not mentioned in the Book of Changes, because it is taken for granted.</apodosis> <apodosis wn_only="weakness.n.01, strength.n.01, danger.n.01, cheerfulness.n.01, tui.n.01, presumption.n.02, irritation.n.01">For the weak to take a stand against the strong is not dangerous here, because it happened in good humor [Tui] and without presumption, so that the strong man is not irritated but takes it all in good part.</apodosis>
 
 THE JUDGMENT
+
 <protasis wn_only="tread.n.01, tail.n.01, tiger.n.01">Treading upon the tail of the tiger.</protasis>
 <apodosis wn_only="bite.n.01, man.n.01">It does not bite the man.</apodosis> <apodosis wn_only="success.n.01">Success.</apodosis>
 
-<apodosis wn_only="situation.n.01, difficulty.n.01">The situation is really difficult.</apodosis> <apodosis wn_only="strength.n.01, weakness.n.01, proximity.n.01">That which is strongest and that which is weakest are close together.</apodosis> <protasis wn_only="weakness.n.01, strength.n.01, worry.n.01">The weak follows behind the strong and worries it.</protasis> <apodosis wn_only="strength.n.01, acquiescence.n.01, harm.n.01, weakness.n.01">The strong, however, acquiesces and does not hurt the weak,</apodosis> <protasis wn_only="contact.n.01, humor.n.01, harmlessness.n.01">because the contact is in goof humor and harmless.</protasis> <protasis wn_only="human.n.01, situation.n.01, wildness.n.01, intractability.n.01, people.n.01">In terms of a human situation, one is handling wild, intractable people.</protasis> <apodosis wn_only="case.n.01, purpose.n.01, achievement.n.01, decorum.n.01">In such a case one's purpose will be achieved if one behaves with decorum.</apodosis> <apodosis wn_only="pleasantness.n.01, manner.n.01, success.n.01, irritability.n.01, people.n.01">Pleasant manners succeed even with irritable people.</apodosis>
+<apodosis wn_only="situation.n.01, difficulty.n.01">The situation is really difficult.</apodosis> <apodosis wn_only="strength.n.01, weakness.n.01, proximity.n.01">That which is strongest and that which is weakest are close together.</apodosis> <protasis wn_only="weakness.n.01, strength.n.01, worry.n.01">The weak follows behind the strong and worries it.</protasis> <apodosis wn_only="strength.n.01, acquiescence.n.01, harm.n.01, weakness.n.01">The strong, however, acquiesces and does not hurt the weak,</apodosis> <protasis wn_only="contact.n.01, humor.n.01, harmlessness.n.01">because the contact is in goof humor and harmless.</protasis> <protasis wn_only="human.n.01, situation.n.01, wildness.n.01, intractability.n.01, people.n.01">In terms of a human situation, one is handling wild, intractable people.</protasis> <apodosis wn_only="case.n.01, purpose.n.01, achievement.n.01, decorum.n.01">In such a case one’s purpose will be achieved if one behaves with decorum.</apodosis> <apodosis wn_only="pleasantness.n.01, manner.n.01, success.n.01, irritability.n.01, people.n.01">Pleasant manners succeed even with irritable people.</apodosis>
 
 THE IMAGE
-<protasis wn_only="heaven.n.01, lake.n.01">Heaven above, the lake below</protasis>:
 
+<protasis wn_only="heaven.n.01, lake.n.01">Heaven above, the lake below</protasis>:
 THE IMAGE of <apodosis wn_only="tread.n.01">TREADING</apodosis>.
 
 Thus the <protasis wn_only="man.n.01">superior man</protasis> <apodosis wn_only="discrimination.n.01, height.n.01, lowness.n.01">discriminates between high and low</apodosis>,
@@ -765,11 +757,13 @@ And thereby <apodosis wn_only="fortification.n.01, thought.n.01, people.n.01">fo
 THE LINES
 
 Nine at the beginning means:
+
 <protasis wn_only="conduct.n.01">Simple conduct</protasis>. <apodosis wn_only="progress.n.01, blamelessness.n.01">Progress without blame</apodosis>.
 
 The situation is one in which <protasis wn_only="obligation.n.01, sociality.n.01">we are still not bound by any obligations of social intercourse</protasis>. <apodosis wn_only="conduct.n.01, simplicity.n.01, freedom.n.01">If our conduct is simple, we remain free of them</apodosis>. <apodosis wn_only="quietness.n.01, predilection.n.01, contentment.n.01, demand.n.01">We can quietly follow our predilections as long as we are content and make not demands on people</apodosis>. The meaning of the hexagram is not standstill but <apodosis wn_only="progress.n.01">progress</apodosis>. <protasis wn_only="man.n.01, inferiority.n.01, position.n.01">A man finds himself in an altogether inferior position at the start</protasis>. However, <protasis wn_only="strength.n.01">he has the inner strength that guarantees progress</protasis>. <apodosis wn_only="contentment.n.01, simplicity.n.01, progress.n.01, blamelessness.n.01">If he can be content with simplicity, he can make progress without blame</apodosis>. <protasis wn_only="man.n.01, dissatisfaction.n.01, circumstance.n.01">When a man is dissatisfied with modest circumstances</protasis>, <apodosis wn_only="restlessness.n.01, ambition.n.01, advancement.n.01">he is restless and ambitious and tries to advance</apodosis>, <apodosis wn_only="accomplishment.n.01, lowliness.n.01, poverty.n.01, conduct.n.01">not for the sake of accomplishing anything worth while, but merely in order to escape from lowliness and poverty by dint of his conduct</apodosis>. <apodosis wn_only="purpose.n.01, achievement.n.01, arrogance.n.01, luxury.n.01">Once his purpose is achieved, he is certain to become arrogant and luxury-loving</apodosis>. <apodosis wn_only="blame.n.01, progress.n.01">Therefore blame attaches to his progress</apodosis>. On the other hand, <protasis wn_only="man.n.01, goodness.n.01, work.n.01, contentment.n.01, simplicity.n.01">a man who is good at his work is content to behave simply</protasis>. <apodosis wn_only="progress.n.01, accomplishment.n.01">He wishes to make progress in order to accomplish something</apodosis>. <apodosis wn_only="goal.n.01, attainment.n.01, worth.n.01, wellness.n.01">When he attains his goal, he does something worth while, an all is well</apodosis>.
 
 Nine in the second place means:
+
 <protasis wn_only="tread.n.01, course.n.01, smoothness.n.01, level.n.01">Treading a smooth, level course.</protasis>
 <apodosis wn_only="perseverance.n.01, man.n.01, darkness.n.01, fortune.n.03">The perseverance of a dark man
 Brings good fortune.</apodosis>
@@ -777,18 +771,20 @@ Brings good fortune.</apodosis>
 <apodosis wn_only="situation.n.01, sage.n.01, loneliness.n.01">The situation of a lonely sage is indicated here.</apodosis> <protasis wn_only="withdrawal.n.01, bustle.n.01, life.n.01, search.n.01, request.n.01">He remains withdrawn from the bustle of life, seeks nothing, asks nothing of anyone,</protasis> and <protasis wn_only="travel.n.01, life.n.01, road.n.01, level.n.01, assault.n.01">travels through life unassailed, on a level road.</protasis> <apodosis wn_only="contentment.n.02, challenge.n.01, fate.n.01, freedom.n.01, entanglement.n.01">Since he is content and does not challenge fate, he remains free of entanglements.</apodosis>
 
 Six in the third place means:
-<protasis wn_only="man.n.01, eye.n.01">A one-eyed man is able to see</protasis>,
-<protasis wn_only="man.n.01, lameness.n.01">A lame man is able to tread</protasis>.
-<protasis wn_only="man.n.01, tail.n.01, tiger.n.01">He treads on the tail of the tiger</protasis>.
+
+<apodosis wn_only="man.n.01, eye.n.01">A one-eyed man is able to see</apodosis>,
+<apodosis wn_only="man.n.01, lameness.n.01">A lame man is able to tread</apodosis>.
+<apodosis wn_only="man.n.01, tail.n.01, tiger.n.01">He treads on the tail of the tiger</apodosis>.
 
 <apodosis wn_only="tiger.n.01, man.n.01, bite.n.01">The tiger bites the man</apodosis>.
 <apodosis wn_only="misfortune.n.01">Misfortune</apodosis>.
 
 <apodosis wn_only="warrior.n.01, prince.n.01">Thus does a warrior act on behalf of his great prince</apodosis>.
 
-<protasis wn_only="man.n.01, eye.n.01, vision.n.01">A one-eyed man can indeed see, but not enough for clear vision</protasis>. <protasis wn_only="man.n.01, lameness.n.01, progress.n.01">A lame man can indeed treat, but not enough to make progress</protasis>. <protasis wn_only="man.n.01, defect.n.01, strength.n.01, danger.n.01">If in spite of such defects a man considers himself strong and consequently exposes himself to danger</protasis>, <apodosis wn_only="disaster.n.01, invitation.n.01">he is inviting disaster</apodosis>, <apodosis wn_only="undertaking.n.01, strength.n.01">for he is undertaking something beyond his strength</apodosis>. <protasis wn_only="recklessness.n.01, power.n.01, adequacy.n.01">This reckless way of plunging ahead, regardless of the adequacy of one's powers</protasis>, <apodosis wn_only="justification.n.01, warrior.n.01, prince.n.01, battle.n.01">can be justified only in the case of a warrior battling for his prince</apodosis>.
+<protasis wn_only="man.n.01, eye.n.01, vision.n.01">A one-eyed man can indeed see, but not enough for clear vision</protasis>. <protasis wn_only="man.n.01, lameness.n.01, progress.n.01">A lame man can indeed treat, but not enough to make progress</protasis>. <protasis wn_only="man.n.01, defect.n.01, strength.n.01, danger.n.01">If in spite of such defects a man considers himself strong and consequently exposes himself to danger</protasis>, <apodosis wn_only="disaster.n.01, invitation.n.01">he is inviting disaster</apodosis>, <apodosis wn_only="undertaking.n.01, strength.n.01">for he is undertaking something beyond his strength</apodosis>. <protasis wn_only="recklessness.n.01, power.n.01, adequacy.n.01">This reckless way of plunging ahead, regardless of the adequacy of one’s powers</protasis>, <apodosis wn_only="justification.n.01, warrior.n.01, prince.n.01, battle.n.01">can be justified only in the case of a warrior battling for his prince</apodosis>.
 
 Nine in the fourth place means:
+
 <protasis wn_only="foot.n.01, tiger.n.01, tail.n.01">He treads on the tail of the tiger.</protasis>
 <apodosis wn_only="caution.n.01, circumspection.n.01, fortune.n.03">Caution and circumspection
 Lead ultimately to good fortune.</apodosis>
@@ -796,11 +792,11 @@ Lead ultimately to good fortune.</apodosis>
 <protasis wn_only="text.n.01, enterprise.n.01, danger.n.01">This text refers to a dangerous enterprise.</protasis> <apodosis wn_only="power.n.01, hesitation.n.01, caution.n.01, attitude.n.01">The inner power to carry it through is there, but this inner power is combined with hesitating caution in one's external attitude.</apodosis> <protasis wn_only="line.n.01, contrast.n.01, line.n.01, weakness.n.01, pressure.n.01">This line contrasts with the preceding line, which is weak within but outwardly presses forward.</protasis> <apodosis wn_only="certainty.n.01, success.n.01, purpose.n.01, danger.n.01">Here one is sure of ultimate success, which consists in achieving one's purpose, that is, in overcoming danger by going forward.</apodosis>
 
 Nine in the fifth place means:
+
 <protasis wn_only="conduct.n.01">Resolute conduct.</protasis>
 <apodosis wn_only="perseverance.n.01, awareness.n.01, danger.n.01">Perseverance with awareness of danger.</apodosis>
 
 This refers to the ruler of the hexagram as a whole. One sees that one has to be resolute in conduct. But at the same time one must remain conscious of the danger connected with such resoluteness, especially if it is to be persevered in. Only awareness of the danger makes success possible.
-
 
 Nine at the top means:
 
@@ -810,19 +806,25 @@ Nine at the top means:
 The work is ended. If we want to know whether good fortune will follow, we must look back upon our conduct and its consequences. If the effects are good, then good fortune is certain. No one knows himself. It is only by the consequences of his actions, by the fruit of his labors, that a man can judge what he is to expect.
 </token>
 
-<token id="tai">
+<token id="tai">11 <token_alt_name>T’ai</token_alt_name> / <token_name>Peace</token_name>
+
+above K’UN THE RECEPTIVE, EARTH
+below CH’IEN THE CREATIVE, HEAVEN
+
 <protasis wn_only="influence.n.01, harmony.n.02">The Receptive, which moves downward, stands above; the Creative, which moves upward, is below. Hence their influences meet and are in harmony,</protasis> <apodosis wn_only="living_thing.n.01, bloom.n.01, prosperity.n.01">so that all living things bloom and prosper.</apodosis>
 
 <protasis wn_only="hexagram.n.01, calendar_month.n.01">This hexagram belongs to the first month (February-March),</protasis> <apodosis wn_only="nature.n.03, force.n.01, spring.n.01">at which time the forces of nature prepare the new spring.</apodosis>
 
 THE JUDGMENT
-<protasis wn_only="heaven.n.01, earth.n.01">The small departs,
-The great approaches.</protasis>
+
+<apodosis wn_only="peace.n.02, peace.n.03, nobody.n.01, personage.n.02">PEACE. The small departs,
+The great approaches.</apodosis>
 <apodosis wn_only="fortune.n.01, success.n.03">Good fortune. Success.</apodosis>
 
 This hexagram denotes a time in nature when <protasis wn_only="heaven.n.01, earth.n.01">heaven seems to be on earth. Heaven has placed itself beneath the earth, and so their powers unite in deep harmony.</protasis> Then <apodosis wn_only="peace.n.01, blessing.n.01">peace and blessing descend upon all living things.</apodosis> In the world of man it is <protasis wn_only="time_period.n.01, social_harmony.n.01">a time of social harmony; those in high places show favor to the lowly, and the lowly and inferior is an end to all feuds.</protasis> In side, at the center, in the key position, is <protasis wn_only="light.n.02">the light principle</protasis>; <protasis wn_only="dark.n.01">the dark principle is outside.</protasis> Thus <apodosis wn_only="light.n.02, influence.n.01">the light has a powerful influence</apodosis>, while <apodosis wn_only="dark.n.01, submission.n.01">the dark is submissive.</apodosis> In this way <apodosis wn_only="due.n.01">each receives its due.</apodosis> When <protasis wn_only="good.n.01, element.n.01, society.n.01, center.n.01, control.n.01">the good elements of society occupy a central position and are in control</protasis>, <apodosis wn_only="evil.n.01, element.n.01, influence.n.01, change.n.01, improvement.n.01">the evil elements come under their influence and change for the better.</apodosis> When <protasis wn_only="spirit.n.01, heaven.n.01, rule.n.01, man.n.01">the spirit of heaven rules in man</protasis>, <apodosis wn_only="animal.n.01, nature.n.01, influence.n.01, topographic_point.n.01">his animal nature also comes under its influence and takes its appropriate place.</apodosis> <protasis wn_only="line.n.05, hexagram.n.01, movement.n.01">The individual lines enter the hexagram from below and leave it again at the top.</protasis> Here <apodosis wn_only="small.n.01, weak.n.01, evil.n.01, element.n.01, departure.n.01">the small, weak, and evil elements are about to take their departure</apodosis>, while <apodosis wn_only="great.n.01, strong.n.01, good.n.01, element.n.01, movement.n.04">the great, strong, and good elements are moving up.</apodosis> This brings <apodosis wn_only="fortune.n.01, success.n.03">good fortune and success.</apodosis>
 
 THE IMAGE
+
 <protasis wn_only="heaven.n.01, earth.n.01, union.n.04">Heaven and earth unite</protasis>: <apodosis wn_only="peace.n.01">the image of PEACE</apodosis>.
 Thus <apodosis wn_only="ruler.n.01, heaven.n.01, earth.n.01, people.n.01, aid.n.02">the ruler
 Divides and completes the course of heaven and earth,
@@ -833,6 +835,7 @@ And so aids the people</apodosis>.
 THE LINES
 
 Nine at the beginning means:
+
 <protasis wn_only="ribbon_grass.n.01, sod.n.01">When ribbon grass is pulled up, the sod comes with it.</protasis>
 <apodosis wn_only="kind.n.01">Each according to his kind.</apodosis>
 <apodosis wn_only="enterprise.n.01, fortune.n.03">Undertakings bring good fortune.</apodosis>
@@ -840,17 +843,11 @@ Nine at the beginning means:
 <protasis wn_only="prosperity.n.01, man.n.01, office.n.04">In times of prosperity every able man called to fill an office</protasis> <apodosis wn_only="people.n.01, ribbon_grass.n.01, stalk.n.02, root.n.01">draws like minded people along with him, just as in pulling up ribbon grass one always pulls up a bunch of it, because the stalks are connected by their roots.</apodosis> <protasis wn_only="time_period.n.01, influence.n.01, man.n.01, life.n.01">In such times, when it is possible to extend influence widely, the mind of an able man</protasis> <apodosis wn_only="life.n.01, accomplishment.n.01">is set upon going out into life and accomplishing something.</apodosis>
 
 Nine in the second place means:
-<protasis wn_only="prosperity.n.01, importance.n.01, greatness.n.01, soul.n.01, imperfection.n.01, people.n.01">In times of prosperity it is important and above all to possess enough greatness of soul to bear with imperfect people.</protasis> <apodosis wn_only="hand.n.01, master.n.01, material.n.01, unproductiveness.n.01, use.n.01">For in the hands of a great master no material is unproductive; he can find use for everything.</apodosis>
 
-<protasis wn_only="generosity.n.01, laxity.n.01, weakness.n.01">But this generosity is by no means laxity or weakness.</protasis> <apodosis wn_only="prosperity.n.01, time.n.05, readiness.n.01, risk.n.01, undertaking.n.01, danger.n.01, crossing.n.05, river.n.01, necessity.n.01">It is during times of prosperity especially that we must always be ready to risk even dangerous undertakings, such as the crossing of a river, if they are necessary.</apodosis>
-
-<protasis wn_only="neglect.n.01, distance.n.01">So too we must not neglect what is distant</protasis> <apodosis wn_only="attendance.n.01, scrupulousness.n.01">but must attend scrupulously to everything.</apodosis>
-
-<protasis wn_only="factionalism.n.01, dominance.n.01, clique.n.01, avoidance.n.01">Factionalism and the dominance of cliques are especially to be avoided.</protasis> <apodosis wn_only="people.n.01, likeness.n.01, mind.n.01, coming.n.01, faction.n.01, holding.n.01, advantage.n.01, duty.n.01">Even if people of like mind come forward together, they ought not to form a faction by holding together for mutual advantage; instead, each man should do is duty.</apodosis>
-
-<protasis wn_only="way.n.01, overcoming.n.02, danger.n.01, slackening.n.01, lurking.n.01, peace.n.01">Theses are four ways in which one can overcome the hidden danger of a gradual slackening that always lurks in any time of peace.</protasis> <apodosis wn_only="finding.n.01, middle.n.01, way.n.04, action.n.01">And that is how one finds the middle way for action.</apodosis>
+<protasis wn_only="prosperity.n.01, importance.n.01, greatness.n.01, soul.n.01, imperfection.n.01, people.n.01">In times of prosperity it is important and above all to possess enough greatness of soul to bear with imperfect people.</protasis> <apodosis wn_only="hand.n.01, master.n.01, material.n.01, unproductiveness.n.01, use.n.01">For in the hands of a great master no material is unproductive; he can find use for everything.</apodosis> <protasis wn_only="generosity.n.01, laxity.n.01, weakness.n.01">But this generosity is by no means laxity or weakness.</protasis> <apodosis wn_only="prosperity.n.01, time.n.05, readiness.n.01, risk.n.01, undertaking.n.01, danger.n.01, crossing.n.05, river.n.01, necessity.n.01">It is during times of prosperity especially that we must always be ready to risk even dangerous undertakings, such as the crossing of a river, if they are necessary.</apodosis> <protasis wn_only="neglect.n.01, distance.n.01">So too we must not neglect what is distant</protasis> <apodosis wn_only="attendance.n.01, scrupulousness.n.01">but must attend scrupulously to everything.</apodosis> <protasis wn_only="factionalism.n.01, dominance.n.01, clique.n.01, avoidance.n.01">Factionalism and the dominance of cliques are especially to be avoided.</protasis> <apodosis wn_only="people.n.01, likeness.n.01, mind.n.01, coming.n.01, faction.n.01, holding.n.01, advantage.n.01, duty.n.01">Even if people of like mind come forward together, they ought not to form a faction by holding together for mutual advantage; instead, each man should do is duty.</apodosis> <protasis wn_only="way.n.01, overcoming.n.02, danger.n.01, slackening.n.01, lurking.n.01, peace.n.01">Theses are four ways in which one can overcome the hidden danger of a gradual slackening that always lurks in any time of peace.</protasis> <apodosis wn_only="finding.n.01, middle.n.01, way.n.04, action.n.01">And that is how one finds the middle way for action.</apodosis>
 
 Nine in the third place means:
+
 <protasis wn_only="plain.n.01">No plain not followed by a slope.</protasis>
 <protasis wn_only="travel.n.01, return.n.01">No going not followed by a return.</protasis>
 <apodosis wn_only="perseverance.n.01, danger.n.01, blamelessness.n.01">He who remains persevering in danger
@@ -858,9 +855,10 @@ Is without blame.</apodosis>
 <apodosis wn_only="complaint.n.01, truth.n.01, enjoyment.n.01, fortune.n.03">Do not complain about this truth;
 Enjoy the good fortune you still possess.</apodosis>
 
-<protasis wn_only="earth.n.01, change.n.01">Everything on earth is subject to change.</protasis> <apodosis wn_only="prosperity.n.01, decline.n.01, law.n.01">Prosperity is followed by decline: this is the eternal law on earth.</apodosis> <apodosis wn_only="evil.n.01, restraint.n.01, permanence.n.01, return.n.01">Evil can indeed be held in check but not permanently abolished. It always returns.</apodosis> <apodosis wn_only="conviction.n.01, melancholy.n.01, illusion.n.01, fortune.n.03">This conviction might induct melancholy, but it should not; it ought only to keep us from falling into illusion when good fortune comes to us.</apodosis> <protasis wn_only="mindfulness.n.01, danger.n.01, perseverance.n.01, mistake.n.01">If we continue mindful of the danger, we remain persevering and make no mistakes.</protasis> <protasis wn_only="man.n.01, nature.n.01, fortune.n.03, fate.n.01">As long as a man's inner nature remains stronger and richer than anything offered by external fortune, as long as he remains inwardly superior to fate,</protasis> <apodosis wn_only="fortune.n.03, desertion.n.01">fortune will not desert him.</apodosis>
+<protasis wn_only="earth.n.01, change.n.01">Everything on earth is subject to change.</protasis> <apodosis wn_only="prosperity.n.01, decline.n.01, law.n.01">Prosperity is followed by decline: this is the eternal law on earth.</apodosis> <apodosis wn_only="evil.n.01, restraint.n.01, permanence.n.01, return.n.01">Evil can indeed be held in check but not permanently abolished. It always returns.</apodosis> <apodosis wn_only="conviction.n.01, melancholy.n.01, illusion.n.01, fortune.n.03">This conviction might induct melancholy, but it should not; it ought only to keep us from falling into illusion when good fortune comes to us.</apodosis> <protasis wn_only="mindfulness.n.01, danger.n.01, perseverance.n.01, mistake.n.01">If we continue mindful of the danger, we remain persevering and make no mistakes.</protasis> <protasis wn_only="man.n.01, nature.n.01, fortune.n.03, fate.n.01">As long as a man’s inner nature remains stronger and richer than anything offered by external fortune, as long as he remains inwardly superior to fate,</protasis> <apodosis wn_only="fortune.n.03, desertion.n.01">fortune will not desert him.</apodosis>
 
 Six in the fourth place means:
+
 <protasis wn_only="flutter.n.01, boast.n.01, wealth.n.01, neighbor.n.01, guilelessness.n.01, sincerity.n.01">He flutters down, not boasting of his wealth,
 Together with his neighbor,
 Guileless and sincere.</protasis>
@@ -868,11 +866,14 @@ Guileless and sincere.</protasis>
 <apodosis wn_only="time_period.n.01, confidence.n.01, people.n.01, rank.n.01, contact.n.01, lowliness.n.01, simplicity.n.01, boast.n.01, wealth.n.01, force.n.01, circumstance.n.01, correspondence.n.01, sentiment.n.01, approach.n.01, spontaneity.n.01, basis.n.01, conviction.n.01">In times of mutual confidence, people of high rank come in close contact with the lowly quite simply and without boasting of their wealth. This is not due to the force of circumstances but corresponds with their inmost sentiment. The approach is made quite spontaneously, because it is based on inner conviction.</apodosis>
 
 Six in the fifth place means:
+
 <protasis wn_only="sovereign.n.01, marriage.n.01">The sovereign I
 Gives his daughter in marriage.</protasis>
 <apodosis wn_only="fortune.n.01">And supreme good fortune.</apodosis>
 
-<protasis wn_only="sovereign.n.01, decree.n.01, princess.n.01, rank.n.01, husband.n.01">The sovereign I is T'ang the Completer. By his decree the imperial princesses, although higher in rank than their husbands,</protasis> <apodosis wn_only="obedience.n.01, wife.n.01">had to obey them like all other wives.</apodosis> <apodosis wn_only="union.n.01, happiness.n.01, blessing.n.01">Here too we are shown a truly modest union of high and low that brings happiness and blessings.</apodosis>
+<protasis wn_only="sovereign.n.01, decree.n.01, princess.n.01, rank.n.01, husband.n.01">The sovereign I is T’ang the Completer. By his decree the imperial princesses, although higher in rank than their husbands,</protasis> <apodosis wn_only="obedience.n.01, wife.n.01">had to obey them like all other wives.</apodosis> <apodosis wn_only="union.n.01, happiness.n.01, blessing.n.01">Here too we are shown a truly modest union of high and low that brings happiness and blessings.</apodosis>
+
+Six at the top means:
 
 <protasis wn_only="wall.n.01, moat.n.01">The wall falls back into the moat.</protasis>
 <apodosis wn_only="army.n.01">Use no army now.</apodosis>
@@ -882,17 +883,23 @@ Gives his daughter in marriage.</protasis>
 <protasis wn_only="change.n.01, hexagram.n.01, wall.n.01, town.n.01, moat.n.01">The change alluded to in the middle of the hexagram has begun to take place. The wall of the town sinks back into the moat from which it was dug.</protasis> <apodosis wn_only="doom.n.01">The hour of doom is at hand.</apodosis> <apodosis wn_only="fate.n.01, submission.n.01, resistance.n.01">When matters have come to this pass, we should submit to fate and not try to stave it off by violent resistance.</apodosis> <apodosis wn_only="recourse.n.01, circle.n.01">The one recourse left us is to hold our own within our intimate circle.</apodosis> <apodosis wn_only="perseverance.n.01, evil.n.01, resistance.n.01, collapse.n.01, humiliation.n.01">Should we persevere in trying to resist the evil in the usual way, our collapse would only be more complete, and humiliation would be the result.</apodosis>
 </token>
 
-<token id="pi1">
-<protasis wn_only="heaven.n.01, celestial_sphere.n.01, creative.n.01">Heaven is above, drawing farther and farther away</protasis>, <apodosis wn_only="earth.n.01, receptive.n.01, depth.n.01">while the earth below sinks farther into the depths</apodosis>. <apodosis wn_only="power.n.01, relation.n.01">The creative powers are not in relation</apodosis>. <apodosis wn_only="time_period.n.01, stagnation.n.01, decline.n.01">It is a time of standstill and decline</apodosis>. <protasis wn_only="hexagram.n.01, month.n.01, august.n.01, september.n.01, year.n.01, zenith.n.01">This hexagram is linked with the seventh month (August-September), when the year has passed its zenith</protasis> and <apodosis wn_only="decay.n.01, autumn.n.01">autumnal decay is setting in</apodosis>.
+<token id="pi1">12 <token_alt_name>P'i</token_alt_name> / <token_alt_name>Standstill</token_alt_name> [<token_name>Stagnation</token_name>]
+
+above CH’IEN THE CREATIVE, HEAVEN
+below K’UN THE RECEPTIVE, EARTH
+
+This hexagram is the opposite of the preceding one. <protasis wn_only="heaven.n.01, celestial_sphere.n.01, creative.n.01">Heaven is above, drawing farther and farther away</protasis>, <apodosis wn_only="earth.n.01, receptive.n.01, depth.n.01">while the earth below sinks farther into the depths</apodosis>. <apodosis wn_only="power.n.01, relation.n.01">The creative powers are not in relation</apodosis>. <apodosis wn_only="time_period.n.01, stagnation.n.01, decline.n.01">It is a time of standstill and decline</apodosis>. <protasis wn_only="hexagram.n.01, month.n.01, august.n.01, september.n.01, year.n.01, zenith.n.01">This hexagram is linked with the seventh month (August-September), when the year has passed its zenith</protasis> and <apodosis wn_only="decay.n.01, autumn.n.01">autumnal decay is setting in</apodosis>.
 
 THE JUDGMENT
-<protasis wn_only="evil.n.01,people.n.01">Evil people do not further</protasis>
+
+<protasis wn_only="evil.n.01,people.n.01,deadlock.n.01">STANDSTILL. Evil people do not further</protasis>
 <apodosis wn_only="perseverance.n.01,man.n.01,superior.n.01">The perseverance of the superior man.</apodosis>
-<protasis wn_only="departure.n.01,greatness.n.01">The great departs;</protasis> <apodosis wn_only="approach.n.01,smallness.n.01">the small approaches.</apodosis>
+<protasis wn_only="departure.n.01,greatness.n.01">The great departs;</protasis> <apodosis wn_only="approach.n.01,smallness.n.01,nobody.n.01">the small approaches.</apodosis>
 
 <protasis wn_only="heaven.n.01,earth.n.01,communion.n.01">Heaven and earth are out of communion</protasis> and <apodosis wn_only="numbness.n.01,thing.n.01">all things are benumbed.</apodosis> <protasis wn_only="relation.n.01,above.n.01,below.n.01">What is above has no relation to what is below,</protasis> and <apodosis wn_only="confusion.n.01,disorder.n.01,prevalence.n.01,earth.n.01">on earth confusion and disorder prevail.</apodosis> <protasis wn_only="power.n.01,darkness.n.01,interior.n.01">The dark power is within,</protasis> <apodosis wn_only="power.n.01,light.n.01,exterior.n.01">the light power is without.</apodosis> <protasis wn_only="weakness.n.01,interior.n.01">Weakness is within,</protasis> <apodosis wn_only="harshness.n.01,exterior.n.01">harshness without.</apodosis> <protasis wn_only="inferior.n.01,interior.n.01">Within are the inferior,</protasis> and <apodosis wn_only="superior.n.01,exterior.n.01">without are the superior.</apodosis> <protasis wn_only="way.n.01,people.n.01,inferior.n.01,ascent.n.01">The way of inferior people is in ascent;</protasis> <apodosis wn_only="way.n.01,people.n.01,superior.n.01,decline.n.01">the way of superior people is one the decline.</apodosis> But <protasis wn_only="people.n.01,superior.n.01,principle.n.01">the superior people do not allow themselves to be turned from their principles.</protasis> <apodosis wn_only="possibility.n.01,influence.n.01,closure.n.01,fidelity.n.01,principle.n.01,withdrawal.n.01,seclusion.n.01">If the possibility of exerting influence is closed to them, they nevertheless remain faithful to their principles and withdraw into seclusion.</apodosis>
 
 THE IMAGE
+
 <protasis wn_only="heaven.n.01, earth.n.01, union.n.01">Heaven and earth do not unite</protasis>:
 <apodosis wn_only="picture.n.01, standstill.n.01">The image of STANDSTILL</apodosis>.
 <apodosis wn_only="man.n.01, quality.n.01, worth.n.01">Thus the superior man falls back upon his inner worth</apodosis>
@@ -911,6 +918,7 @@ THE IMAGE
 THE LINES
 
 Six at the beginning means:
+
 <protasis wn_only="ribbon_grass.n.01, sod.n.01">When ribbon grass is pulled up, the sod comes with it.</protasis>
 <apodosis wn_only="kind.n.01">Each according to his kind.</apodosis>
 <apodosis wn_only="perseverance.n.01, fortune.n.01, success.n.01">Perseverance brings good fortune and success.</apodosis>
@@ -918,6 +926,7 @@ Six at the beginning means:
 <protasis wn_only="text.n.01, line.n.05, hexagram.n.01, meaning.n.01">The text is almost the same as that of the first line of the preceding hexagram, but with a contrary meaning.</protasis> <apodosis wn_only="man.n.01, road.n.01, career.n.01">In the latter a man is drawing another along with him on the road to an official career;</apodosis> <apodosis wn_only="man.n.01, retirement.n.01, life.n.01">here a man is drawing another with him into retirement form public life.</apodosis> <apodosis wn_only="text.n.01, perseverance.n.01, fortune.n.01, success.n.01">This is why the text says here, "Perseverance brings good fortune and success," and not "Undertakings bring good fortune."</apodosis> <protasis wn_only="influence.n.01">If it becomes impossible to make our influence count,</protasis> <apodosis wn_only="retirement.n.01, humiliation.n.01">it is only by retirement that we spare ourselves humiliation.</apodosis> <apodosis wn_only="success.n.01, sense.n.03, value.n.01, personality.n.01">Success in a higher sense can be ours, because we know how to safeguard the value of our personalities.</apodosis>
 
 Six in the second place means:
+
 <protasis wn_only="birth.n.02, acceptance.n.02">They bear and endure;</protasis>
 <apodosis wn_only="fortune.n.03, people.n.01">This means good fortune for inferior people.</apodosis>
 <protasis wn_only="standstill.n.01, man.n.01, success.n.01">The standstill serves to help the great man to attain success.</protasis>
@@ -925,11 +934,13 @@ Six in the second place means:
 <protasis wn_only="people.n.01, flattery.n.01, manner.n.01">Inferior people are ready to flatter their superiors in a servile way.</protasis> <apodosis wn_only="man.n.01, confusion.n.01">They would also endure the superior man if he would put an end to their confusion.</apodosis> <apodosis wn_only="fortune.n.03">This is fortunate for them.</apodosis> <protasis wn_only="man.n.01, consequence.n.01, standstill.n.01">But the great man calmly bears the consequences of the standstill.</protasis> <protasis wn_only="crowd.n.01">He does not mingle with the crowd of the inferior;</protasis> <apodosis wn_only="place.n.02">that is not his place.</apodosis> <protasis wn_only="willingness.n.01, suffering.n.01">By his willingness to suffer personally</protasis> <apodosis wn_only="principle.n.01, success.n.01">he insures the success of his fundamental principles.</apodosis>
 
 Six in the third place means:
+
 <protasis wn_only="shame.n.01">They bear shame.</protasis>
 
 <apodosis wn_only="people.n.01, power.n.01, illegitimacy.n.01, responsibility.n.01, inequality.n.01">Inferior people who have risen to power illegitimately do not feel equal to the responsibility they have taken upon themselves.</apodosis> <protasis wn_only="heart.n.01, shame.n.01">In their hearts they begin to be ashamed</protasis>, <protasis wn_only="beginning.n.01, outwardness.n.01">although at first they do not show it outwardly.</protasis> <apodosis wn_only="turn.n.01, betterment.n.01">This marks a turn for the better.</apodosis>
 
 Nine in the fourth place means:
+
 <protasis wn_only="act.n.01, command.n.01, high.n.01">He who acts at the command of the highest</protasis>
 <apodosis wn_only="blamelessness.n.01">Remains without blame.</apodosis>
 <apodosis wn_only="mind.n.01, similarity.n.01, blessing.n.01, partaking.n.01">Those of like mind partake of the blessing.</apodosis>
@@ -937,6 +948,7 @@ Nine in the fourth place means:
 <protasis wn_only="time_period.n.01, standstill.n.01, change.n.01, approach.n.01, opposite.n.01">The time of standstill is nearing the point of change into its opposite.</protasis> <apodosis wn_only="desire.n.01, order.n.01, restoration.n.01, feeling.n.01, calling.n.01, task.n.01, authority.n.01, necessity.n.01">Whoever wishes to restore order must feel himself called to the task and have the necessary authority.</apodosis> <protasis wn_only="man.n.01, capability.n.01, order.n.01, creation.n.01, judgment.n.01">A man who sets himself up a capable of creating order according to his own judgment</protasis> <apodosis wn_only="error.n.01, failure.n.01">could make mistakes and end in failure.</apodosis> <protasis wn_only="man.n.01, calling.n.01, task.n.01">But the man who is truly called to the task</protasis> <apodosis wn_only="favor.n.01, time.n.05, condition.n.01, mind.n.01, similarity.n.01, blessing.n.01, sharing.n.01">is favored by the conditions of the time, and all those of like mind will share in his blessing.</apodosis>
 
 Nine in the fifth place means:
+
 <protasis wn_only="standstill.n.01">Standstill is giving way.</protasis>
 <apodosis wn_only="fortune.n.01, man.n.01">Good fortune for the great man.</apodosis>
 <protasis wn_only="failure.n.01">"What if it should fail, what if it should fail?"</protasis>
@@ -944,7 +956,10 @@ Nine in the fifth place means:
 
 <protasis wn_only="time.n.05, change.n.01">The time undergoes a change.</protasis> <apodosis wn_only="man.n.01, order.n.01, arrival.n.01">The right man, able to restore order, has arrived.</apodosis> <apodosis wn_only="fortune.n.01">Hence "good fortune."</apodosis> <protasis wn_only="period.n.01, transition.n.01">But such periods of transition are the very times in which we must fear and tremble.</protasis> <apodosis wn_only="success.n.01, caution.n.01">Success is assured only through greatest caution,</apodosis> <protasis wn_only="failure.n.01">which asks always, "What if it should fail?"</protasis> <protasis wn_only="mulberry.n.01, bush.n.01, shoot.n.01, root.n.01">When a mulberry bush is cut down, a number of unusually strong shoots sprout from the roots.</protasis> <apodosis wn_only="knot.n.01, cluster.n.01, mulberry.n.01, shoot.n.01, success.n.01, certainty.n.01">Hence the image of tying something to a cluster of mulberry shoots is used to symbolize the way of making success certain.</apodosis>
 
+Confucius says about this line:
 <protasis wn_only="danger.n.01, security.n.01">Danger arises when a man feels secure in his position.</protasis> <protasis wn_only="destruction.n.01, estate.n.01">Destruction threatens when a man seeks to preserve his worldly estate.</protasis> <protasis wn_only="confusion.n.01, order.n.01">Confusion develops when a man has put everything in order.</protasis> <apodosis wn_only="man.n.01, danger.n.01, security.n.01, ruin.n.01, establishment.n.01, confusion.n.01, order.n.01, safety.n.01, empire.n.01">Therefore the superior man does not forget danger in his security, not ruin when he is well established, nor confusion when his affairs are in order. In this way he gains personal safety and is able to protect the empire.</apodosis>
+
+Nine at the top means:
 
 <protasis wn_only="standstill.n.01, end.n.04">The standstill comes to an end.</protasis>
 <apodosis wn_only="standstill.n.01, fortune.n.01">First standstill, then good fortune.</apodosis>
@@ -952,12 +967,17 @@ Nine in the fifth place means:
 <protasis wn_only="standstill.n.01, perpetuity.n.01">The standstill does not last forever.</protasis> <protasis wn_only="cessation.n.01, man.n.01">However, it does not cease of its own accord; the right man is needed to end it.</protasis> <apodosis wn_only="peace.n.01, stagnation.n.01">This is the difference between a state of peace and a state of stagnation.</apodosis> <apodosis wn_only="effort.n.01, peace.n.01">Continuous effort is necessary to maintain peace:</apodosis> <protasis wn_only="stagnation.n.01, disintegration.n.01">left to itself it would change into stagnation and disintegration.</protasis> <protasis wn_only="disintegration.n.01, peace.n.01, prosperity.n.01">The time of disintegration, however, does not change back automatically to a condition of peace and prosperity;</protasis> <apodosis wn_only="effort.n.01, end.n.04">effort must be put forth in order to end it.</apodosis> <apodosis wn_only="attitude.n.01, world.n.01, order.n.01">This shows the creative attitude that man must take if the world is to be put in order.</apodosis>
 </token>
 
-<token id="tung_jen">
-<protasis wn_only="trigram.n.01, heaven.n.01">The image of the upper trigram Ch'ien is heaven</protasis>, and <protasis wn_only="trigram.n.01, flame.n.01">that of the lower, Li, is flame</protasis>. <apodosis wn_only="nature.n.01, fire.n.01, flame.n.01, heaven.n.01">It is the nature of fire to flame up to the heaven.</apodosis> <apodosis wn_only="idea.n.01, fellowship.n.01">This gives the idea of fellowship.</apodosis> <protasis wn_only="line.n.04, center.n.01, character.n.01">IT is the second line that, by virtue of its central character,</protasis> <apodosis wn_only="union.n.01, line.n.04">unites the five strong lines around it.</apodosis> <apodosis wn_only="hexagram.n.01, complement.n.01">This hexagram forms a complement to Shih, THE ARMY</apodosis>
+<token id="tung_jen">13 <token_alt_name>T’ung Jên</token_alt_name> / <token_name>Fellowship with Men</token_name>
 
-<protasis wn_only="danger.n.01, obedience.n.01, character.n.01, army.n.01">In the latter, danger is within and obedience without--the character of a warlike army,</protasis> <apodosis wn_only="cohesion.n.01, man.n.01, weakness.n.01">which, in order to hold together, needs one strong man among the many who are weak.</apodosis> <protasis wn_only="clarity.n.01, strength.n.01, character.n.01, union.n.01, man.n.01">Here, clarity is within and strength without--the character of a peaceful union of men,</protasis> <apodosis wn_only="cohesion.n.01, nature.n.01, person.n.01, firmness.n.01">which, in order to hold together, needs one yielding nature among many firm persons.</apodosis>
+above CH’IEN THE CREATIVE, HEAVEN
+below LI THE CLINGING, FLAME
+
+<protasis wn_only="trigram.n.01, heaven.n.01">The image of the upper trigram Ch’ien is heaven</protasis>, and <protasis wn_only="trigram.n.01, flame.n.01">that of the lower, Li, is flame</protasis>. <apodosis wn_only="nature.n.01, fire.n.01, flame.n.01, heaven.n.01">It is the nature of fire to flame up to the heaven.</apodosis> <apodosis wn_only="idea.n.01, fellowship.n.01">This gives the idea of fellowship.</apodosis> <protasis wn_only="line.n.04, center.n.01, character.n.01">IT is the second line that, by virtue of its central character,</protasis> <apodosis wn_only="union.n.01, line.n.04">unites the five strong lines around it.</apodosis> <apodosis wn_only="hexagram.n.01, complement.n.01">This hexagram forms a complement to Shih, THE ARMY</apodosis>
+
+7. <protasis wn_only="danger.n.01, obedience.n.01, character.n.01, army.n.01">In the latter, danger is within and obedience without--the character of a warlike army,</protasis> <apodosis wn_only="cohesion.n.01, man.n.01, weakness.n.01">which, in order to hold together, needs one strong man among the many who are weak.</apodosis> <protasis wn_only="clarity.n.01, strength.n.01, character.n.01, union.n.01, man.n.01">Here, clarity is within and strength without--the character of a peaceful union of men,</protasis> <apodosis wn_only="cohesion.n.01, nature.n.01, person.n.01, firmness.n.01">which, in order to hold together, needs one yielding nature among many firm persons.</apodosis>
 
 THE JUDGMENT
+
 <protasis wn_only="fellowship.n.01, man.n.01, open.n.01">FELLOWSHIP WITH MEN in the open.</protasis>
 
 <apodosis wn_only="success.n.01">Success.</apodosis>
@@ -967,6 +987,7 @@ THE JUDGMENT
 <protasis wn_only="fellowship.n.01, man.n.01, concern.n.01, universality.n.01">True fellowship among men must be based upon a concern that is universal.</protasis> <apodosis wn_only="interest.n.01, individual.n.01, fellowship.n.01, man.n.01, lastingness.n.01">It is not the private interests of the individual that create lasting fellowship among men,</apodosis> <apodosis wn_only="goal.n.01, humanity.n.01">but rather the goals of humanity.</apodosis> <apodosis wn_only="fellowship.n.01, man.n.01, open.n.01, success.n.03">That is why it is said that fellowship with men in the open succeeds.</apodosis> <protasis wn_only="unity.n.01, prevalence.n.01">If unity of this kind prevails,</protasis> <apodosis wn_only="task.n.01, difficulty.n.01, danger.n.01, water.n.06, accomplishment.n.01">even difficult and dangerous tasks, such as crossing the great water, can be accomplished.</apodosis> <apodosis wn_only="fellowship.n.01, leader.n.01, perseverance.n.01, enlightenment.n.02, need.n.01, man.n.01, clarity.n.01, aim.n.01, convincingness.n.01, inspiration.n.02, strength.n.01">But in order to bring about this sort of fellowship, a persevering and enlightened leader is needed--a man with clear, convincing, and inspiring aims and the strength to carry them out.</apodosis> <apodosis wn_only="trigram.n.01, clarity.n.01, strength.n.01">(The inner trigram means clarity; the outer, strength.)</apodosis>
 
 THE IMAGE
+
 <protasis wn_only="heaven.n.01, fire.n.01">Heaven together with fire</protasis>:
 
 <apodosis wn_only="image.n.01, fellowship.n.01, man.n.01">The image of FELLOWSHIP WITH MEN</apodosis>.
@@ -978,31 +999,36 @@ THE IMAGE
 THE LINES
 
 Nine at the beginning means:
+
 <protasis wn_only="fellowship.n.01, man.n.01, gate.n.01">Fellowship with men at the gate.</protasis>
 <apodosis wn_only="blamelessness.n.01">No blame.</apodosis>
 
 <apodosis wn_only="beginning.n.01, union.n.01, people.n.01, door.n.01">The beginning of union among people should take place before the door.</apodosis> <apodosis wn_only="equality.n.01, closeness.n.01">All are equally close to one another.</apodosis> <apodosis wn_only="aim.n.01">No divergent aims have yet arisen,</apodosis> and <apodosis wn_only="mistake.n.01">one makes not mistakes.</apodosis> <apodosis wn_only="principle.n.01, union.n.01, accessibility.n.01">The basic principles of any kind of union must be equally accessible to all concerned.</apodosis> <apodosis wn_only="agreement.n.01, misfortune.n.01">Secret agreements bring misfortune.</apodosis>
 
 Six in the second place means:
+
 <protasis wn_only="fellowship.n.01, man.n.01, clan.n.01">Fellowship with men in the clan.</protasis>
 <apodosis wn_only="humiliation.n.01">Humiliation.</apodosis>
 
 <protasis wn_only="danger.n.01, formation.n.01, faction.n.01, basis.n.02, interest.n.01, person.n.01, egotism.n.01">There is danger here of formation of a separate faction on the basis of personal and egotistic interests.</protasis> <apodosis wn_only="faction.n.01, exclusiveness.n.01, welcome.n.01, man.n.01, condemnation.n.01, group.n.01, union.n.05, motive.n.01, humiliation.n.01, time.n.05">Such factions, which are exclusive and, instead of welcoming all men, must condemn one group in order to unite the others, originate from low motives and therefore lead in the course of time to humiliation.</apodosis>
 
 Nine in the third place means:
+
 <protasis wn_only="weapon.n.01, thicket.n.01, concealment.n.01">He hides weapons in the thicket</protasis>;
 <protasis wn_only="hill.n.01, ascent.n.01">He climbs the high hill in front of it</protasis>.
 <apodosis wn_only="year.n.01, inaction.n.01">For three years he does not rise up</apodosis>.
 
-<apodosis wn_only="fellowship.n.01, change.n.01, mistrust.n.01">Here fellowship has changed about to mistrust</apodosis>. <protasis wn_only="man.n.01, distrust.n.01">Each man distrusts the other</protasis>, <apodosis wn_only="plan.n.01, ambush.n.01, secrecy.n.01">plans a secret ambush</apodosis>, and <apodosis wn_only="spying.n.01, distance.n.01">seeks to spy on his fellow form afar</apodosis>. <apodosis wn_only="opposition.n.01, obstinacy.n.01, method.n.01, inefficacy.n.01">We are dealing with an obstinate opponent whom we cannot come at by this method</apodosis>. <apodosis wn_only="obstacle.n.01, fellowship.n.01">Obstacles standing in the way of fellowship with others are shown here</apodosis>. <protasis wn_only="reservation.n.02">One has mental reservations for one's own part</protasis> and <apodosis wn_only="surprise.n.01, opponent.n.01">seeks to take his opponent by surprise</apodosis>. <apodosis wn_only="mistrust.n.01, suspicion.n.01, wile.n.01, opponent.n.01">This very fact makes one mistrustful, suspecting the same wiles in his opponent and trying to ferret them out</apodosis>. <apodosis wn_only="departure.n.01, fellowship.n.01, alienation.n.01">The result is that one departs further and further from true fellowship</apodosis>. <apodosis wn_only="duration.n.01, alienation.n.01">The longer this goes on, the more alienated one becomes</apodosis>.
+<apodosis wn_only="fellowship.n.01, change.n.01, mistrust.n.01">Here fellowship has changed about to mistrust</apodosis>. <protasis wn_only="man.n.01, distrust.n.01">Each man distrusts the other</protasis>, <apodosis wn_only="plan.n.01, ambush.n.01, secrecy.n.01">plans a secret ambush</apodosis>, and <apodosis wn_only="spying.n.01, distance.n.01">seeks to spy on his fellow form afar</apodosis>. <apodosis wn_only="opposition.n.01, obstinacy.n.01, method.n.01, inefficacy.n.01">We are dealing with an obstinate opponent whom we cannot come at by this method</apodosis>. <apodosis wn_only="obstacle.n.01, fellowship.n.01">Obstacles standing in the way of fellowship with others are shown here</apodosis>. <protasis wn_only="reservation.n.02">One has mental reservations for one’s own part</protasis> and <apodosis wn_only="surprise.n.01, opponent.n.01">seeks to take his opponent by surprise</apodosis>. <apodosis wn_only="mistrust.n.01, suspicion.n.01, wile.n.01, opponent.n.01">This very fact makes one mistrustful, suspecting the same wiles in his opponent and trying to ferret them out</apodosis>. <apodosis wn_only="departure.n.01, fellowship.n.01, alienation.n.01">The result is that one departs further and further from true fellowship</apodosis>. <apodosis wn_only="duration.n.01, alienation.n.01">The longer this goes on, the more alienated one becomes</apodosis>.
 
 Nine in the fourth place means:
+
 <protasis wn_only="climb.n.01, wall.n.01">He climbs up on his wall</protasis>; <apodosis wn_only="attack.n.01, inability.n.01">he cannot attack</apodosis>.
 <apodosis wn_only="fortune.n.03">Good fortune</apodosis>.
 
 <protasis wn_only="reconciliation.n.01, quarrel.n.02">Here the reconciliation that follows quarrel</protasis> <apodosis wn_only="change_of_location.n.01">mover nearer</apodosis>. <protasis wn_only="truth.n.03, wall.n.01">It is true that there are still dividing walls</protasis> <protasis wn_only="confrontation.n.01">on which we stand confronting one another</protasis>. But <protasis wn_only="difficulty.n.01">the difficulties are too great</protasis>. <apodosis wn_only="strait.n.01">We get into straits</apodosis>, and <apodosis wn_only="sense.n.03">this brings us to our senses</apodosis>. <apodosis wn_only="fight.n.01, inability.n.01">We cannot fight</apodosis>, and <apodosis wn_only="fortune.n.03">therein lies our good fortune</apodosis>.
 
 Nine in the fifth place means:
+
 <protasis wn_only="man.n.01, fellowship.n.02, tear.n.01, lamentation.n.02">Men bound in fellowship first weep and lament</protasis>,
 <apodosis wn_only="laughter.n.01">But afterward they laugh</apodosis>.
 <apodosis wn_only="struggle.n.02, success.n.01, meeting.n.01">After great struggles they succeed in meeting</apodosis>.
@@ -1011,23 +1037,31 @@ Nine in the fifth place means:
 
 <apodosis wn_only="life.n.01, man.n.01, path.n.04, winding.n.01">Life leads the thoughtful man on a path of many windings</apodosis>.<apodosis wn_only="course.n.01, check.n.01">Now the course is checked</apodosis>, <apodosis wn_only="course.n.01">now it runs straight again</apodosis>.<apodosis wn_only="thought.n.01, word.n.01">Here winged thoughts may pour freely forth in words</apodosis>,<apodosis wn_only="burden.n.01, knowledge.n.01, silence.n.01">There the heavy burden of knowledge must be shut away in silence</apodosis>.<protasis wn_only="people.n.01, unity.n.01, heart.n.01">But when two people are at one in the inmost hearts</protasis>,<apodosis wn_only="strength.n.01, iron.n.01, bronze.n.01">They shatter even the strength of iron or of bronze</apodosis>.<protasis wn_only="people.n.01, sympathy.n.01, heart.n.01">And when two people understand each other in their inmost hearts</protasis>,<apodosis wn_only="word.n.01, fragrance.n.02, orchid.n.01">Their words are sweet and strong, like the fragrance of orchids</apodosis>.
 
+Nine at the top means:
+
 <protasis wn_only="fellowship.n.02, man.n.01, meadow.n.01">Fellowship with men in the meadow</protasis>.
 <apodosis wn_only="remorse.n.01">No remorse</apodosis>.
 
 <apodosis wn_only="attachment.n.01, heart.n.01">The warm attachment that springs from the heart is lacking here</apodosis>. <apodosis wn_only="fellowship.n.02">We are by this time actually outside of fellowship with others</apodosis>. <apodosis wn_only="alliance.n.01">However, we ally ourselves with them</apodosis>. <apodosis wn_only="fellowship.n.02">The fellowship does not include all, but only those who happen to dwell near one another</apodosis>. <apodosis wn_only="meadow.n.01, pasture.n.01, town.n.01">The meadow is the pasture at the entrance to the town</apodosis>. <apodosis wn_only="stage.n.01, goal.n.01, union.n.03, mankind.n.01">At this stage, the ultimate goal of the union of mankind has not yet been attained</apodosis>, <apodosis wn_only="reproach.n.01">but we need not reproach ourselves</apodosis>. <apodosis wn_only="community.n.01, aim.n.01">We join the community without separate aims of our own</apodosis>.
 </token>
 
-<token id="ta_yu">
+<token id="ta_yu">14 <token_alt_name>Ta Yu</token_alt_name> / <token_name>Possession in Great Measure</token_name>
+
+above LI THE CLINGING, FLAME
+below CH’IEN THE CREATIVE, HEAVEN
+
 <protasis wn_only="fire.n.01, heaven.n.01, light.n.02">The fire in heaven above shines far, and all things stand out in the light and become manifest.</protasis> <apodosis wn_only="man.n.01, position.n.01, modesty.n.01, kindness.n.01, accord.n.01">The weak fifth line occupies the place of honor and all the strong lines are in accord with it. All things come to the man who is modest and kind in a high position.</apodosis>
 
 THE JUDGMENT
-<protasis wn_only="strength.n.01, clarity.n.01">The two trigrams indicate that strength and clarity unite.</protasis> <apodosis wn_only="possession.n.01, fate.n.01, time.n.05">Possessions great measure is determined by fate and accords with the time.</apodosis>
 
-<protasis wn_only="line.n.13, power.n.01">How is it possible that the weak line has power to hold the strong lines fast and to possess them?</protasis> <apodosis wn_only="virtue.n.01, modesty.n.01">It is done by virtue of unselfish modesty.</apodosis>
+<apodosis wn_only="wealth.n.01">POSSESSION IN GREAT MEASURE.</apodosis>
 
-<protasis wn_only="time.n.01, strength.n.01, clarity.n.01, culture.n.02">The time is favorable--a time of strength within, clarity and culture without.</protasis> <apodosis wn_only="power.n.01, grace.n.01, control.n.01, success.n.01, wealth.n.01">Power is expressing itself in graceful and controlled way. This brings supreme success and wealth.</apodosis>
+<apodosis wn_only="success.n.03">Supreme success.</apodosis>
+
+<protasis wn_only="strength.n.01, clarity.n.01">The two trigrams indicate that strength and clarity unite.</protasis> <apodosis wn_only="possession.n.01, fate.n.01, time.n.05">Possessions great measure is determined by fate and accords with the time.</apodosis> <protasis wn_only="line.n.13, power.n.01">How is it possible that the weak line has power to hold the strong lines fast and to possess them?</protasis> <apodosis wn_only="virtue.n.01, modesty.n.01">It is done by virtue of unselfish modesty.</apodosis> <protasis wn_only="time.n.01, strength.n.01, clarity.n.01, culture.n.02">The time is favorable--a time of strength within, clarity and culture without.</protasis> <apodosis wn_only="power.n.01, grace.n.01, control.n.01, success.n.01, wealth.n.01">Power is expressing itself in graceful and controlled way. This brings supreme success and wealth.</apodosis>
 
 THE IMAGE
+
 <protasis wn_only="fire.n.01, heaven.n.01">Fire in heaven above</protasis>:
 
 <apodosis wn_only="image.n.01, possession.n.01, measure.n.02">The image of POSSESSION IN GREAT MEASURE</apodosis>.
@@ -1039,6 +1073,7 @@ THE IMAGE
 THE LINES
 
 Nine at the beginning means:
+
 <protasis wn_only="relationship.n.01, harm.n.01">No relationship with what is harmful</protasis>;
 <apodosis wn_only="blame.n.01">There is no blame in this</apodosis>.
 <protasis wn_only="consciousness.n.01, difficulty.n.01">If one remains conscious of difficulty</protasis>,
@@ -1047,22 +1082,23 @@ Nine at the beginning means:
 <protasis wn_only="possession.n.01, beginning.n.01, challenge.n.01">Great possession that is still in its beginnings and that has not yet been challenged</protasis> <apodosis wn_only="blame.n.01, opportunity.n.01, mistake.n.01">brings no blame, since there has been no opportunity to make mistakes</apodosis>. <apodosis wn_only="difficulty.n.01">Yet there are many difficulties to be overcome</apodosis>. <protasis wn_only="consciousness.n.01, difficulty.n.01">It is only by remaining conscious of theses difficulties</protasis> that <apodosis wn_only="freedom.n.01, arrogance.n.01, wastefulness.n.01, principle.n.01, blame.n.01">one can keep inwardly free of possible arrogance and wastefulness, and thus in principle overcome all cause for blame</apodosis>.
 
 Nine in the second place means:
+
 <protasis wn_only="wagon.n.01, size.n.01">A big wagon for loading.</protasis>
 <apodosis wn_only="task.n.01, endeavor.n.01">One may undertake something.</apodosis>
 <apodosis wn_only="blameworthiness.n.01">No blame.</apodosis>
 
-<protasis wn_only="possession.n.01, size.n.01, quantity.n.01, goods.n.01, disposal.n.01, mobility.n.01, utility.n.01">Great possession consists not only in the quantity of goods at one's disposal, but first and foremost, in their mobility and utility,</protasis> <apodosis wn_only="task.n.01, endeavor.n.01, freedom.n.01, embarrassment.n.01, mistake.n.01">for then they can be used in undertakings, and we remain free of embarrassment and mistakes.</apodosis> <protasis wn_only="wagon.n.01, size.n.01, load.n.01, weight.n.01, journey.n.01, distance.n.01">The big wagon, which will carry a heavy load and in which one can journey far,</protasis> <apodosis wn_only="assistant.n.01, ability.n.01, support.n.01, equality.n.01, task.n.01">means that there are at hand able helpers who give their support and are equal to their task.</apodosis> <apodosis wn_only="load.n.01, responsibility.n.01, person.n.01, necessity.n.01, task.n.01, endeavor.n.01, importance.n.01">One can load great responsibility upon such persons, and this is necessary in important undertakings.</apodosis>
+<protasis wn_only="possession.n.01, size.n.01, quantity.n.01, goods.n.01, disposal.n.01, mobility.n.01, utility.n.01">Great possession consists not only in the quantity of goods at one’s disposal, but first and foremost, in their mobility and utility,</protasis> <apodosis wn_only="task.n.01, endeavor.n.01, freedom.n.01, embarrassment.n.01, mistake.n.01">for then they can be used in undertakings, and we remain free of embarrassment and mistakes.</apodosis> <protasis wn_only="wagon.n.01, size.n.01, load.n.01, weight.n.01, journey.n.01, distance.n.01">The big wagon, which will carry a heavy load and in which one can journey far,</protasis> <apodosis wn_only="assistant.n.01, ability.n.01, support.n.01, equality.n.01, task.n.01">means that there are at hand able helpers who give their support and are equal to their task.</apodosis> <apodosis wn_only="load.n.01, responsibility.n.01, person.n.01, necessity.n.01, task.n.01, endeavor.n.01, importance.n.01">One can load great responsibility upon such persons, and this is necessary in important undertakings.</apodosis>
 
 Nine in the third place means:
+
 <protasis wn_only="prince.n.01, offer.n.01, son.n.01, heaven.n.01">A prince offers it to the Son of Heaven.</protasis>
 <apodosis wn_only="man.n.01, inability.n.01">A petty man cannot do this.</apodosis>
 
 <protasis wn_only="man.n.01, magnanimity.n.01, liberality.n.01, possession.n.01, disposal.n.01, ruler.n.01, people.n.01">A magnanimous, liberal-minded man should not regard what he possesses as his exclusive personal property, but should place it at the disposal of the ruler or of the people at large.</protasis>
-<apodosis wn_only="attitude.n.01, possession.n.01, property.n.01, endurance.n.01">In so doing, he takes the right attitude toward his possession, which as private property can never endure.</apodosis>
-<apodosis wn_only="man.n.01, inability.n.01">A petty man is incapable of this.</apodosis>
-<apodosis wn_only="man.n.01, harm.n.01, possession.n.01, sacrifice.n.01">He is harmed by great possessions, because instead of sacrificing them, he would keep them for himself.</apodosis>
+<apodosis wn_only="attitude.n.01, possession.n.01, property.n.01, endurance.n.01">In so doing, he takes the right attitude toward his possession, which as private property can never endure.</apodosis> <apodosis wn_only="man.n.01, inability.n.01">A petty man is incapable of this.</apodosis> <apodosis wn_only="man.n.01, harm.n.01, possession.n.01, sacrifice.n.01">He is harmed by great possessions, because instead of sacrificing them, he would keep them for himself.</apodosis>
 
 Nine in the fourth place means:
+
 <protasis wn_only="man.n.01, position.n.01, neighbor.n.01, difference.n.01">He makes a difference
 Between himself and his neighbor.</protasis>
 <apodosis wn_only="blameworthiness.n.01">No blame.</apodosis>
@@ -1070,12 +1106,13 @@ Between himself and his neighbor.</protasis>
 <apodosis wn_only="man.n.01, position.n.01, neighbor.n.01, wealth.n.01, power.n.01">This characterizes the position of a man placed among rich and powerful neighbors.</apodosis> <apodosis wn_only="position.n.01, danger.n.01">It is a dangerous position.</apodosis> <protasis wn_only="man.n.01, side.n.01, shunning.n.01, envy.n.01, temptation.n.01, competition.n.01">He must look neither to the right nor to the left, and must shun envy and the temptation to vie with others.</protasis> <apodosis wn_only="manner.n.01, freedom.n.01, mistake.n.01">In this way he remains free of mistakes.</apodosis>
 
 Six in the fifth place means:
+
 <protasis wn_only="truth.n.01, accessibility.n.01, dignity.n.01">He whose truth is accessible, yet dignified,</protasis>
 <apodosis wn_only="fortune.n.03">Has good fortune.</apodosis>
 
 <apodosis wn_only="situation.n.01, favorableness.n.01">The situation is very favorable.</apodosis> <protasis wn_only="person.n.01, coercion.n.01, sincerity.n.01">People are being won not by coercion but by unaffected sincerity,</protasis> <apodosis wn_only="attachment.n.01, sincerity.n.01, truth.n.01">so that they are attached to us in sincerity and truth.</apodosis> <protasis wn_only="benevolence.n.01, insufficiency.n.01, possession.n.01">However, benevolence alone is not sufficient at the time of POSSESSION IN GREAT MEASURE.</protasis> <apodosis wn_only="insolence.n.01, spread.n.01">For insolence might begin to spread.</apodosis> <protasis wn_only="insolence.n.01, boundary.n.01, dignity.n.01">Insolence must be kept in bounds by dignity;</protasis> <apodosis wn_only="fortune.n.03">then good fortune is assured.</apodosis>
 
-<protasis wn_only="nine.n.01, top.n.01">Nine at the top means:</protasis>
+Nine at the top means:
 
 <apodosis wn_only="blessing.n.01, heaven.n.01">He is blessed by heaven.</apodosis>
 <apodosis wn_only="fortune.n.03">Good fortune.</apodosis>
@@ -1086,7 +1123,11 @@ Six in the fifth place means:
 <apodosis wn_only="blessing.n.01, help.n.01">To bless means to help.</apodosis> <apodosis wn_only="heaven.n.01, help.n.01, man.n.01, devotion.n.01">Heaven helps the man who is devoted;</apodosis> <apodosis wn_only="man.n.01, help.n.01, man.n.01, truth.n.01">men help the man who is true.</apodosis> <protasis wn_only="walk.n.01, truth.n.01, devotion.n.01, thinking.n.01, reverence.n.01, worth.n.01">He who walks in truth and is devoted in his thinking, and furthermore reveres the worthy,</protasis> <apodosis wn_only="blessing.n.01, heaven.n.01">is blessed by heaven.</apodosis> <apodosis wn_only="fortune.n.03, furtherance.n.01">He has good fortune, and there is nothing that would not further.</apodosis>
 </token>
 
-<token id="chien1">
+<token id="chien1">15 <token_alt_name>Ch'ien</token_alt_name> / <token_name>Modesty</token_name>
+
+above K’UN THE RECEPTIVE, EARTH
+below KEN KEEPING STILL, MOUNTAIN
+
 <protasis wn_only="hexagram.n.01, trigram.n.01, mountain.n.01, son.n.01, heaven.n.01, earth.n.01">This hexagram is made up of the trigrams Kên, Keeping Still, mountain, and K'un. The mountain is the youngest son of the Creative, the representative of heaven and earth.</protasis> <apodosis wn_only="blessing.n.01, heaven.n.01, cloud.n.01, rain.n.01, summit.n.01, light.n.02, radiance.n.01">It dispenses the blessings of heaven, the clouds and rain that gather round its summit, and thereafter shines forth radiant with heavenly light.</apodosis> <apodosis wn_only="modesty.n.01, man.n.01">This shows what modesty is and how it functions in great and strong men.</apodosis> <protasis wn_only="earth.n.01, lowliness.n.01, quality.n.01">K'un, the earth, stands above. Lowliness is a quality of the earth:</protasis> <apodosis wn_only="reason.n.01, hexagram.n.01, exaltation.n.02">this is the very reason why it appears in this hexagram as exalted, by being placed above the mountain.</apodosis> <apodosis wn_only="modesty.n.01, people.n.01, simplicity.n.01">This shows how modesty functions in lowly, simple people: they are lifted up by it.</apodosis>
 
 THE JUDGMENT
