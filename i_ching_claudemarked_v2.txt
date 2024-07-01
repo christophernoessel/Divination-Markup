@@ -62,7 +62,7 @@ Nine in the fifth place means:
 
 <protasis wn_only="man.n.01, sphere.n.04, being.n.02">Here the great man has attained the sphere of the heavenly beings.</protasis>
 <apodosis wn_only="influence.n.01, world.n.01, visibility.n.01">His influence spreads and becomes visible throughout the whole world.</apodosis>
-<apodosis wn_only="blessing.n.01">Everyone who sees him may count himself blessed.</apodosis>
+<apodosis wn_only="blessing.n.01">Everyone who sees him may count himself blessed.</apodosis> Confucius says about this line:
 
 <protasis wn_only="tone.n.01, accord.n.01">Things that accord in tone vibrate together.</protasis>
 <protasis wn_only="affinity.n.01, nature.n.01">Things that have affinity in their inmost natures seek one another.</protasis>
