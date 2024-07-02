@@ -634,7 +634,7 @@ Six in the fourth place means:
 
 Nine in the fifth place means:
 
-<apodisis wn_only="coherencex.n.01">Manifestation of holding together.</apodosis>
+<apodosis wn_only="coherencex.n.01">Manifestation of holding together.</apodosis>
 <protasis wn_only="hunt.n.01, king.n.01, beater.n.01, side.n.01">In the hunt the king uses beaters on three sides only</protasis>
 <apodosis wn_only="game.n.01, front.n.01">And forgoes game that runs off in front.</apodosis>
 <apodosis wn_only="citizen.n.01, warning.n.01">The citizens need no warning.</apodosis>
@@ -679,9 +679,9 @@ THE LINES
 
 Nine at the beginning means:
 
-<protasis wn_only="correction.n.01">Return to the way</apodosis>.
-<protasis wn_only="blamelessness.n.01">How could there be blame in this?</apodosis>
-<protasis wn_only="fortune.n.03">Good fortune.</apodosis>
+<apodosis wn_only="correction.n.01">Return to the way</apodosis>.
+<apodosis wn_only="blamelessness.n.01">How could there be blame in this?</apodosis>
+<apodosis wn_only="fortune.n.03">Good fortune.</apodosis>
 
 <protasis wn_only="man.n.01, strength.n.01, nature.n.01">It lies in the nature of a strong man to press forward.</protasis> <apodosis wn_only="obstruction.n.01, encounter.n.01">In so doing he encounters obstructions.</apodosis> <apodosis wn_only="return.n.01, way.n.04, situation.n.01">Therefore he returns to the way suited to his situation, where he is free to advance or to retreat.</apodosis> <apodosis wn_only="nature.n.01, thing.n.01, fortune.n.01">In the nature of things this will bring good fortune, for it is wise and reasonable not to try to obtain anything by force.</apodosis>
 
@@ -1757,7 +1757,7 @@ Six in the second place means:
 
 Six in the third place means:
 
-<apodosis wn_only="extrication.n.01">He splits with them. <apodosis wn_only="blamelessness.n.01">No blame.</apodosis>
+<apodosis wn_only="extrication.n.01">He splits with them.</apodosis> <apodosis wn_only="blamelessness.n.01">No blame.</apodosis>
 
 <protasis wn_only="person.n.01, evil.n.01, environment.n.01, commitment.n.01, external.n.01, tie.n.01">An individual finds himself in an evil environment to which he is committed by external ties.</protasis> <apodosis wn_only="person.n.01, relationship.n.01, superior.n.01, man.n.01, stability.n.01, freedom.n.01, people.n.01">But he has an inner relationship with a superior man, and through this he attains the stability to free himself from the way of the inferior people around him.</apodosis> <apodosis wn_only="opposition.n.01, wrongdoing.n.01, blame.n.01">This brings him into opposition to them of course, but that is not wrong.</apodosis>
 
