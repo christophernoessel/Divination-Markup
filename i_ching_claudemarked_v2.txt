@@ -1863,7 +1863,11 @@ It will not be possible to attack again</apodosis>.
 <protasis wn_only="man.n.01, time.n.05, return.n.01">If a man misses the right time for return</protasis>, <apodosis wn_only="misfortune.n.01">he meets with misfortune</apodosis>. <apodosis wn_only="misfortune.n.01, cause.n.01, attitude.n.01, world.n.08">The misfortune has its inner cause in a wrong attitude toward the world</apodosis>. <apodosis wn_only="misfortune.n.01, result.n.01, attitude.n.01">The misfortune coming upon him for without results from this wrong attitude</apodosis>. <apodosis wn_only="obstinacy.n.01, judgment.n.01">What is pictured here is blind obstinacy and the judgment that is visited upon it</apodosis>.
 </token>
 
-<token id="wu_wang">
+<token id="wu_wang">25 <token_alt_name>Wu Wang</token_alt_name> / <token_alt_name>Innocence</token_alt_name> (<token_name>The Unexpected</token_name>)
+
+above CH'IEN THE CREATIVE, HEAVEN
+below CHêN THE AROUSING, THUNDER
+
 <protasis wn_only="trigram.n.01, heaven.n.01, high.n.01">Ch’ien, heaven is above</protasis>; <protasis wn_only="trigram.n.01, movement.n.01, low.n.01">Chên, movement, is below</protasis>. <protasis wn_only="trigram.n.01, influence.n.01, line.n.04, heaven.n.01">The lower trigram Chên is under the influence of the strong line it has received form above, from heaven</protasis>. <apodosis wn_only="movement.n.01, law.n.01, heaven.n.01, man.n.01, innocence.n.01, guile.n.01">When, in accord with this, movement follows the law of heaven, man is innocent and without guile</apodosis>. <apodosis wn_only="mind.n.01, nature.n.01, truth.n.01, reflection.n.01, design.n.01">His mind is natural and true, unshadowed by reflection or ulterior designs</apodosis>. <apodosis wn_only="purpose.n.01, truth.n.01, innocence.n.01, nature.n.01">For wherever conscious purpose is to be seen, there the truth and innocence of nature have been lost</apodosis>. <apodosis wn_only="nature.n.01, spirit.n.01, truth.n.01, degeneration.n.01">Nature that is not directed by the spirit is not true but degenerate nature</apodosis>. <protasis wn_only="idea.n.01, nature.n.01">Starting out with the idea of the natural</protasis>, <apodosis wn_only="thought.n.01, idea.n.01">the train of thought in part goes somewhat further and thus the hexagram includes also the idea of the fundamental or unexpected</apodosis>.
 
 THE JUDGMENT
@@ -1921,7 +1925,11 @@ Nine at the top means:
 <protasis wn_only="situation.n.01, time.n.05, progress.n.01, ripeness.n.02">When, in a given situation, the time is not ripe for further progress</protasis>, <apodosis wn_only="wait.n.01">the best thing to do is to wait quietly, without ulterior designs.</apodosis> <protasis wn_only="action.n.01, thoughtlessness.n.01, fate.n.01, opposition.n.01">If one acts thoughtlessly and tries to push ahead in opposition to fate</protasis>, <apodosis wn_only="success.n.01, achievement.n.01">success will not be achieved.</apodosis>
 </token>
 
-<token id="ta_chu">
+<token id="ta_chu">26 <token_alt_name>Ta Ch'u</token_alt_name> / <token_name>The Taming Power of the Great</token_name>
+
+above KêN KEEPING STILL, MOUNTAIN
+below CH'IEN THE CREATIVE, HEAVEN
+
 <protasis wn_only="creative.n.01, tame.v.01, immobility.n.01, mountain.n.01">The Creative is tamed by Kên, Keeping Still.</protasis> <apodosis wn_only="power.n.01, situation.n.01, contrast.n.01, hexagram.n.01">This produces great power, a situation in contrast to that of the ninth hexagram, Hsiao Ch'u, THE TAMING POWER OF THE SMALL,</apodosis> <protasis wn_only="creative.n.01, tame.v.01, gentleness.n.01">in which the Creative is tamed by the Gentle alone.</protasis> <protasis wn_only="line.n.01, strength.n.01, tame.v.01">There one weak line must tame five strong lines,</protasis> <protasis wn_only="line.n.01, strength.n.01, restraint.n.01, minister.n.01, prince.n.01">but here four strong lines are restrained by two weak lines; in addition to a minister, there is a prince,</protasis> <apodosis wn_only="restraint.n.01, power.n.01, strength.n.01">and the restraining power therefore is afar stronger.</apodosis> <protasis wn_only="hexagram.n.01, meaning.n.01, concept.n.01">The hexagram has a threefold meaning, expressing different aspects of the concept "Holding firm."</protasis> <protasis wn_only="heaven.n.01, mountain.n.01, idea.n.01, integrity.n.01">Heaven within the mountain gives the idea of holding firm in the sense of holding together;</protasis> <protasis wn_only="trigram.n.01, idea.n.01, restraint.n.01">the trigram Kên which holds the trigram ch'ien still, gives the idea of holding firm in the sense of holding back;</protasis> <protasis wn_only="idea.n.01, care.n.01, nourishment.n.01">the third idea is that of holding firm in the sense of caring for and nourishing.</protasis> <protasis wn_only="line.n.01, strength.n.01, ruler.n.01, hexagram.n.01, sage.n.01, honor.n.01">This last is suggested by the fact that a strong line at the top, which is the ruler of the hexagram, is honored and tended as a sage.</protasis> <apodosis wn_only="meaning.n.01, line.n.01, strength.n.01, sage.n.01">The third of these meanings also attaches specifically to this strong line at the top, which represents the sage.</apodosis>
 
 THE JUDGMENT
@@ -1986,7 +1994,11 @@ Six in the fifth place means:
 <protasis wn_only="time.n.05, obstruction.n.02">The time of obstruction is past.</protasis> <protasis wn_only="energy.n.01, dam.v.01, inhibition.n.01">The energy long dammed up by inhibition</protasis> <apodosis wn_only="way.n.04, success.n.01">forces its way out and achieves great success.</apodosis> <protasis wn_only="man.n.01, ruler.n.01, honor.n.01">This refers to a man who is honored by the ruler</protasis> <apodosis wn_only="principle.n.01, prevalence.n.01, world.n.08">and whose principles now prevail and shape the world.</apodosis>
 </token>
 
-<token id="i">
+<token id="i">27 <token_alt_name>I</token_alt_name> / <token_alt_name>Corners of the Mouth</token_alt_name> (<token_name>Providing Nourishment</token_name>)
+
+above KêN KEEPING STILL, MOUNTAIN
+below CHêN THE AROUSING, THUNDER
+
 <protasis wn_only="mouth.n.01, corner.n.03">Corners of the Mouth</protasis> (<apodosis wn_only="nourishment.n.01, provision.n.01">Providing Nourishment</apodosis>)
 
 above <protasis wn_only="immobility.n.01, mountain.n.01">KêN KEEPING STILL, MOUNTAIN</protasis>
@@ -2498,7 +2510,11 @@ Nine in the fifth place means:
 <protasis wn_only="situation.n.01">The situation is unequivocal</protasis>. <protasis wn_only="detachment.n.01, fact.n.01">Inner detachment has become an established fact</protasis>, and <apodosis wn_only="liberty.n.01, departure.n.01">we are at liberty to depart</apodosis>. <protasis wn_only="path.n.03, clarity.n.01">When one sees the way ahead thus clearly, free of all doubt</protasis>, <apodosis wn_only="mood.n.01, choice.n.01">a cheerful mood sets in, and one chooses what is right without further thought</apodosis>. <apodosis wn_only="path.n.03, good.n.01">Such a clear path ahead always leads to the good</apodosis>.
 </token>
 
-<token id="ta_chuang">
+<token id="ta_chuang">34 <token_alt_name>Ta Chuang</token_alt_name> / <token_name>The Power of the Great</token_name>
+
+above CHêN THE AROUSING, THUNDER
+below CH'IEN THE CREATIVE, HEAVEN
+
 <protasis wn_only="line.n.22, light.n.02, strength.n.01">The great lines, that is, the light, strong lines</protasis>, <apodosis wn_only="power.n.01">are powerful</apodosis>.
 
 <protasis wn_only="line.n.22, light.n.02, entrance.n.01, bottom.n.01">Four light lines have entered the hexagram from below</protasis> and <apodosis wn_only="ascent.n.05">are about to ascend higher</apodosis>.
@@ -2577,7 +2593,11 @@ Six in the fifth place means:
 <protasis wn_only="venture.n.03, deadlock.n.01">If we venture too far we come to a deadlock,</protasis> <apodosis wn_only="advance.n.01, retreat.n.01">unable either to advance or to retreat</apodosis> and <apodosis wn_only="action.n.01, complication.n.02">whatever we do merely serves to complicate thing further.</apodosis> <apodosis wn_only="obstinacy.n.01, difficulty.n.01">Such obstinacy leads to insuperable difficulties.</apodosis> But <protasis wn_only="realization.n.02, situation.n.01, composure.n.01, decision.n.01, continuation.n.02">if, realizing the situation, we compose ourselves and decide not to continue,</protasis> <apodosis wn_only="correction.n.01">everything will right itself in time.</apodosis>
 </token>
 
-<token id="chin">
+<token id="chin">35 <token_alt_name>Chin</token_alt_name> / <token_name>Progress</token_name>
+
+above LI THE CLINGING, FIRE
+below K'UN THE RECEPTIVE, EARTH
+
 <protasis wn_only="sun.n.01, ascent.n.02, earth.n.01">The hexagram represents the sun rising over the earth.</protasis> <apodosis wn_only="symbol.n.01, progress.n.01, ease.n.01, speed.n.01, expansion.n.04, clarity.n.01">It is therefore the symbol of rapid, easy progress, which at the same time means ever widening expansion and clarity.</apodosis>
 
 THE JUDGMENT
@@ -2649,7 +2669,11 @@ Only for the purpose of punishing one's own city.</protasis>
 <protasis wn_only="progress.n.01, horn.n.02, offense.n.01, time.n.05, mistake.n.01, people.n.01">Making progress with lowered horns-i.e., acting on the offensive-is permissible, in times like those referred to here, only in dealing with the mistakes of one's own people.</protasis> <apodosis wn_only="mind.n.01, offense.n.01, danger.n.01">Even then we must bear in mind that proceeding on the offensive may always be dangerous.</apodosis> <apodosis wn_only="avoidance.n.01, mistake.n.01, threat.n.01, success.n.01">In this way we avoid the mistakes that otherwise threaten, and succeed in what we set out to do.</apodosis> <apodosis wn_only="perseverance.n.01, behavior.n.01, person.n.01, connection.n.01, humiliation.n.01">On the other hand, perseverance in such over energetic behavior, especially toward persons with whom there is no close connection, will lead to humiliation.</apodosis>
 </token>
 
-<token id="ming_i">
+<token id="ming_i">36 <token_alt_name>Ming I</token_alt_name> / <token_name>Darkening of the light</token_name>
+
+above K'UN THE RECEPTIVE, EARTH
+below LI THE CLINGING, FIRE
+
 <protasis wn_only="sun.n.01, earth.n.01, sinking.n.01">Here the sun has sunk under the earth</protasis> and <apodosis wn_only="darkness.n.01">is therefore darkened</apodosis>. <protasis wn_only="hexagram.n.01, name.n.01, meaning.n.01, wounding.n.01, brightness.n.01">The name of the hexagram means literally "wounding of the bright"</protasis>; <apodosis wn_only="line.n.01, reference.n.01, wounding.n.01">hence the individual lines contain frequent references to wounding</apodosis>. <protasis wn_only="situation.n.01, opposition.n.04, hexagram.n.01">The situation is the exact opposite of that in the foregoing hexagram</protasis>. <protasis wn_only="hexagram.n.01, man.n.01, wisdom.n.01, head.n.01, affair.n.01, helper.n.01, ability.n.01, company.n.01, progress.n.01">In the latter a wise man at the head of affairs has able helpers, and in company with them makes progress</protasis>; <apodosis wn_only="man.n.01, darkness.n.01, nature.n.01, position.n.01, authority.n.01, harm.n.01, man.n.01, wisdom.n.01, ability.n.01">here a man of dark nature is in a position of authority and brings harm to the wise and able man</apodosis>.
 
 THE JUDGMENT
@@ -2729,7 +2753,11 @@ Six in the fifth place means:
 <protasis wn_only="darkness.n.01, power.n.01, place.n.01, good.n.01, light.n.01">Here the climax of the darkening is reached. The dark power at first held so high a place that it could wound all who were on the side of good and of the light.</protasis> <apodosis wn_only="evil.n.01, darkness.n.01, good.n.01, energy.n.01, duration.n.01">But in the end it perishes of its own darkness, for evil must itself fall at the very moment when it has wholly overcome the good, and thus consumed the energy to which it owed its duration.</apodosis>
 </token>
 
-<token id="chia_jen">
+<token id="chia_jen">37 <token_alt_name>Chia Jên</token_alt_name> / <token_alt_name>The Family</token_alt_name> [<token_name>The Clan</token_name>]
+
+above SUN THE GENTLE, WIND
+below LI THE CLINGING, FIRE
+
 <protasis wn_only="sun.n.01, wind.n.01">above SUN THE GENTLE, WIND</protasis>
 <protasis wn_only="lithium.n.01, fire.n.01">below LI THE CLINGING, FIRE</protasis>
 
@@ -2801,7 +2829,11 @@ Nine in the fifth place means:
 <apodosis wn_only="order.n.01, family.n.01, character.n.01, master_of_the_house.n.01">In the last analysis, order within the family depends on the character of the master of the house.</apodosis> <protasis wn_only="personality.n.01, truth.n.01">If he cultivates his personality so that it works impressively through the force of inner truth,</protasis> <apodosis wn_only="family.n.01">all goes well with the family.</apodosis> <apodosis wn_only="position.n.01, responsibility.n.01">In a ruling position one must of his own accord assume responsibility.</apodosis>
 </token>
 
-<token id="kuei">
+<token id="kuei">38 <token_alt_name>K'uei</token_alt_name> / <token_name>Opposition</token_name>
+
+above LI THE CLINGING, FLAME
+below TUI THE JOYOUS, LAKE
+
 <protasis wn_only="trigram.n.01, flame.n.01, lake.n.01">This hexagram is composed of the trigram Li above, i.e., flame, which burns upward, and Tui below, i.e., the lake, which seeps downward.</protasis> <apodosis wn_only="contrast.n.01, movement.n.03">These two movements are indirect contrast.</apodosis>
 
 <protasis wn_only="daughter.n.01, house.n.01">Furthermore, LI is the second daughter and Tui the youngest daughter, and although they live in the same house</protasis> <apodosis wn_only="man.n.01, will.n.02, direction.n.01">they belong to different men; hence their wills are not the same but are divergently directed.</apodosis>
@@ -2881,7 +2913,11 @@ He is not a robber;</protasis> <apodosis wn_only="woo.v.01, time.n.05">he will w
 <apodosis wn_only="isolation.n.01, misunderstanding.n.01, circumstance.n.01, condition.n.01">Here the isolation is due to misunderstanding; it is brought about not by outer circumstances but by inner conditions.</apodosis> <protasis wn_only="man.n.01, friend.n.01, pig.n.01, wagon.n.01, devil.n.01">A man misjudges his best friends, taking them to be as unclean as a dirty pig in and as dangerous as a wagon full of devils.</protasis> <apodosis wn_only="defense.n.01">He adopts an attitude of defense.</apodosis> <protasis wn_only="mistake.n.01, bow.n.04, union.n.03">But in the end, realizing his mistake, he lays aside the bow, perceiving that the other is approaching with the best intentions for the purpose of close union.</protasis> <apodosis wn_only="tension.n.01, relief.n.01, rain.n.01, sultriness.n.01, thunderstorm.n.01">Thus the tension is relieved. The union resolves the tension, just as falling rain relieves the sultriness preceding a thunderstorm.</apodosis> <apodosis wn_only="opposition.n.01, climax.n.01, change.n.01, antithesis.n.01">All goes well, for just when opposition reaches its climax it changes over to its antithesis.</apodosis>
 </token>
 
-<token id="chien2">
+<token id="chien2">39 <token_alt_name>Chien</token_alt_name> / <token_name>Obstruction</token_name>
+
+above K'AN THE ABYSMAL, WATER
+below KêN KEEPING STILL, MOUNTAIN
+
 <protasis wn_only="abyss.n.01, danger.n.01">The hexagram pictures a dangerous abyss lying before us</protasis> and <protasis wn_only="mountain.n.01, inaccessibility.n.01">a steep, inaccessible mountain rising behind us</protasis>. <apodosis wn_only="obstruction.n.01, surrounding.n.01">We are surrounded by obstacles</apodosis>; at the same time, since <protasis wn_only="mountain.n.01, stillness.n.01">the mountain has the attribute of keeping still</protasis>, <apodosis wn_only="hint.n.01, extrication.n.01">there is implicit a hint as to how we can extricate ourselves</apodosis>. <apodosis wn_only="hexagram.n.01, obstruction.n.01, overcoming.n.01">The hexagram represents obstructions that appear in the course of time but that can and should be overcome</apodosis>. Therefore <apodosis wn_only="instruction.n.01, direction.n.06, overcoming.n.01">all the instruction given is directed to overcoming them</apodosis>.
 
 THE JUDGMENT
@@ -2945,7 +2981,11 @@ Six at the top means:
 This refers to a man who has already left the world and its tumult behind him. When the time of obstructions arrives, it might seem that the simplest thing for him to do would be to turn his back upon the world and take refuge in the beyond. But this road is barred to him. He must not seek his own salvation and abandon the world to its adversity. Duty calls him back once more into the turmoil of life. Precisely because of his experience and inner freedom, he is able to create something both great and complete that brings good fortune. And it is favorable to see the great man in alliance with whom one can achieve the work of rescue.
 </token>
 
-<token id="hsieh">
+<token id="hsieh">40 <token_alt_name>Hsieh</token_alt_name> / <token_name>Deliverance</token_name>
+
+above CHêN THE AROUSING, THUNDER
+below K'AN THE ABYSMAL, WATER
+
 <protasis wn_only="movement.n.03, sphere.n.04, danger.n.01">Here the movement goes out of the sphere of danger.</protasis> <apodosis wn_only="obstacle.n.01, removal.n.01, difficulty.n.01, resolution.n.02">The obstacle has been removed, the difficulties are being resolved.</apodosis> <apodosis wn_only="rescue.n.01, achievement.n.01, beginning.n.01, hexagram.n.01, representation.n.02, stage.n.01">Deliverance is not yet achieved; it is just in its beginning, and the hexagram represents its various stages.</apodosis>
 
 THE JUDGMENT
@@ -3017,7 +3057,11 @@ Six in the fifth place means:
 <apodosis wn_only="hawk.n.01, wall.n.01, symbol.n.01, man.n.01, position.n.01, hindrance.n.01, delivery.n.01">The hawk on a high wall is the symbol of a powerful inferior in a high position who is hindering the deliverance</apodosis>. <apodosis wn_only="force.n.01, influence.n.01, wickedness.n.01">He withstands the force of inner influences, because he is hardened in his wickedness</apodosis>. <apodosis wn_only="removal.n.01, means.n.01">He must be forcibly removed, and this requires appropriate means</apodosis>.
 </token>
 
-<token id="sun">
+<token id="sun">41 <token_alt_name>Sun</token_alt_name> / <token_name>Decrease</token_name>
+
+above KêN KEEPING STILL, MOUNTAIN
+below TUI THE JOYOUS, LAKE
+
 <protasis wn_only="hexagram.n.01, trigram.n.01, decrease.n.01">This hexagram represents a decrease of the lower trigram in favor of the upper</protasis>, <apodosis wn_only="line.n.01, strength.n.01, movement.n.01, top.n.01, replacement.n.01">because the third line, originally strong, has moved up to the top, and the top line, originally weak, has replaced it</apodosis>. <apodosis wn_only="decrease.n.01, benefit.n.01">What is below is decreased to the benefit of what is above</apodosis>. <apodosis wn_only="decrease.n.01">This is out-and-out decrease</apodosis>. <protasis wn_only="foundation.n.01, building.n.01, decrease.n.01, strength.n.01, wall.n.01, strengthening.n.01">If the foundations of a building are decreased in strength and the upper walls are strengthened</protasis>, <apodosis wn_only="structure.n.01, stability.n.01, loss.n.01">the whole structure loves its stability</apodosis>. <apodosis wn_only="decrease.n.01, prosperity.n.01, people.n.01, government.n.01">Likewise, a decrease in the prosperity of the people in favor of the government is out-and-out decrease</apodosis>. <apodosis wn_only="theme.n.01, hexagram.n.01, direction.n.01, shift.n.01, wealth.n.01, source.n.01, failure.n.01">And the entire theme of the hexagram is directed to showing how this shift of wealth can take place without causing the sources of wealth can take place without causing the sources of wealth in the nation and its lower classes to fail</apodosis>.
 
 THE JUDGMENT
@@ -3102,7 +3146,11 @@ But no longer has a separate home</apodosis>.
 <protasis wn_only="people.n.01,blessing.n.01,world.n.08">There are people who dispense blessings to the whole world</protasis>. <apodosis wn_only="increase.n.01,power.n.01,benefit.n.01,world.n.08,mankind.n.01,decrease.n.01">Every increase in power that comes to them benefits the whole of mankind and therefore does not bring decrease to others</apodosis>. <apodosis wn_only="perseverance.n.01,work.n.01,man.n.01,success.n.03,helper.n.01">Through perseverance and zealous work a man wins success and finds helpers as they are needed</apodosis>. <apodosis wn_only="accomplishment.n.01,advantage.n.01,good.n.01,handiness.n.01">But what he accomplishes is not a limited private advantage; it is a public good and available to everyone</apodosis>.
 </token>
 
-<token id="i1">
+<token id="i1">42 <token_alt_name>I</token_alt_name> / <token_name>Increase</token_name>
+
+above SUN THE GENTLE, WIND
+below CHêN THE AROUSING, THUNDER
+
 <protasis wn_only="line.n.01, trigram.n.01, strength.n.01, position.n.01">The strong lowest line of the upper trigram has sunk down and taken its place under the lower trigram.</protasis> <apodosis wn_only="idea.n.01, increase.n.01, expression.n.02">This conception also expresses the fundamental idea on which the Book of Changes is based.</apodosis>
 
 <apodosis wn_only="rule.n.01, service.n.01">To rule truly is to serve.</apodosis>
@@ -3190,7 +3238,11 @@ Nine in the fifth place means:
 The superior man sets his person at rest before he moves; he composes his mind before he speaks; he makes his relations firm before he asks for something</protasis>. <apodosis wn_only="matter.n.01, security.n.01">By attending to these three matters, the superior man gains complete security</apodosis>. <protasis wn_only="brusqueness.n.01, movement.n.03, agitation.n.01, speech.n.01, relationship.n.01, request.n.01">But if a man is brusque in his movements, others will not cooperate. If he is agitated in his word, they awaken no echo in others. If he asks for something without having fist established relations, it will not be given to him</protasis>. <apodosis wn_only="harm.n.01">If no one is with him, those who would harm him draw near</apodosis>.
 </token>
 
-<token id="kuai">
+<token id="kuai">43 <token_alt_name>Kuai</token_alt_name> / <token_alt_name>Break-through</token_alt_name> (<token_name>Resoluteness</token_name>)
+
+above TUI THE JOYOUS, LAKE
+below CH'IEN THE CREATIVE, HEAVEN
+
 <protasis wn_only="hexagram.n.01, meaning.n.01, breakthrough.n.01, accumulation.n.01, tension.n.01, river.n.01, dike.n.01, cloudburst.n.01">This hexagram signifies on the one hand a break-through after a long accumulation of tension, as a swollen river breaks through its dikes, or in the manner of a cloudburst.</protasis> <apodosis wn_only="human.n.01, condition.n.01, person.n.01, influence.n.01, wane.n.01, action.n.01, change.n.01, breakthrough.n.01">On the other hand, applied to human conditions, it refers to the time when inferior people gradually begin to disappear. Their influence is on the wane; as a result of resolute action, a change in conditions occurs, a break-through.</apodosis> <apodosis wn_only="hexagram.n.01, calendar_month.n.01">The hexagram is linked with the third month [April-May].</apodosis>
 
 THE JUDGMENT
@@ -3269,7 +3321,11 @@ Nine in the fifth place means:
 <protasis wn_only="victory.n.01, achievement.n.01">Victory seems to have been achieved</protasis>. <protasis wn_only="remnant.n.01, evil.n.01, eradication.n.01, time.n.05">There remains merely a remnant of the evil resolutely to be eradicated as the time demands</protasis>. <apodosis wn_only="ease.n.01">Everything looks easy</apodosis>. <protasis wn_only="location.n.01">Just there, however</protasis>, <apodosis wn_only="danger.n.01">lies the danger</apodosis>. <protasis wn_only="guard.n.01">If we are not on guard</protasis>, <apodosis wn_only="evil.n.01, success.n.01, concealment.n.01">evil will succeed in escaping by means of concealment</apodosis>, and <protasis wn_only="eluding.n.01">when it has eluded us</protasis> <apodosis wn_only="misfortune.n.01, development.n.01, seed.n.01">new misfortunes will develop from the remaining seeds</apodosis>, for <apodosis wn_only="evil.n.01, death.n.01">evil does not die easily</apodosis>. <protasis wn_only="evil.n.01, character.n.01">So too in dealing with the evil in own's own character</protasis>, <apodosis wn_only="thoroughness.n.01">one must go to work with thoroughness</apodosis>. <protasis wn_only="carelessness.n.01, oversight.n.01">If out of carelessness anything were to be overlooked</protasis>, <apodosis wn_only="evil.n.01">new evil would arise from it</apodosis>.
 </token>
 
-<token id="kou">
+<token id="kou">44 <token_alt_name>Kou</token_alt_name> / <token_name>Coming to Meet</token_name>
+
+above CH'IEN THE CREATIVE, HEAVEN
+below SUN THE GENTLE, WIND
+
 <protasis wn_only="darkness.n.01, principle.n.01, elimination.n.01">This hexagram indicates a situation in which the principle of darkness, after having been eliminated</protasis>, <apodosis wn_only="furtiveness.n.01, unexpectedness.n.01, obtrusiveness.n.01, internality.n.01, lowness.n.01">furtively and unexpectedly obtrudes again from within and below</apodosis>. <protasis wn_only="femininity.n.01, principle.n.01, volition.n.01">Of its own accord the female principle</protasis> <apodosis wn_only="meeting.n.03, masculinity.n.01">comes to meet the male</apodosis>. <apodosis wn_only="unfavorableness.n.01, danger.n.01, situation.n.01">It is an unfavorable and dangerous situation</apodosis>, and <apodosis wn_only="understanding.n.01, prevention.n.01, possibility.n.01, consequence.n.01">we must understand and promptly prevent the possible consequences</apodosis>. <protasis wn_only="hexagram.n.01, linkage.n.01, month.n.01">The hexagram is linked with the fifth month [June-July]</protasis>, <apodosis wn_only="summer_solstice.n.01, darkness.n.01, principle.n.01, ascendancy.n.01">because at the summer solstice the principle of darkness gradually becomes ascendant again</apodosis>.
 
 THE JUDGMENT
@@ -3355,7 +3411,11 @@ Nine in the fifth place means:
 <protasis wn_only="man.n.01, withdrawal.n.01, world.n.08">When a man has withdrawn from the world,</protasis> <apodosis wn_only="tumult.n.02, unbearability.n.01">its tumult often becomes unbearable to him.</apodosis> <protasis wn_only="people.n.01, pride.n.01, aloofness.n.01, lowness.n.01">There are many people who in a noble pride hold themselves aloof from all that is low</protasis> and <apodosis wn_only="rebuff.n.01, meeting.n.01">rebuff it brusquely wherever it comes to meet them.</apodosis> <apodosis wn_only="reproach.n.01, pride.n.01, distance.n.01">Such persons are reproached for being proud and distant,</apodosis> but since <protasis wn_only="duty.n.01, world.n.08">active duties no longer hold them to the world,</protasis> <apodosis wn_only="importance.n.01">this does not greatly matter.</apodosis> <apodosis wn_only="knowledge.n.01, dislike.n.01, mass.n.01, composure.n.01">They know how to bear the dislike of the masses with composure.</apodosis>
 </token>
 
-<token id="tsui">
+<token id="tsui">45 <token_alt_name>Ts'ui</token_alt_name> / <token_alt_name>Gathering Together</token_alt_name> [<token_name>Massing</token_name>]
+
+above TUI THE JOYOUS, LAKE
+below K'UN THE RECEPTIVE, EARTH
+
 <protasis wn_only="lake.n.01, earth.n.04">above TUI THE JOYOUS, LAKE
 below K'UN THE RECEPTIVE, EARTH</protasis>
 
