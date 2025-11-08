@@ -1,0 +1,257 @@
+{
+  "motion": [
+    "motion.n.03",
+    "motion.n.06",
+    "motion.n.04"
+  ],
+  "movement": [
+    "movement.n.03"
+  ],
+  "doggedness": [
+    "doggedness.n.01"
+  ],
+  "duration": [
+    "duration.n.01",
+    "duration.n.02",
+    "duration.n.03"
+  ],
+  "continuity": [
+    "continuity.n.03"
+  ],
+  "perseverance": [
+    "perseverance.n.02"
+  ],
+  "creation": [
+    "creation.n.02",
+    "creation.n.01"
+  ],
+  "emergence": [
+    "emergence.n.01"
+  ],
+  "improvement": [
+    "improvement.n.01",
+    "improvement.n.03"
+  ],
+  "amelioration": [
+    "amelioration.n.01"
+  ],
+  "ruler": [
+    "ruler.n.01"
+  ],
+  "creativity": [
+    "creativity.n.01"
+  ],
+  "power": [
+    "power.n.01"
+  ],
+  "sage": [
+    "sage.n.01"
+  ],
+  "leader": [
+    "leader.n.01"
+  ],
+  "initiation": [
+    "initiation.n.02"
+  ],
+  "victory": [
+    "victory.n.01"
+  ],
+  "accomplishment": [
+    "accomplishment.n.01"
+  ],
+  "success": [
+    "success.n.03",
+    "success.n.02",
+    "success.n.01"
+  ],
+  "fulfillment": [
+    "fulfillment.n.02",
+    "fulfillment.n.01"
+  ],
+  "promotion": [
+    "promotion.n.03"
+  ],
+  "progress": [
+    "progress.n.02",
+    "progress.n.03"
+  ],
+  "advancement": [
+    "advancement.n.03"
+  ],
+  "triumph": [
+    "triumph.n.02"
+  ],
+  "virtue": [
+    "virtue.n.01",
+    "virtue.n.04"
+  ],
+  "goal": [
+    "goal.n.01"
+  ],
+  "rightness": [
+    "rightness.n.01"
+  ],
+  "appropriateness": [
+    "appropriateness.n.01"
+  ],
+  "desire": [
+    "desire.n.01"
+  ],
+  "footing": [
+    "footing.n.02"
+  ],
+  "foundation": [
+    "foundation.n.01"
+  ],
+  "happiness": [
+    "happiness.n.01"
+  ],
+  "basis": [
+    "basis.n.02"
+  ],
+  "head": [
+    "head.n.01",
+    "head.n.07"
+  ],
+  "origin": [
+    "origin.n.05"
+  ],
+  "mind": [
+    "mind.n.01"
+  ],
+  "beginning": [
+    "beginning.n.04"
+  ],
+  "greatness": [
+    "greatness.n.01"
+  ],
+  "idea": [
+    "idea.n.01"
+  ],
+  "concept": [
+    "concept.n.01"
+  ],
+  "materialization": [
+    "materialization.n.02"
+  ],
+  "achiever": [
+    "achiever.n.01"
+  ],
+  "way": [
+    "way.n.05"
+  ],
+  "tao": [
+    "tao.n.02"
+  ],
+  "measure": [
+    "measure.n.01"
+  ],
+  "kernel": [
+    "kernel.n.03"
+  ],
+  "aptness": [
+    "aptness.n.02"
+  ],
+  "harmony": [
+    "harmony.n.03"
+  ],
+  "peace": [
+    "peace.n.03",
+    "peace.n.01"
+  ],
+  "security": [
+    "security.n.03",
+    "security.n.01"
+  ],
+  "orderliness": [
+    "orderliness.n.02"
+  ],
+  "deification": [
+    "deification.n.03"
+  ],
+  "love": [
+    "love.n.01"
+  ],
+  "ethic": [
+    "ethic.n.02",
+    "ethic.n.01"
+  ],
+  "justice": [
+    "justice.n.01"
+  ],
+  "wisdom": [
+    "wisdom.n.04",
+    "wisdom.n.01"
+  ],
+  "strength": [
+    "strength.n.01"
+  ],
+  "lastingness": [
+    "lastingness.n.01"
+  ],
+  "endurance": [
+    "endurance.n.01"
+  ],
+  "change": [
+    "change.n.01"
+  ],
+  "eden": [
+    "eden.n.01"
+  ],
+  "time": [
+    "time.n.01"
+  ],
+  "precession": [
+    "precession.n.02"
+  ],
+  "day": [
+    "day.n.01"
+  ],
+  "survival": [
+    "survival.n.01"
+  ],
+  "influence": [
+    "influence.n.01"
+  ],
+  "mindfulness": [
+    "mindfulness.n.01"
+  ],
+  "resistance": [
+    "resistance.n.01"
+  ],
+  "morality": [
+    "morality.n.01"
+  ],
+  "discretion": [
+    "discretion.n.05",
+    "discretion.n.02",
+    "discretion.n.01"
+  ],
+  "inaction": [
+    "inaction.n.01"
+  ],
+  "anonymity": [
+    "anonymity.n.01"
+  ],
+  "genuineness": [
+    "genuineness.n.01"
+  ],
+  "patience": [
+    "patience.n.01"
+  ],
+  "judgment": [
+    "judgment.n.06"
+  ],
+  "backbone": [
+    "backbone.n.02"
+  ],
+  "shrewdness": [
+    "shrewdness.n.01"
+  ],
+  "assurance": [
+    "assurance.n.01"
+  ],
+  "focus": [
+    "focus.n.01"
+  ]
+}

@@ -1,9 +1,9 @@
 # CUSTOM CODE
 from file_functions             import *
-from divmarkup_ask_chatgpt      import *
+from divmarkup_ask_claude       import *
 from divmarkup_text_functions   import *
-from divmarkup_wordnet_fuctions import *
-from divmarkup_markup_fuctions  import *
+from divmarkup_wordnet_functions import *
+from divmarkup_markup_functions  import *
 ## from divmarkup_context_window   import *
 
 # UTILITIES
@@ -42,10 +42,10 @@ def main():
     # get the file to with the text to markup
     print("Please select the file to markup.")
     file_path = select_file() #select a divinatory txt file
-    print(f"opening {file_path}")
+    print(f"\n\n opening {file_path} \n\n")
 
     #file_path = "/Users/christophernoessel/Documents/divination xml/universal_divtext_markup.py/marked_up_i_ching.txt"
-    ask_chatgpt = AskChatGPT() # this manages conversations with chatGPT
+    ask_claude = AskClaude() # this manages conversations with Claude
     markup_manager = MarkupManager(file_path) # this holds the text we’ll be parsing
 
     # Where to start?
@@ -88,7 +88,7 @@ def main():
 
     print(f"starting at {start_at}")
 
-    # ==================== CHATGPT SUGGESTING APODOSIS
+    # ==================== CLAUDE SUGGESTING APODOSIS
 
     for x in range(start_at, number_of_sentences):
         phase_marker('apodosis')
@@ -108,7 +108,7 @@ def main():
         
         finalized_apososis_selection = False
         parse_this_apodosis = False
-        modification_prompt = "\n    [RETURN]:proceed, k:skip, [slice:notation]:substring, askgpt: chatGPT’s suggestion, w:write file"
+        modification_prompt = "\n    [RETURN]:proceed, k:skip, [slice:notation]:substring, c: Claude’s suggestion, w:write file"
 
         while (finalized_apososis_selection == False):
             # displaying the sentence with the suggested apodosis in uppercase for easy human parsing
@@ -140,23 +140,23 @@ def main():
             elif modify_input == 'exit':
                 break
 
-            elif modify_input == 'askgpt': # this is opt-in since the efficacy is middling and the environmental costs high
-                # Get chatGPT’s suggestion
-                response_json = ask_chatgpt.recommend_apodosis(sentence['text'])
+            elif modify_input == 'c': # this is opt-in since the efficacy is middling and the environmental costs high
+                # Get Claude’s suggestion
+                response_json = ask_claude.recommend_apodosis(sentence['text'])
                 print(f"response_json: '{response_json}'")
                 
-                if response_json == ask_chatgpt.no_gpt_error_message(): # NO chatgpt because error or no auth code or offline
-                    print('chatGPT isn’t working, you’ll need to input the phrase or use slice notation for manual selection.')
+                if response_json == ask_claude.no_gpt_error_message(): # NO Claude because error or no auth code or offline
+                    print('Claude isn’t working, you’ll need to input the phrase or use slice notation for manual selection.')
                     
                 else: # There 
                     full_sentence      = response_json["full"] # things get weird if the response doesn't match input
                     if full_sentence  != sentence['text']:
-                        print(f"chatGPT returned {full_sentence} for {sentence}, and that ain’t right. Not sure what to do.")
+                        print(f"Claude returned {full_sentence} for {sentence}, and that ain’t right. Not sure what to do.")
                         
                     else:            
                         print(f"\nGiven the sentence: {full_sentence}. ", end='')
                         suggested_apodosis = response_json["apodosis"] #variable names, e.g. “apodosis" are specified in the pre_prompt
-                        print(f"chatGPT thinks the apodosis is: {suggested_apodosis}")
+                        print(f"Claude thinks the apodosis is: {suggested_apodosis}")
                         selection_length    = len(suggested_apodosis)
                         selection_start     = full_sentence.find(suggested_apodosis)
                     
@@ -194,7 +194,7 @@ def main():
             show_list = True # reset it for next time because it should be the default
             modify_selected_synsets = input(synset_prompt) # prompt
             
-            result = selected_synset_manager.process_input(modify_selected_synsets, ask_chatgpt, confirmed_apodosis) # SOLICIT INPUT
+            result = selected_synset_manager.process_input(modify_selected_synsets, ask_claude, confirmed_apodosis) # SOLICIT INPUT
             
             match result:
                 case 'no_update':
@@ -214,6 +214,8 @@ def main():
 
                     markup_manager.set_sentence_text(x, new_sentence)
                     markup_manager.autosave() # yes, every sentence
+
+
                     break
 
                 case _:
