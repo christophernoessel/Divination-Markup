@@ -328,7 +328,7 @@ class selectedSynsetManager:
         return self.wordnet_data
 
     def get_synset_modification_prompt(self):
-        return "[ENTER]:OK. -|+:(de)select number/range, ?:lookup, s:synonyms, &|x: add/delete word+synsets, /:toggle deselected, g: ask Claude \n\n"
+        return "[ENTER]:OK. -|+:(de)select number/range, ?:lookup, s:synonyms, &|x: add/delete word+synsets, /:toggle deselected, c: ask Claude \n\n"
 
     def get_synset_by_display_number(self, display_number): # user-supplied controls
         #print(f"display_number: {display_number}, display_number in self.display_number_to_synset: {display_number in self.display_number_to_synset}, self.display_number_to_synset: {self.display_number_to_synset}")
