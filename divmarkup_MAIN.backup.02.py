@@ -28,24 +28,6 @@ def phase_marker(phase_name):
 
     print_word_with_emoji(phase_name, lead_char)
 
-def get_unmarked_portion(sentence_text):
-    """
-    Returns only the portion of text after the last </apodosis> tag.
-    If no tags exist, returns the full text.
-    """
-    last_close_tag = sentence_text.rfind('</apodosis>')
-    if last_close_tag == -1:
-        return sentence_text
-    return sentence_text[last_close_tag + len('</apodosis>'):]
-
-def has_meaningful_content(text):
-    """
-    Returns True if text contains anything other than whitespace and punctuation.
-    """
-    # Remove all whitespace and common punctuation
-    cleaned = re.sub(r'[\s.,;:!?\'"]+', '', text)
-    return len(cleaned) > 0
-
 def main():
     # ==================== START
     now = datetime.now()
@@ -118,14 +100,9 @@ def main():
             # ==================== CLAUDE SUGGESTING APODOSIS
             phase_marker('apodosis')
             
-            # Get the latest version of the sentence and only show unmarked portion
+            # Get the latest version of the sentence (may have markup from previous iterations)
             full_sentence = markup_manager.get_sentence(x)['text']
-            unmarked_portion = get_unmarked_portion(full_sentence)
-            
-            # Calculate offset for selection indices (they need to work on full_sentence)
-            markup_offset = len(full_sentence) - len(unmarked_portion)
-            
-            selection_start = selection_end = markup_offset  # Start selections after any existing markup
+            selection_start = selection_end = 0
             
             # ==================== PROMPT/OPPORTUNITY TO MODIFY THE SELECTION
             # In the future this might get moved to something like ApodosisSelectionManager()
@@ -135,15 +112,12 @@ def main():
             modification_prompt = "\n    [RETURN]:proceed, k:skip, [slice:notation]:substring, c: Claude's suggestion, w:write file"
 
             while (finalized_apososis_selection == False):
-                # displaying ONLY the unmarked portion with suggested apodosis highlighted
-                # Calculate indices relative to unmarked_portion for display
-                display_start = selection_start - markup_offset
-                display_end = selection_end - markup_offset
-                
-                pre_apodosis = unmarked_portion[:display_start].lower()
-                apodosis_uppered = unmarked_portion[display_start:display_end].upper()
-                post_apodosis = unmarked_portion[display_end:].lower()
-                sentence_with_capitalized_apodosis = pre_apodosis + apodosis_uppered + post_apodosis
+                # displaying the sentence with the suggested apodosis in uppercase for easy human parsing
+                pre_apodosis        = full_sentence[:selection_start].lower()
+                apodosis_as_indexed = full_sentence[selection_start:selection_end]
+                apodosis_uppered    = apodosis_as_indexed.upper()
+                post_apodosis       = full_sentence[selection_end:].lower()
+                sentence_with_capitalized_apodosis = pre_apodosis +apodosis_uppered +post_apodosis
                 
                 print(f" ==================== Confirm: {sentence_with_capitalized_apodosis}\n")
 
@@ -171,37 +145,33 @@ def main():
                     break
 
                 elif modify_input == 'c': # this is opt-in since the efficacy is middling and the environmental costs high
-                    # Get Claude's suggestion on UNMARKED portion only
-                    response_json = ask_claude.recommend_apodosis(unmarked_portion)
+                    # Get Claude's suggestion
+                    response_json = ask_claude.recommend_apodosis(sentence['text'])
                     print(f"response_json: '{response_json}'")
                     
                     if response_json == ask_claude.no_gpt_error_message(): # NO Claude because error or no auth code or offline
                         print('Claude isn’t working, you’ll need to input the phrase or use slice notation for manual selection.')
                         
                     else: # There 
-                        # Work with unmarked portion, then adjust indices for full sentence
-                        suggested_apodosis = response_json["apodosis"]
-                        print(f"\nGiven the sentence: {unmarked_portion}. ", end='')
-                        print(f"Claude thinks the apodosis is: {suggested_apodosis}")
-                        
-                        # Find in unmarked portion, then offset for full sentence
-                        local_start = unmarked_portion.find(suggested_apodosis)
-                        if local_start != -1:
-                            selection_start = local_start + markup_offset
-                            selection_end = selection_start + len(suggested_apodosis)
-                        else:
-                            print(f"Warning: Could not find suggested apodosis in unmarked portion")
+                        full_sentence      = response_json["full"] # things get weird if the response doesn't match input
+                        if full_sentence  != sentence['text']:
+                            print(f"Claude returned {full_sentence} for {sentence}, and that ain't right. Not sure what to do.")
+                            
+                        else:            
+                            print(f"\nGiven the sentence: {full_sentence}. ", end='')
+                            suggested_apodosis = response_json["apodosis"] #variable names, e.g. "apodosis" are specified in the pre_prompt
+                            print(f"Claude thinks the apodosis is: {suggested_apodosis}")
+                            selection_length    = len(suggested_apodosis)
+                            selection_start     = full_sentence.find(suggested_apodosis)
                         
                 else:
-                    # User is working with the unmarked portion display, adjust indices
-                    result_integer, result_string = slice_string_per_content(unmarked_portion, modify_input)
+                    result_integer, result_string = slice_string_per_content(full_sentence, modify_input)
                     match result_integer:
                         case -1: # error, prompted to try again
                             pass
                         case _: # user entered something and we have to make sure it looks correct
-                            # Offset the selection to account for hidden markup
-                            selection_start = result_integer + markup_offset
-                            selection_end = selection_start + len(result_string)
+                            selection_start = result_integer
+                            selection_end   = result_integer +len(result_string)
 
             if (parse_this_apodosis == False): 
                 continue  # Go to next sentence
@@ -253,14 +223,17 @@ def main():
                         # ==================== CHECK FOR REMAINING TEXT IN SENTENCE
                         # Get the updated sentence after markup
                         full_sentence = markup_manager.get_sentence(x)['text']
-                        unmarked_portion = get_unmarked_portion(full_sentence)
+                        remaining_text = full_sentence[selection_end:].strip()
                         
-                        if has_meaningful_content(unmarked_portion):
-                            print(f"\n⚠️  Remaining: {unmarked_portion}\n")
+                        # Remove trailing punctuation to see if there's actual content left
+                        remaining_text_clean = remaining_text.rstrip('.,;:!?\'"')
+                        
+                        if remaining_text_clean:
+                            print(f"\n⚠️  {remaining_text}\n")
                             # Stay in the sentence loop, go back to apodosis selection
                             continue_with_sentence = True
                         else:
-                            # Only whitespace/punctuation remains, move to next sentence
+                            # No remaining text, move to next sentence
                             continue_with_sentence = False
 
                         break  # Exit the synset selection loop
