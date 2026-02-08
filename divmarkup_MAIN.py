@@ -132,6 +132,7 @@ def main():
             
             finalized_apososis_selection = False
             parse_this_apodosis = False
+            pre_add_terms = []  # Terms to pre-add when transitioning to sense phase
             modification_prompt = "\n    [RETURN]:proceed, k:skip, [slice:notation]:substring, c: Claude's suggestion, w:write file"
 
             while (finalized_apososis_selection == False):
@@ -191,6 +192,29 @@ def main():
                             selection_end = selection_start + len(suggested_apodosis)
                         else:
                             print(f"Warning: Could not find suggested apodosis in unmarked portion")
+
+                elif len(modify_input) > 1 and modify_input[0] in ['&', '+']:
+                    # Check if the arguments are words (not numbers/slice notation)
+                    raw_args = modify_input[1:].replace(',', ' ').split()
+                    has_word_args = any(not arg.strip().isdigit() for arg in raw_args)
+                    if has_word_args:
+                        if selection_start == selection_end:
+                            print("No apodosis selected yet. Use slice notation to select one first, then add terms.")
+                        else:
+                            pre_add_terms = [arg.strip() for arg in raw_args if arg.strip()]
+                            print(f'Auto-accepting apodosis and pre-adding terms: {pre_add_terms}')
+                            finalized_apososis_selection = True
+                            parse_this_apodosis = True
+                            break
+                    else:
+                        # Numeric args during apodosis phase - treat as slice notation
+                        result_integer, result_string = slice_string_per_content(unmarked_portion, modify_input)
+                        match result_integer:
+                            case -1:
+                                pass
+                            case _:
+                                selection_start = result_integer + markup_offset
+                                selection_end = selection_start + len(result_string)
                         
                 else:
                     # User is working with the unmarked portion display, adjust indices
@@ -219,7 +243,15 @@ def main():
             selected_synset_manager = selectedSynsetManager() # a class in divmarkup_wordnet_functions that holds and handles the selection of synsets
             synset_prompt = selected_synset_manager.get_synset_modification_prompt() # instructions for the user
 
-            show_list = False
+            # Pre-add any terms carried over from the apodosis phase
+            if pre_add_terms:
+                for term in pre_add_terms:
+                    print(f"…pre-adding '{term}'")
+                    selected_synset_manager.add_word_with_synsets(term)
+                pre_add_terms = []  # Clear after use
+                show_list = True  # Show the pre-added terms immediately
+            else:
+                show_list = False
 
             while True:
                 print(f"{sentence_with_capitalized_apodosis}") #defined above in apodosis selection

@@ -271,7 +271,7 @@ class selectedSynsetManager:
 
     def check_spelling(self, word):
         results = wn.synsets(word)
-        if len(results) > 1:
+        if len(results) > 0:
             return word
         else:
             alt_word = spell.correction(word)
@@ -328,7 +328,7 @@ class selectedSynsetManager:
         return self.wordnet_data
 
     def get_synset_modification_prompt(self):
-        return "[ENTER]:OK. -|+:(de)select number/range, ?:lookup, s:synonyms, &|x: add/delete word+synsets, /:toggle deselected, c: ask Claude \n\n"
+        return "[ENTER]:OK. +/-:(de)select number/range/word, ?:lookup, s:synonyms, &|x: add/delete word+synsets, /:toggle deselected, c: ask Claude \n\n"
 
     def get_synset_by_display_number(self, display_number): # user-supplied controls
         #print(f"display_number: {display_number}, display_number in self.display_number_to_synset: {display_number in self.display_number_to_synset}, self.display_number_to_synset: {self.display_number_to_synset}")
@@ -387,7 +387,9 @@ class selectedSynsetManager:
 
                 # Combine both quoted and non-quoted parts
                 control_list = quoted_strings + non_quoted_parts
-        
+
+            # Multi-operator parsing handles +/- with mixed word and number args below.
+
             match control_character:
                 case '': # Looks good as is, move on
                     if len(self.get_selected_synset_ids()) == 0:
@@ -414,66 +416,46 @@ class selectedSynsetManager:
                     print('Ran delete_word…')
                     return
 
-                case '+' | '-': # select or deselect
-                    #print("I see you wish to +- something")
-                    synset_list = []
+                case '+' | '-': # select/deselect, add/delete — supports mixed operators
+                    # Parse the full input into operator groups
+                    # e.g. "+ 1 3:5 - 7 + term1 - term3"
+                    # → [('+', ['1', '3:5']), ('-', ['7']), ('+', ['term1']), ('-', ['term3'])]
+                    groups = self._parse_operator_groups(input_string)
                     
-                    for each_string in control_list: #Convert the strings to a list of synsets in the object
+                    for op, args in groups:
+                        # Classify args as words vs numeric
+                        word_args = []
+                        numeric_args = []
+                        for arg in args:
+                            stripped = arg.strip()
+                            is_keyword = stripped.lower() == 'all'
+                            is_pure_number = stripped.isdigit()
+                            is_numeric_range = bool(re.match(r'^\d+[–—:…]\d+$', stripped))
+                            if is_keyword or is_pure_number or is_numeric_range:
+                                numeric_args.append(stripped)
+                            else:
+                                word_args.append(stripped)
                         
-                        range_characters = ['-', '–', '—', ':', '…']
-                        dash_char = '-'
-                        is_range = any(character in each_string for character in range_characters) # does the string contain one of range_characters?
+                        # Handle word args: + → add word, - → delete word
+                        if word_args:
+                            if op == '+':
+                                for word in word_args:
+                                    print(f"…adding '{word}'")
+                                    self.add_word_with_synsets(word)
+                            else:  # op == '-'
+                                for word in word_args:
+                                    result = self.delete_word(word)
+                                    if result == 'word not found':
+                                        print(f'{word} not found…')
+                                    else:
+                                        print(f"…removed '{word}'")
                         
-                        if each_string.strip() == 'all': # a keyword that affects all synsets. Very powerful without undo.
-                            all_synsets = []
-                            for word, synsets in self.wordnet_data.items():
-                                for synset in synsets.keys():
-                                    synset_list.append(safe_wn_synset(synset))
-
-                        elif not is_range:  # not a range, the simple case 
-                            as_int = int(each_string)
-                            result_object = self.get_synset_by_display_number(as_int)
-                            if isinstance(result_object, Synset): # then it’s a synset
-                                synset_list.append(result_object)
-                                
-                        elif is_range:    # user has indicated a range
-                            display_string = each_string # making a copy because we are modifying it
-                            for char in range_characters:
-                                display_string = display_string.replace(char, dash_char) # simplifying for split
-
-                            endcap_list = display_string.split(dash_char)
-
-                            # TO DO This should account for slice syntax, e.g. 3: and :3
-                            if len(endcap_list) != 2: # typo of some sort
-                                print(f"endcap_list: {endcap_list}")
-                                print("When specifying a range, have one number to the left and one to the right of the range character. No changes have been made.")
-                                return
-
-                            synset_endcap_integer_list = []
-                            
-                            for each_number_string in endcap_list: # only 2, but we need to check each
-                                # print(f"each_number_string: {each_number_string}")
-                                as_int = int(each_number_string)
-                                if isinstance(as_int, int):
-                                    synset_endcap_integer_list.append(as_int)
-                                else:
-                                    print(f"One of the endcaps you provided in a range, '{each_number_string}', is not an int. Not executing.")
-                                    return
-
-                            if synset_endcap_integer_list[0] >= synset_endcap_integer_list[1]:
-                                print(f"The endcaps in '{each_string}' are not ascending, so probably an error? Not executing.")
-                                return
-                            
-                            for x in range(synset_endcap_integer_list[0], (synset_endcap_integer_list[1]) +1):
-                                # print(f"adding synset number {x}…")
-                                result_object = self.get_synset_by_display_number(x)
-                                if isinstance(result_object, Synset):
-                                    synset_list.append(result_object)
-
-                    status_to_set = True if control_character == '+' else False
-                    for each_synset in synset_list:
-                        #print(f"setting {each_synset} to {status_to_set}.")
-                        self.set_synset_selection(each_synset.name(), status_to_set)
+                        # Handle numeric args: select/deselect synsets by display number
+                        if numeric_args:
+                            synset_list = self._resolve_synsets_from_numeric_args(numeric_args)
+                            status_to_set = True if op == '+' else False
+                            for each_synset in synset_list:
+                                self.set_synset_selection(each_synset.name(), status_to_set)
                     
                 case '?': # lookup (word or synsetID)
                     print(f"Looking up {control_list}…")
@@ -518,6 +500,105 @@ class selectedSynsetManager:
                     print('I did not recognize this input.')
                     return self.no_update()   
                 
+    def _parse_operator_groups(self, input_string):
+        """Parse input like '+ 1 3:5 - 7 + term1 - term3' into operator groups.
+        Returns list of (operator, [args]) tuples.
+        Handles quoted strings as single args."""
+        groups = []
+        current_op = None
+        current_args = []
+        
+        # Tokenize respecting quoted strings
+        # First, replace quoted strings with placeholders
+        quoted = re.findall(r'"([^"]*)"', input_string)
+        temp = re.sub(r'"[^"]*"', '\x00QUOTED\x00', input_string)
+        tokens = temp.replace(',', ' ').split()
+        
+        # Restore quoted strings
+        quote_idx = 0
+        for i, token in enumerate(tokens):
+            if '\x00QUOTED\x00' in token:
+                tokens[i] = quoted[quote_idx]
+                quote_idx += 1
+        
+        for token in tokens:
+            if token in ['+', '-']:
+                # Save previous group if any
+                if current_op is not None and current_args:
+                    groups.append((current_op, current_args))
+                current_op = token
+                current_args = []
+            elif current_op is None:
+                # First token is the operator character (e.g., "+3" → op='+', arg='3')
+                if token[0] in ['+', '-']:
+                    current_op = token[0]
+                    if len(token) > 1:
+                        current_args.append(token[1:])
+                else:
+                    current_op = '+'  # default
+                    current_args.append(token)
+            else:
+                current_args.append(token)
+        
+        # Don't forget the last group
+        if current_op is not None and current_args:
+            groups.append((current_op, current_args))
+        
+        return groups
+
+    def _resolve_synsets_from_numeric_args(self, numeric_args):
+        """Given a list of numeric strings and ranges, resolve to synset objects.
+        Range characters: – — : … (not -, which is now reserved as an operator)."""
+        range_characters = ['–', '—', ':', '…']
+        normalize_char = ':'
+        synset_list = []
+        
+        for each_string in numeric_args:
+            is_range = any(ch in each_string for ch in range_characters)
+            
+            if each_string.strip().lower() == 'all':
+                for word, synsets in self.wordnet_data.items():
+                    for synset in synsets.keys():
+                        synset_list.append(safe_wn_synset(synset))
+            
+            elif not is_range:  # simple number
+                try:
+                    as_int = int(each_string)
+                    result_object = self.get_synset_by_display_number(as_int)
+                    if isinstance(result_object, Synset):
+                        synset_list.append(result_object)
+                except ValueError:
+                    print(f"'{each_string}' is not a valid number.")
+            
+            else:  # range like 3:7 or 3…7
+                display_string = each_string
+                for char in range_characters:
+                    display_string = display_string.replace(char, normalize_char)
+                
+                endcap_list = display_string.split(normalize_char)
+                
+                if len(endcap_list) != 2:
+                    print(f"Range '{each_string}' is malformed. Use one separator between two numbers.")
+                    continue
+                
+                try:
+                    start_int = int(endcap_list[0])
+                    end_int = int(endcap_list[1])
+                except ValueError:
+                    print(f"Range '{each_string}' contains non-numeric endcaps. Skipping.")
+                    continue
+                
+                if start_int >= end_int:
+                    print(f"The endcaps in '{each_string}' are not ascending. Skipping.")
+                    continue
+                
+                for x in range(start_int, end_int + 1):
+                    result_object = self.get_synset_by_display_number(x)
+                    if isinstance(result_object, Synset):
+                        synset_list.append(result_object)
+        
+        return synset_list
+
     def _save_current_selections_to_memory(self):
         """Save currently selected synsets to memory, grouped by lemma."""
         selected_ids = self.get_selected_synset_ids().split(', ')
