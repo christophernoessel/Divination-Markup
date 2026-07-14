@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Divmarkup</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,400;7..72,500;7..72,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-phase="browse">
+
+<header>
+  <div class="wordmark">Divmarkup</div>
+  <div class="filemeta"><b id="filename">…</b> · sentence <b id="pos">–</b> of <span id="total">–</span></div>
+  <div class="spacer"></div>
+  <label class="claude-toggle" id="claude-toggle-label" title="When on, ⇧C asks Claude to suggest a span or senses. Off by default.">
+    <input type="checkbox" id="claude-toggle"> ✳ Claude assists
+  </label>
+  <button id="write-btn" title="Write a dated copy of the file (⇧W)">Write file</button>
+</header>
+
+<div id="strip-wrap">
+  <canvas id="strip" height="34"></canvas>
+  <div id="strip-label"></div>
+</div>
+
+<div id="modebar">
+  <span class="step" id="mode-step"></span>
+  <span class="what" id="mode-what"></span>
+  <span class="next" id="mode-next"></span>
+</div>
+
+<main>
+  <section id="reading" aria-label="Text being annotated">
+    <div id="ctx-before"></div>
+    <div id="sent-status"></div>
+    <div id="current" tabindex="0"></div>
+    <div id="sentence-hint"></div>
+    <div id="chips"></div>
+    <div id="ctx-after"></div>
+  </section>
+
+  <aside id="senses-pane" aria-label="WordNet senses">
+    <div id="senses-head">
+      <h2>Senses</h2>
+      <div id="span-echo"></div>
+      <div id="governance"></div>
+    </div>
+    <div id="suggestions"></div>
+    <div id="committed"></div>
+    <div id="senses-list"></div>
+    <div id="senses-foot">
+      <input id="addword" placeholder="add word…  ( / )" autocomplete="off" spellcheck="false">
+      <button id="commit-btn" disabled title="Tag this span with the selected senses (Enter)">Commit</button>
+    </div>
+  </aside>
+</main>
+
+<footer>
+  <div class="keys">
+    <span><kbd>type</kbd> find span</span>
+    <span><kbd>:</kbd> to-end mode</span>
+    <span><kbd>drag</kbd> select</span>
+    <span><kbd>Tab</kbd> cycle · ghost</span>
+    <span><kbd>Enter</kbd> select · commit</span>
+    <span><kbd>1–9</kbd> toggle sense</span>
+    <span><kbd>g</kbd> gnome · <kbd>c</kbd> counsel</span>
+    <span><kbd>/</kbd> add word</span>
+    <span><kbd>⇧C</kbd> suggest</span>
+    <span><kbd>⇧K</kbd> skip</span>
+    <span><kbd>⇧P</kbd> partial</span>
+    <span><kbd>⇧U</kbd> undo</span>
+    <span><kbd>⇧W</kbd> write</span>
+    <span><kbd>←</kbd><kbd>→</kbd> browse</span>
+  </div>
+  <div id="toast" role="status"></div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

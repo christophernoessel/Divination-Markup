@@ -9,9 +9,7 @@
     "doggedness.n.01"
   ],
   "duration": [
-    "duration.n.01",
-    "duration.n.02",
-    "duration.n.03"
+    "duration.n.01"
   ],
   "continuity": [
     "continuity.n.03"
@@ -27,8 +25,7 @@
     "emergence.n.01"
   ],
   "improvement": [
-    "improvement.n.01",
-    "improvement.n.03"
+    "improvement.n.01"
   ],
   "amelioration": [
     "amelioration.n.01"
@@ -58,13 +55,11 @@
     "accomplishment.n.01"
   ],
   "success": [
-    "success.n.03",
     "success.n.02",
-    "success.n.01"
+    "success.n.03"
   ],
   "fulfillment": [
-    "fulfillment.n.02",
-    "fulfillment.n.01"
+    "fulfillment.n.02"
   ],
   "promotion": [
     "promotion.n.03"
@@ -79,8 +74,8 @@
     "triumph.n.02"
   ],
   "virtue": [
-    "virtue.n.01",
-    "virtue.n.04"
+    "virtue.n.04",
+    "virtue.n.01"
   ],
   "goal": [
     "goal.n.01"
@@ -129,7 +124,7 @@
     "concept.n.01"
   ],
   "materialization": [
-    "materialization.n.02"
+    "materialization.n.01"
   ],
   "achiever": [
     "achiever.n.01"
@@ -153,8 +148,7 @@
     "harmony.n.03"
   ],
   "peace": [
-    "peace.n.03",
-    "peace.n.01"
+    "peace.n.02"
   ],
   "security": [
     "security.n.03",
@@ -196,7 +190,6 @@
     "eden.n.01"
   ],
   "time": [
-    "time.n.05",
     "time.n.03"
   ],
   "precession": [
@@ -221,8 +214,7 @@
     "morality.n.01"
   ],
   "discretion": [
-    "discretion.n.02",
-    "discretion.n.05"
+    "discretion.n.02"
   ],
   "inaction": [
     "inaction.n.01"
@@ -246,7 +238,7 @@
     "shrewdness.n.01"
   ],
   "assurance": [
-    "assurance.n.01"
+    "assurance.n.02"
   ],
   "focus": [
     "focus.n.01"
@@ -270,10 +262,11 @@
     "notice.n.02"
   ],
   "appearance": [
-    "appearance.n.05"
+    "appearance.n.01"
   ],
   "discipline": [
-    "discipline.n.01"
+    "discipline.n.03",
+    "discipline.n.04"
   ],
   "craftsman": [
     "craftsman.n.03"
@@ -291,7 +284,7 @@
     "determination.n.02"
   ],
   "seriousness": [
-    "seriousness.n.03"
+    "seriousness.n.02"
   ],
   "worldly_concern": [
     "worldly_concern.n.01"
@@ -306,7 +299,7 @@
     "person.n.01"
   ],
   "world": [
-    "world.n.03"
+    "world.n.08"
   ],
   "diligence": [
     "diligence.n.01",
@@ -325,7 +318,6 @@
     "night.n.01"
   ],
   "concern": [
-    "concern.n.01",
     "concern.n.04"
   ],
   "danger": [
@@ -365,7 +357,7 @@
     "undertaking.n.01"
   ],
   "rise": [
-    "rise.n.01"
+    "rise.n.04"
   ],
   "passage": [
     "passage.n.01"
@@ -395,10 +387,10 @@
     "capitulation.n.03"
   ],
   "integrity": [
-    "integrity.n.02"
+    "integrity.n.01"
   ],
   "temptation": [
-    "temptation.n.02"
+    "temptation.n.01"
   ],
   "autonomy": [
     "autonomy.n.02"
@@ -457,7 +449,7 @@
     "popularity.n.01"
   ],
   "blessing": [
-    "blessing.n.02"
+    "blessing.n.01"
   ],
   "sensing": [
     "sensing.n.02"
@@ -466,14 +458,13 @@
     "grace.n.07"
   ],
   "affinity": [
-    "affinity.n.04",
-    "affinity.n.07"
+    "affinity.n.04"
   ],
   "attraction": [
-    "attraction.n.01"
+    "attraction.n.03"
   ],
   "nature": [
-    "nature.n.02"
+    "nature.n.04"
   ],
   "sky": [
     "sky.n.01"
@@ -482,7 +473,7 @@
     "celestial_sphere.n.01"
   ],
   "earth": [
-    "earth.n.02"
+    "earth.n.04"
   ],
   "worldliness": [
     "worldliness.n.02"
@@ -500,8 +491,7 @@
     "hubris.n.01"
   ],
   "fall": [
-    "fall.n.06",
-    "fall.n.05"
+    "fall.n.01"
   ],
   "consequence": [
     "consequence.n.01"
@@ -513,7 +503,7 @@
     "gentleness.n.02"
   ],
   "decision": [
-    "decision.n.01"
+    "decision.n.04"
   ],
   "action": [
     "action.n.01"
@@ -546,7 +536,6 @@
     "pair.n.03"
   ],
   "complement": [
-    "complement.n.04",
     "complement.n.06"
   ],
   "role": [
@@ -574,18 +563,16 @@
     "peer.n.01"
   ],
   "evil": [
-    "evil.n.03",
-    "evil.n.02",
-    "evil.n.01"
+    "evil.n.02"
   ],
   "equality": [
     "equality.n.02"
   ],
   "confrontation": [
-    "confrontation.n.04"
+    "confrontation.n.01"
   ],
   "opposition": [
-    "opposition.n.02"
+    "opposition.n.06"
   ],
   "conflict": [
     "conflict.n.01"
@@ -603,7 +590,7 @@
     "digression.n.03"
   ],
   "diversion": [
-    "diversion.n.02"
+    "diversion.n.01"
   ],
   "guidance": [
     "guidance.n.01"
@@ -676,16 +663,16 @@
     "duty.n.02"
   ],
   "follower": [
-    "follower.n.01"
+    "follower.n.02"
   ],
   "acceptance": [
     "acceptance.n.07"
   ],
   "fortune": [
-    "fortune.n.04"
+    "fortune.n.02"
   ],
   "destiny": [
-    "destiny.n.02"
+    "destiny.n.01"
   ],
   "adoption": [
     "adoption.n.01"
@@ -718,7 +705,7 @@
     "workplace.n.01"
   ],
   "capacity": [
-    "capacity.n.01"
+    "capacity.n.03"
   ],
   "solitude": [
     "solitude.n.02"
@@ -727,7 +714,7 @@
     "planning.n.01"
   ],
   "order": [
-    "order.n.01"
+    "order.n.03"
   ],
   "master": [
     "master.n.04"
@@ -758,10 +745,10 @@
     "caretaker.n.01"
   ],
   "character": [
-    "character.n.03"
+    "character.n.06"
   ],
   "purity": [
-    "purity.n.01"
+    "purity.n.02"
   ],
   "death": [
     "death.n.01",
@@ -823,7 +810,7 @@
     "subordination.n.04"
   ],
   "submission": [
-    "submission.n.01"
+    "submission.n.02"
   ],
   "dedication": [
     "dedication.n.01"
@@ -874,6 +861,7 @@
     "maturation.n.01"
   ],
   "modesty": [
+    "modesty.n.01",
     "modesty.n.02"
   ],
   "office": [
@@ -901,7 +889,7 @@
     "rest.n.04"
   ],
   "reserve": [
-    "reserve.n.07"
+    "reserve.n.02"
   ],
   "insubordination": [
     "insubordination.n.01"
@@ -913,7 +901,7 @@
     "prominence.n.01"
   ],
   "hostility": [
-    "hostility.n.02"
+    "hostility.n.03"
   ],
   "adversary": [
     "adversary.n.01"
@@ -943,13 +931,13 @@
     "mission.n.03"
   ],
   "refinement": [
-    "refinement.n.05"
+    "refinement.n.02"
   ],
   "polish": [
     "polish.n.02"
   ],
   "inspiration": [
-    "inspiration.n.01"
+    "inspiration.n.05"
   ],
   "disclosure": [
     "disclosure.n.01"
@@ -976,6 +964,7 @@
     "prerogative.n.01"
   ],
   "injury": [
+    "injury.n.05",
     "injury.n.01"
   ],
   "rebellion": [
@@ -983,5 +972,2441 @@
   ],
   "contest": [
     "contest.n.01"
+  ],
+  "righteousness": [
+    "righteousness.n.01"
+  ],
+  "stasis": [
+    "stasis.n.02"
+  ],
+  "stagnation": [
+    "stagnation.n.01"
+  ],
+  "trouble": [
+    "trouble.n.04"
+  ],
+  "individual": [
+    "individual.n.02"
+  ],
+  "tumult": [
+    "tumult.n.01"
+  ],
+  "chaos": [
+    "chaos.n.01"
+  ],
+  "profusion": [
+    "profusion.n.01"
+  ],
+  "thunder": [
+    "thunder.n.02"
+  ],
+  "rain": [
+    "rain.n.01",
+    "rain.n.02"
+  ],
+  "atmosphere": [
+    "atmosphere.n.01"
+  ],
+  "air": [
+    "air.n.01"
+  ],
+  "tranquillity": [
+    "tranquillity.n.02"
+  ],
+  "repose": [
+    "repose.n.03"
+  ],
+  "safety": [
+    "safety.n.01"
+  ],
+  "refuge": [
+    "refuge.n.03"
+  ],
+  "catharsis": [
+    "catharsis.n.01"
+  ],
+  "relief": [
+    "relief.n.01"
+  ],
+  "ease": [
+    "ease.n.01"
+  ],
+  "enlistment": [
+    "enlistment.n.01"
+  ],
+  "first": [
+    "first.n.02"
+  ],
+  "birth": [
+    "birth.n.01"
+  ],
+  "move": [
+    "move.n.01"
+  ],
+  "disaster": [
+    "disaster.n.03"
+  ],
+  "prematureness": [
+    "prematureness.n.01"
+  ],
+  "socialization": [
+    "socialization.n.02"
+  ],
+  "news": [
+    "news.n.01"
+  ],
+  "development": [
+    "development.n.07"
+  ],
+  "aid": [
+    "aid.n.02"
+  ],
+  "participation": [
+    "participation.n.02"
+  ],
+  "confusion": [
+    "confusion.n.02"
+  ],
+  "implication": [
+    "implication.n.05"
+  ],
+  "organization": [
+    "organization.n.05",
+    "organization.n.06"
+  ],
+  "arrangement": [
+    "arrangement.n.02"
+  ],
+  "home": [
+    "home.n.01"
+  ],
+  "division": [
+    "division.n.03"
+  ],
+  "fusion": [
+    "fusion.n.01"
+  ],
+  "place": [
+    "place.n.10"
+  ],
+  "union": [
+    "union.n.11"
+  ],
+  "hesitation": [
+    "hesitation.n.01"
+  ],
+  "reluctance": [
+    "reluctance.n.02"
+  ],
+  "hindrance": [
+    "hindrance.n.01"
+  ],
+  "appointment": [
+    "appointment.n.01"
+  ],
+  "enterprise": [
+    "enterprise.n.01"
+  ],
+  "contemplation": [
+    "contemplation.n.02"
+  ],
+  "pause": [
+    "pause.n.01"
+  ],
+  "force": [
+    "force.n.01"
+  ],
+  "search": [
+    "search.n.01"
+  ],
+  "efficacy": [
+    "efficacy.n.01"
+  ],
+  "colleague": [
+    "colleague.n.02"
+  ],
+  "humility": [
+    "humility.n.01"
+  ],
+  "association": [
+    "association.n.01"
+  ],
+  "difficulty": [
+    "difficulty.n.03"
+  ],
+  "fight": [
+    "fight.n.02"
+  ],
+  "increase": [
+    "increase.n.02"
+  ],
+  "entreaty": [
+    "entreaty.n.01"
+  ],
+  "refusal": [
+    "refusal.n.01"
+  ],
+  "postponement": [
+    "postponement.n.02"
+  ],
+  "agreement": [
+    "agreement.n.06"
+  ],
+  "decade": [
+    "decade.n.01"
+  ],
+  "abruptness": [
+    "abruptness.n.03"
+  ],
+  "turn": [
+    "turn.n.04"
+  ],
+  "robber": [
+    "robber.n.01"
+  ],
+  "newcomer": [
+    "newcomer.n.02"
+  ],
+  "assumption": [
+    "assumption.n.02"
+  ],
+  "offer": [
+    "offer.n.01"
+  ],
+  "friendliness": [
+    "friendliness.n.01"
+  ],
+  "quarter": [
+    "quarter.n.11"
+  ],
+  "advent": [
+    "advent.n.01"
+  ],
+  "cycle": [
+    "cycle.n.01"
+  ],
+  "normality": [
+    "normality.n.01"
+  ],
+  "partnership": [
+    "partnership.n.02"
+  ],
+  "stranger": [
+    "stranger.n.02"
+  ],
+  "care": [
+    "care.n.01"
+  ],
+  "obligation": [
+    "obligation.n.03"
+  ],
+  "impairment": [
+    "impairment.n.04"
+  ],
+  "sign": [
+    "sign.n.01"
+  ],
+  "understanding": [
+    "understanding.n.01"
+  ],
+  "preference": [
+    "preference.n.01"
+  ],
+  "humiliation": [
+    "humiliation.n.01"
+  ],
+  "continuance": [
+    "continuance.n.01"
+  ],
+  "disorientation": [
+    "disorientation.n.02"
+  ],
+  "guide": [
+    "guide.n.02"
+  ],
+  "unfamiliarity": [
+    "unfamiliarity.n.01"
+  ],
+  "heedlessness": [
+    "heedlessness.n.02"
+  ],
+  "avoidance": [
+    "avoidance.n.01"
+  ],
+  "deception": [
+    "deception.n.02"
+  ],
+  "imprudence": [
+    "imprudence.n.01"
+  ],
+  "shame": [
+    "shame.n.01"
+  ],
+  "wish": [
+    "wish.n.04"
+  ],
+  "forewarning": [
+    "forewarning.n.01"
+  ],
+  "enforcement": [
+    "enforcement.n.01"
+  ],
+  "rejection": [
+    "rejection.n.01"
+  ],
+  "prevision": [
+    "prevision.n.03"
+  ],
+  "forwarding": [
+    "forwarding.n.02"
+  ],
+  "insufficiency": [
+    "insufficiency.n.01"
+  ],
+  "connection": [
+    "connection.n.01",
+    "connection.n.04"
+  ],
+  "opportunity": [
+    "opportunity.n.01"
+  ],
+  "imperative": [
+    "imperative.n.02"
+  ],
+  "airs": [
+    "airs.n.01"
+  ],
+  "conceit": [
+    "conceit.n.05"
+  ],
+  "demur": [
+    "demur.n.01"
+  ],
+  "temperance": [
+    "temperance.n.01"
+  ],
+  "clarity": [
+    "clarity.n.01"
+  ],
+  "start": [
+    "start.n.01"
+  ],
+  "honor": [
+    "honor.n.02"
+  ],
+  "confidence": [
+    "confidence.n.02"
+  ],
+  "misfortune": [
+    "misfortune.n.01",
+    "misfortune.n.02"
+  ],
+  "repression": [
+    "repression.n.01"
+  ],
+  "interposition": [
+    "interposition.n.02"
+  ],
+  "distortion": [
+    "distortion.n.05"
+  ],
+  "step": [
+    "step.n.03"
+  ],
+  "deliberation": [
+    "deliberation.n.05"
+  ],
+  "caution": [
+    "caution.n.03"
+  ],
+  "consummation": [
+    "consummation.n.02"
+  ],
+  "conscientiousness": [
+    "conscientiousness.n.02"
+  ],
+  "honesty": [
+    "honesty.n.01"
+  ],
+  "situation": [
+    "situation.n.02"
+  ],
+  "crying": [
+    "crying.n.01"
+  ],
+  "blood": [
+    "blood.n.01"
+  ],
+  "obstacle": [
+    "obstacle.n.01"
+  ],
+  "captivity": [
+    "captivity.n.01"
+  ],
+  "confinement": [
+    "confinement.n.03"
+  ],
+  "resignation": [
+    "resignation.n.01"
+  ],
+  "sorrow": [
+    "sorrow.n.02"
+  ],
+  "youth": [
+    "youth.n.06",
+    "youth.n.04"
+  ],
+  "young": [
+    "young.n.09"
+  ],
+  "folly": [
+    "folly.n.01",
+    "folly.n.03",
+    "folly.n.04"
+  ],
+  "inexperience": [
+    "inexperience.n.01"
+  ],
+  "motionlessness": [
+    "motionlessness.n.01"
+  ],
+  "hush": [
+    "hush.n.01"
+  ],
+  "redress": [
+    "redress.n.02"
+  ],
+  "steadiness": [
+    "steadiness.n.01",
+    "steadiness.n.03"
+  ],
+  "experience": [
+    "experience.n.01"
+  ],
+  "teacher": [
+    "teacher.n.02",
+    "teacher.n.01"
+  ],
+  "attitude": [
+    "attitude.n.01"
+  ],
+  "awareness": [
+    "awareness.n.01"
+  ],
+  "interest": [
+    "interest.n.01"
+  ],
+  "toleration": [
+    "toleration.n.01"
+  ],
+  "respect": [
+    "respect.n.03"
+  ],
+  "esteem": [
+    "esteem.n.01"
+  ],
+  "forbearance": [
+    "forbearance.n.02"
+  ],
+  "juncture": [
+    "juncture.n.01"
+  ],
+  "manner": [
+    "manner.n.01"
+  ],
+  "hour": [
+    "hour.n.03"
+  ],
+  "education": [
+    "education.n.01"
+  ],
+  "student": [
+    "student.n.01"
+  ],
+  "answer": [
+    "answer.n.01"
+  ],
+  "prophet": [
+    "prophet.n.01"
+  ],
+  "doubt": [
+    "doubt.n.01"
+  ],
+  "resolution": [
+    "resolution.n.04"
+  ],
+  "key": [
+    "key.n.12"
+  ],
+  "irritation": [
+    "irritation.n.01"
+  ],
+  "stupid": [
+    "stupid.n.01"
+  ],
+  "distrust": [
+    "distrust.n.02"
+  ],
+  "misgiving": [
+    "misgiving.n.03"
+  ],
+  "aggravation": [
+    "aggravation.n.03"
+  ],
+  "annoyance": [
+    "annoyance.n.02",
+    "annoyance.n.04"
+  ],
+  "incitement": [
+    "incitement.n.03"
+  ],
+  "question": [
+    "question.n.01"
+  ],
+  "aggravator": [
+    "aggravator.n.01"
+  ],
+  "sufferance": [
+    "sufferance.n.01"
+  ],
+  "silence": [
+    "silence.n.01"
+  ],
+  "command": [
+    "command.n.05",
+    "command.n.01"
+  ],
+  "cultivation": [
+    "cultivation.n.04"
+  ],
+  "thoroughness": [
+    "thoroughness.n.01"
+  ],
+  "learning": [
+    "learning.n.01"
+  ],
+  "fool": [
+    "fool.n.01"
+  ],
+  "liberation": [
+    "liberation.n.01"
+  ],
+  "emancipation": [
+    "emancipation.n.01"
+  ],
+  "law": [
+    "law.n.04"
+  ],
+  "carelessness": [
+    "carelessness.n.01"
+  ],
+  "playfulness": [
+    "playfulness.n.02"
+  ],
+  "gaiety": [
+    "gaiety.n.02"
+  ],
+  "exposure": [
+    "exposure.n.02"
+  ],
+  "self": [
+    "self.n.01"
+  ],
+  "audacity": [
+    "audacity.n.01"
+  ],
+  "flippancy": [
+    "flippancy.n.01"
+  ],
+  "degeneration": [
+    "degeneration.n.01"
+  ],
+  "exercise": [
+    "exercise.n.03"
+  ],
+  "drill": [
+    "drill.n.01"
+  ],
+  "debilitation": [
+    "debilitation.n.01"
+  ],
+  "kindliness": [
+    "kindliness.n.01"
+  ],
+  "marriage": [
+    "marriage.n.01"
+  ],
+  "steward": [
+    "steward.n.01"
+  ],
+  "child": [
+    "child.n.02"
+  ],
+  "capability": [
+    "capability.n.01"
+  ],
+  "burden": [
+    "burden.n.01"
+  ],
+  "fortitude": [
+    "fortitude.n.01"
+  ],
+  "rationality": [
+    "rationality.n.01"
+  ],
+  "defect": [
+    "defect.n.02"
+  ],
+  "feminism": [
+    "feminism.n.01"
+  ],
+  "consideration": [
+    "consideration.n.01"
+  ],
+  "partner": [
+    "partner.n.03"
+  ],
+  "spouse": [
+    "spouse.n.01"
+  ],
+  "abandon": [
+    "abandon.n.01"
+  ],
+  "wildness": [
+    "wildness.n.01"
+  ],
+  "ineffectiveness": [
+    "ineffectiveness.n.01"
+  ],
+  "futility": [
+    "futility.n.01"
+  ],
+  "fruitlessness": [
+    "fruitlessness.n.02"
+  ],
+  "conformity": [
+    "conformity.n.01"
+  ],
+  "superior": [
+    "superior.n.01"
+  ],
+  "effacement": [
+    "effacement.n.02"
+  ],
+  "imitation": [
+    "imitation.n.03"
+  ],
+  "weakness": [
+    "weakness.n.03"
+  ],
+  "abnegation": [
+    "abnegation.n.02"
+  ],
+  "bondage": [
+    "bondage.n.02"
+  ],
+  "obsequiousness": [
+    "obsequiousness.n.01"
+  ],
+  "disadvantage": [
+    "disadvantage.n.01"
+  ],
+  "detriment": [
+    "detriment.n.01"
+  ],
+  "courtship": [
+    "courtship.n.01"
+  ],
+  "indignity": [
+    "indignity.n.01"
+  ],
+  "web": [
+    "web.n.02"
+  ],
+  "delusion": [
+    "delusion.n.02"
+  ],
+  "hopelessness": [
+    "hopelessness.n.01"
+  ],
+  "figment": [
+    "figment.n.01"
+  ],
+  "stubbornness": [
+    "stubbornness.n.02"
+  ],
+  "deserts": [
+    "deserts.n.01"
+  ],
+  "respite": [
+    "respite.n.04"
+  ],
+  "course": [
+    "course.n.04"
+  ],
+  "must": [
+    "must.n.01"
+  ],
+  "artlessness": [
+    "artlessness.n.01"
+  ],
+  "punishment": [
+    "punishment.n.01"
+  ],
+  "irrelevance": [
+    "irrelevance.n.01"
+  ],
+  "transgression": [
+    "transgression.n.01",
+    "transgression.n.03"
+  ],
+  "prevention": [
+    "prevention.n.01"
+  ],
+  "feeling": [
+    "feeling.n.01"
+  ],
+  "requirement": [
+    "requirement.n.01"
+  ],
+  "means": [
+    "means.n.01"
+  ],
+  "restoration": [
+    "restoration.n.02"
+  ],
+  "government": [
+    "government.n.01"
+  ],
+  "nutriment": [
+    "nutriment.n.01"
+  ],
+  "season": [
+    "season.n.01"
+  ],
+  "food": [
+    "food.n.01",
+    "food.n.02"
+  ],
+  "beverage": [
+    "beverage.n.01"
+  ],
+  "refreshment": [
+    "refreshment.n.02"
+  ],
+  "cloud": [
+    "cloud.n.02"
+  ],
+  "wait": [
+    "wait.n.02"
+  ],
+  "light": [
+    "light.n.01",
+    "light.n.10",
+    "light.n.03",
+    "light.n.06"
+  ],
+  "ocean": [
+    "ocean.n.01"
+  ],
+  "benefit": [
+    "benefit.n.02"
+  ],
+  "challenge": [
+    "challenge.n.03"
+  ],
+  "impatience": [
+    "impatience.n.03"
+  ],
+  "helplessness": [
+    "helplessness.n.01"
+  ],
+  "truthfulness": [
+    "truthfulness.n.01"
+  ],
+  "courage": [
+    "courage.n.01"
+  ],
+  "resoluteness": [
+    "resoluteness.n.01"
+  ],
+  "decisiveness": [
+    "decisiveness.n.01"
+  ],
+  "eating": [
+    "eating.n.01"
+  ],
+  "drinking": [
+    "drinking.n.01"
+  ],
+  "cheerfulness": [
+    "cheerfulness.n.01"
+  ],
+  "joy": [
+    "joy.n.01"
+  ],
+  "gladness": [
+    "gladness.n.01"
+  ],
+  "drink": [
+    "drink.n.01"
+  ],
+  "readiness": [
+    "readiness.n.02"
+  ],
+  "hayfield": [
+    "hayfield.n.01"
+  ],
+  "permanence": [
+    "permanence.n.01"
+  ],
+  "distance": [
+    "distance.n.05",
+    "distance.n.01",
+    "distance.n.06"
+  ],
+  "plain": [
+    "plain.n.01"
+  ],
+  "condition": [
+    "condition.n.01"
+  ],
+  "simplicity": [
+    "simplicity.n.01"
+  ],
+  "foreboding": [
+    "foreboding.n.01"
+  ],
+  "routine": [
+    "routine.n.01"
+  ],
+  "gossip": [
+    "gossip.n.02"
+  ],
+  "end": [
+    "end.n.02"
+  ],
+  "creep": [
+    "creep.n.02"
+  ],
+  "approach": [
+    "approach.n.02"
+  ],
+  "river": [
+    "river.n.01"
+  ],
+  "sand": [
+    "sand.n.01"
+  ],
+  "bank": [
+    "bank.n.01"
+  ],
+  "water": [
+    "water.n.01"
+  ],
+  "disagreement": [
+    "disagreement.n.01"
+  ],
+  "unrest": [
+    "unrest.n.02"
+  ],
+  "scapegoat": [
+    "scapegoat.n.01"
+  ],
+  "discord": [
+    "discord.n.01"
+  ],
+  "agitation": [
+    "agitation.n.02"
+  ],
+  "incrimination": [
+    "incrimination.n.01"
+  ],
+  "blame": [
+    "blame.n.02"
+  ],
+  "composure": [
+    "composure.n.01"
+  ],
+  "rejoinder": [
+    "rejoinder.n.01"
+  ],
+  "slander": [
+    "slander.n.01"
+  ],
+  "muteness": [
+    "muteness.n.02"
+  ],
+  "enemy": [
+    "enemy.n.03"
+  ],
+  "arrival": [
+    "arrival.n.03"
+  ],
+  "foe": [
+    "foe.n.02"
+  ],
+  "mud": [
+    "mud.n.01"
+  ],
+  "wash": [
+    "wash.n.02"
+  ],
+  "stream": [
+    "stream.n.04"
+  ],
+  "reverse": [
+    "reverse.n.03"
+  ],
+  "opportunism": [
+    "opportunism.n.01"
+  ],
+  "graveness": [
+    "graveness.n.01"
+  ],
+  "pit": [
+    "pit.n.01"
+  ],
+  "escape": [
+    "escape.n.04"
+  ],
+  "crisis": [
+    "crisis.n.01"
+  ],
+  "urgency": [
+    "urgency.n.01"
+  ],
+  "bloodshed": [
+    "bloodshed.n.01"
+  ],
+  "predicament": [
+    "predicament.n.01"
+  ],
+  "stand": [
+    "stand.n.12"
+  ],
+  "reprieve": [
+    "reprieve.n.01"
+  ],
+  "reward": [
+    "reward.n.02"
+  ],
+  "strengthening": [
+    "strengthening.n.01"
+  ],
+  "foresight": [
+    "foresight.n.01"
+  ],
+  "enjoyment": [
+    "enjoyment.n.01"
+  ],
+  "pleasure": [
+    "pleasure.n.01"
+  ],
+  "completion": [
+    "completion.n.02"
+  ],
+  "job": [
+    "job.n.02"
+  ],
+  "certitude": [
+    "certitude.n.01"
+  ],
+  "guest": [
+    "guest.n.01"
+  ],
+  "imminence": [
+    "imminence.n.01"
+  ],
+  "inevitable": [
+    "inevitable.n.01"
+  ],
+  "despair": [
+    "despair.n.01"
+  ],
+  "surprise": [
+    "surprise.n.02"
+  ],
+  "intervention": [
+    "intervention.n.01"
+  ],
+  "uncertainty": [
+    "uncertainty.n.01"
+  ],
+  "alertness": [
+    "alertness.n.03"
+  ],
+  "craft": [
+    "craft.n.05"
+  ],
+  "quarrelsomeness": [
+    "quarrelsomeness.n.01"
+  ],
+  "obstruction": [
+    "obstruction.n.01"
+  ],
+  "center": [
+    "center.n.06"
+  ],
+  "arrest": [
+    "arrest.n.02"
+  ],
+  "consultation": [
+    "consultation.n.01"
+  ],
+  "mediator": [
+    "mediator.n.01"
+  ],
+  "journey": [
+    "journey.n.01"
+  ],
+  "right": [
+    "right.n.01"
+  ],
+  "trespass": [
+    "trespass.n.02"
+  ],
+  "redemption": [
+    "redemption.n.01"
+  ],
+  "compromise": [
+    "compromise.n.01"
+  ],
+  "lucidity": [
+    "lucidity.n.02"
+  ],
+  "bitter_end": [
+    "bitter_end.n.01"
+  ],
+  "prolongation": [
+    "prolongation.n.01"
+  ],
+  "resentment": [
+    "resentment.n.01"
+  ],
+  "authority": [
+    "authority.n.01"
+  ],
+  "strife": [
+    "strife.n.02"
+  ],
+  "concentration": [
+    "concentration.n.05"
+  ],
+  "hazard": [
+    "hazard.n.01"
+  ],
+  "tension": [
+    "tension.n.03"
+  ],
+  "transaction": [
+    "transaction.n.01"
+  ],
+  "cause": [
+    "cause.n.01"
+  ],
+  "tendency": [
+    "tendency.n.04"
+  ],
+  "inevitability": [
+    "inevitability.n.01"
+  ],
+  "obviation": [
+    "obviation.n.01"
+  ],
+  "matter": [
+    "matter.n.01"
+  ],
+  "cessation": [
+    "cessation.n.01"
+  ],
+  "dispute": [
+    "dispute.n.01"
+  ],
+  "retreat": [
+    "retreat.n.07"
+  ],
+  "town": [
+    "town.n.01"
+  ],
+  "people": [
+    "people.n.01"
+  ],
+  "neighbor": [
+    "neighbor.n.01"
+  ],
+  "innocence": [
+    "innocence.n.03"
+  ],
+  "side_effect": [
+    "side_effect.n.02"
+  ],
+  "withdrawal": [
+    "withdrawal.n.04"
+  ],
+  "conciliation": [
+    "conciliation.n.01"
+  ],
+  "community": [
+    "community.n.03"
+  ],
+  "works": [
+    "works.n.03"
+  ],
+  "deservingness": [
+    "deservingness.n.01"
+  ],
+  "vindication": [
+    "vindication.n.01"
+  ],
+  "possession": [
+    "possession.n.02"
+  ],
+  "prestige": [
+    "prestige.n.01"
+  ],
+  "repute": [
+    "repute.n.01"
+  ],
+  "disquiet": [
+    "disquiet.n.02"
+  ],
+  "injustice": [
+    "injustice.n.01"
+  ],
+  "conscience": [
+    "conscience.n.01"
+  ],
+  "giving_up": [
+    "giving_up.n.01"
+  ],
+  "reconsideration": [
+    "reconsideration.n.02"
+  ],
+  "arbiter": [
+    "arbiter.n.01"
+  ],
+  "prize": [
+    "prize.n.01"
+  ],
+  "loss": [
+    "loss.n.01"
+  ],
+  "win": [
+    "win.n.01"
+  ],
+  "perpetuity": [
+    "perpetuity.n.01"
+  ],
+  "inside": [
+    "inside.n.01"
+  ],
+  "obedience": [
+    "obedience.n.01"
+  ],
+  "outside": [
+    "outside.n.01"
+  ],
+  "commander": [
+    "commander.n.02"
+  ],
+  "general": [
+    "general.n.01"
+  ],
+  "rank_and_file": [
+    "rank_and_file.n.01"
+  ],
+  "efficiency": [
+    "efficiency.n.01",
+    "efficiency.n.02"
+  ],
+  "army": [
+    "army.n.01",
+    "army.n.02"
+  ],
+  "group": [
+    "group.n.01"
+  ],
+  "battle": [
+    "battle.n.01"
+  ],
+  "strictness": [
+    "strictness.n.01"
+  ],
+  "beloved": [
+    "beloved.n.01"
+  ],
+  "enthusiasm": [
+    "enthusiasm.n.01"
+  ],
+  "trust": [
+    "trust.n.01"
+  ],
+  "responsibility": [
+    "responsibility.n.03"
+  ],
+  "wartime": [
+    "wartime.n.01"
+  ],
+  "war": [
+    "war.n.01"
+  ],
+  "devastation": [
+    "devastation.n.01"
+  ],
+  "destruction": [
+    "destruction.n.01"
+  ],
+  "recourse": [
+    "recourse.n.02"
+  ],
+  "membership": [
+    "membership.n.01"
+  ],
+  "recruit": [
+    "recruit.n.01"
+  ],
+  "munificence": [
+    "munificence.n.01"
+  ],
+  "generosity": [
+    "generosity.n.02"
+  ],
+  "might": [
+    "might.n.01"
+  ],
+  "military": [
+    "military.n.01"
+  ],
+  "potential": [
+    "potential.n.01"
+  ],
+  "menace": [
+    "menace.n.01"
+  ],
+  "mobilization": [
+    "mobilization.n.01"
+  ],
+  "rule": [
+    "rule.n.01"
+  ],
+  "largess": [
+    "largess.n.01"
+  ],
+  "loyalty": [
+    "loyalty.n.01",
+    "loyalty.n.02"
+  ],
+  "worship": [
+    "worship.n.02"
+  ],
+  "wealth": [
+    "wealth.n.02"
+  ],
+  "statesmanship": [
+    "statesmanship.n.01"
+  ],
+  "protection": [
+    "protection.n.04"
+  ],
+  "alliance": [
+    "alliance.n.02"
+  ],
+  "preparation": [
+    "preparation.n.01"
+  ],
+  "disorderliness": [
+    "disorderliness.n.01"
+  ],
+  "coordination": [
+    "coordination.n.02",
+    "coordination.n.01"
+  ],
+  "military_personnel": [
+    "military_personnel.n.01"
+  ],
+  "conquest": [
+    "conquest.n.01"
+  ],
+  "interaction": [
+    "interaction.n.01"
+  ],
+  "latency": [
+    "latency.n.03"
+  ],
+  "spirit": [
+    "spirit.n.03"
+  ],
+  "spirituality": [
+    "spirituality.n.02"
+  ],
+  "dissuasion": [
+    "dissuasion.n.01"
+  ],
+  "bicker": [
+    "bicker.n.01"
+  ],
+  "wellbeing": [
+    "wellbeing.n.01"
+  ],
+  "inability": [
+    "inability.n.01"
+  ],
+  "family": [
+    "family.n.08"
+  ],
+  "giant": [
+    "giant.n.05"
+  ],
+  "mismatch": [
+    "mismatch.n.01"
+  ],
+  "pride": [
+    "pride.n.05"
+  ],
+  "calamity": [
+    "calamity.n.01"
+  ],
+  "ancientness": [
+    "ancientness.n.01"
+  ],
+  "midst": [
+    "midst.n.01"
+  ],
+  "decoration": [
+    "decoration.n.01"
+  ],
+  "trio": [
+    "trio.n.04"
+  ],
+  "transparency": [
+    "transparency.n.02"
+  ],
+  "familiarity": [
+    "familiarity.n.03"
+  ],
+  "adequacy": [
+    "adequacy.n.01"
+  ],
+  "wagon": [
+    "wagon.n.01"
+  ],
+  "cadaver": [
+    "cadaver.n.01"
+  ],
+  "defeat": [
+    "defeat.n.01"
+  ],
+  "usurper": [
+    "usurper.n.01"
+  ],
+  "copying": [
+    "copying.n.01"
+  ],
+  "mistake": [
+    "mistake.n.01"
+  ],
+  "battalion": [
+    "battalion.n.02"
+  ],
+  "decomposition": [
+    "decomposition.n.02"
+  ],
+  "pass": [
+    "pass.n.08"
+  ],
+  "insistence": [
+    "insistence.n.01"
+  ],
+  "disregard": [
+    "disregard.n.01"
+  ],
+  "game": [
+    "game.n.04"
+  ],
+  "field": [
+    "field.n.01"
+  ],
+  "catch": [
+    "catch.n.04"
+  ],
+  "elder": [
+    "elder.n.01"
+  ],
+  "transportation": [
+    "transportation.n.02"
+  ],
+  "invasion": [
+    "invasion.n.01"
+  ],
+  "justification": [
+    "justification.n.01"
+  ],
+  "combat": [
+    "combat.n.01"
+  ],
+  "control": [
+    "control.n.02"
+  ],
+  "veteran": [
+    "veteran.n.03"
+  ],
+  "flightiness": [
+    "flightiness.n.01"
+  ],
+  "slaughter": [
+    "slaughter.n.01"
+  ],
+  "mob": [
+    "mob.n.01"
+  ],
+  "state": [
+    "state.n.02"
+  ],
+  "fief": [
+    "fief.n.01"
+  ],
+  "inferior": [
+    "inferior.n.01"
+  ],
+  "employment": [
+    "employment.n.01"
+  ],
+  "vassal": [
+    "vassal.n.01"
+  ],
+  "estate": [
+    "estate.n.01"
+  ],
+  "omission": [
+    "omission.n.04"
+  ],
+  "land": [
+    "land.n.02"
+  ],
+  "misuse": [
+    "misuse.n.01"
+  ],
+  "money": [
+    "money.n.01"
+  ],
+  "denial": [
+    "denial.n.01"
+  ],
+  "confluence": [
+    "confluence.n.02"
+  ],
+  "body_of_water": [
+    "body_of_water.n.01"
+  ],
+  "flow": [
+    "flow.n.01"
+  ],
+  "coherence": [
+    "coherence.n.01"
+  ],
+  "regulation": [
+    "regulation.n.01",
+    "regulation.n.06"
+  ],
+  "solidarity": [
+    "solidarity.n.01"
+  ],
+  "civil_order": [
+    "civil_order.n.01"
+  ],
+  "will": [
+    "will.n.02"
+  ],
+  "inquirer": [
+    "inquirer.n.01"
+  ],
+  "repeat": [
+    "repeat.n.01"
+  ],
+  "sublimity": [
+    "sublimity.n.01"
+  ],
+  "acquiescence": [
+    "acquiescence.n.01"
+  ],
+  "latecomer": [
+    "latecomer.n.01"
+  ],
+  "oneness": [
+    "oneness.n.01"
+  ],
+  "consistency": [
+    "consistency.n.01"
+  ],
+  "introspection": [
+    "introspection.n.01"
+  ],
+  "dabbler": [
+    "dabbler.n.01"
+  ],
+  "accord": [
+    "accord.n.02"
+  ],
+  "reason": [
+    "reason.n.01"
+  ],
+  "exclusion": [
+    "exclusion.n.01"
+  ],
+  "straggler": [
+    "straggler.n.01"
+  ],
+  "distress": [
+    "distress.n.01"
+  ],
+  "foreigner": [
+    "foreigner.n.02"
+  ],
+  "necessity": [
+    "necessity.n.01"
+  ],
+  "languor": [
+    "languor.n.02"
+  ],
+  "bestowal": [
+    "bestowal.n.02"
+  ],
+  "overlord": [
+    "overlord.n.01"
+  ],
+  "lord": [
+    "lord.n.03"
+  ],
+  "vacancy": [
+    "vacancy.n.01"
+  ],
+  "adhesiveness": [
+    "adhesiveness.n.01"
+  ],
+  "fluidity": [
+    "fluidity.n.01"
+  ],
+  "society": [
+    "society.n.01"
+  ],
+  "national": [
+    "national.n.01"
+  ],
+  "uniformity": [
+    "uniformity.n.01"
+  ],
+  "belonging": [
+    "belonging.n.01"
+  ],
+  "bowl": [
+    "bowl.n.01"
+  ],
+  "pottery": [
+    "pottery.n.01"
+  ],
+  "sincerity": [
+    "sincerity.n.02"
+  ],
+  "propriety": [
+    "propriety.n.01"
+  ],
+  "constitution": [
+    "constitution.n.02"
+  ],
+  "fullness": [
+    "fullness.n.03"
+  ],
+  "content": [
+    "content.n.01"
+  ],
+  "altruism": [
+    "altruism.n.01"
+  ],
+  "response": [
+    "response.n.01"
+  ],
+  "behest": [
+    "behest.n.01"
+  ],
+  "hunter": [
+    "hunter.n.02"
+  ],
+  "sycophant": [
+    "sycophant.n.01"
+  ],
+  "self-destruction": [
+    "self-destruction.n.02"
+  ],
+  "dignity": [
+    "dignity.n.01"
+  ],
+  "misalliance": [
+    "misalliance.n.01"
+  ],
+  "habit": [
+    "habit.n.02"
+  ],
+  "closeness": [
+    "closeness.n.01"
+  ],
+  "falsity": [
+    "falsity.n.01"
+  ],
+  "sociability": [
+    "sociability.n.01"
+  ],
+  "squandering": [
+    "squandering.n.01"
+  ],
+  "conspicuousness": [
+    "conspicuousness.n.01"
+  ],
+  "rapport": [
+    "rapport.n.01"
+  ],
+  "attachment": [
+    "attachment.n.01"
+  ],
+  "structure": [
+    "structure.n.01"
+  ],
+  "hunt": [
+    "hunt.n.05",
+    "hunt.n.07"
+  ],
+  "candor": [
+    "candor.n.02"
+  ],
+  "trustworthiness": [
+    "trustworthiness.n.01"
+  ],
+  "fault": [
+    "fault.n.06"
+  ],
+  "vulnerability": [
+    "vulnerability.n.01"
+  ],
+  "volunteer": [
+    "volunteer.n.02"
+  ],
+  "openness": [
+    "openness.n.02"
+  ],
+  "opinion": [
+    "opinion.n.01"
+  ],
+  "surveillance": [
+    "surveillance.n.01"
+  ],
+  "generalization": [
+    "generalization.n.01"
+  ],
+  "freedom": [
+    "freedom.n.01"
+  ],
+  "persuasion": [
+    "persuasion.n.01"
+  ],
+  "favor": [
+    "favor.n.04",
+    "favor.n.01"
+  ],
+  "rationale": [
+    "rationale.n.01"
+  ],
+  "wrongness": [
+    "wrongness.n.02"
+  ],
+  "smallness": [
+    "smallness.n.03",
+    "smallness.n.01"
+  ],
+  "shadow": [
+    "shadow.n.01"
+  ],
+  "minister": [
+    "minister.n.02"
+  ],
+  "blowing": [
+    "blowing.n.01"
+  ],
+  "wind": [
+    "wind.n.01"
+  ],
+  "breath": [
+    "breath.n.01"
+  ],
+  "density": [
+    "density.n.01"
+  ],
+  "component": [
+    "component.n.01"
+  ],
+  "result": [
+    "result.n.03"
+  ],
+  "tameness": [
+    "tameness.n.02"
+  ],
+  "moment": [
+    "moment.n.01"
+  ],
+  "disappointment": [
+    "disappointment.n.01"
+  ],
+  "moisture": [
+    "moisture.n.01"
+  ],
+  "promise": [
+    "promise.n.01"
+  ],
+  "prospect": [
+    "prospect.n.01"
+  ],
+  "diplomacy": [
+    "diplomacy.n.01"
+  ],
+  "restriction": [
+    "restriction.n.01"
+  ],
+  "adaptability": [
+    "adaptability.n.01"
+  ],
+  "impermanence": [
+    "impermanence.n.01"
+  ],
+  "return": [
+    "return.n.05"
+  ],
+  "press": [
+    "press.n.09"
+  ],
+  "suitability": [
+    "suitability.n.01"
+  ],
+  "assent": [
+    "assent.n.01"
+  ],
+  "example": [
+    "example.n.01"
+  ],
+  "wheel": [
+    "wheel.n.01"
+  ],
+  "spoke": [
+    "spoke.n.01"
+  ],
+  "breakdown": [
+    "breakdown.n.03"
+  ],
+  "contempt": [
+    "contempt.n.01"
+  ],
+  "consciousness": [
+    "consciousness.n.01"
+  ],
+  "attempt": [
+    "attempt.n.01"
+  ],
+  "offense": [
+    "offense.n.05"
+  ],
+  "conditions": [
+    "conditions.n.01"
+  ],
+  "advantage": [
+    "advantage.n.03"
+  ],
+  "rebuff": [
+    "rebuff.n.01"
+  ],
+  "expectation": [
+    "expectation.n.01"
+  ],
+  "fear": [
+    "fear.n.01"
+  ],
+  "bloodbath": [
+    "bloodbath.n.01"
+  ],
+  "violence": [
+    "violence.n.01"
+  ],
+  "counselor": [
+    "counselor.n.01"
+  ],
+  "disinterest": [
+    "disinterest.n.01"
+  ],
+  "weight": [
+    "weight.n.01"
+  ],
+  "inferiority": [
+    "inferiority.n.01"
+  ],
+  "superiority": [
+    "superiority.n.01"
+  ],
+  "mutuality": [
+    "mutuality.n.02"
+  ],
+  "reciprocality": [
+    "reciprocality.n.01"
+  ],
+  "doubling": [
+    "doubling.n.01"
+  ],
+  "woman": [
+    "woman.n.01"
+  ],
+  "full_moon": [
+    "full_moon.n.01"
+  ],
+  "moon": [
+    "moon.n.01"
+  ],
+  "intensification": [
+    "intensification.n.01"
+  ],
+  "point_of_view": [
+    "point_of_view.n.01"
+  ],
+  "immutability": [
+    "immutability.n.01"
+  ],
+  "effects": [
+    "effects.n.01"
+  ],
+  "apogee": [
+    "apogee.n.01"
+  ],
+  "accumulation": [
+    "accumulation.n.03"
+  ],
+  "illusion": [
+    "illusion.n.01"
+  ],
+  "presumption": [
+    "presumption.n.03"
+  ],
+  "boast": [
+    "boast.n.01"
+  ],
+  "sun": [
+    "sun.n.01"
+  ],
+  "waning": [
+    "waning.n.01"
+  ],
+  "contentment": [
+    "contentment.n.01"
+  ],
+  "context": [
+    "context.n.02"
+  ],
+  "low": [
+    "low.n.03"
+  ],
+  "high": [
+    "high.n.01"
+  ],
+  "walk": [
+    "walk.n.04"
+  ],
+  "largeness": [
+    "largeness.n.03"
+  ],
+  "good_humor": [
+    "good_humor.n.01"
+  ],
+  "tiger": [
+    "tiger.n.02"
+  ],
+  "tail": [
+    "tail.n.01"
+  ],
+  "bite": [
+    "bite.n.01"
+  ],
+  "proximity": [
+    "proximity.n.01"
+  ],
+  "worry": [
+    "worry.n.02"
+  ],
+  "contact": [
+    "contact.n.01"
+  ],
+  "benignity": [
+    "benignity.n.01"
+  ],
+  "maverick": [
+    "maverick.n.01"
+  ],
+  "savage": [
+    "savage.n.01"
+  ],
+  "case": [
+    "case.n.01"
+  ],
+  "decorum": [
+    "decorum.n.01"
+  ],
+  "behavior": [
+    "behavior.n.01"
+  ],
+  "pleasantness": [
+    "pleasantness.n.01"
+  ],
+  "manners": [
+    "manners.n.01"
+  ],
+  "discrimination": [
+    "discrimination.n.02"
+  ],
+  "fortification": [
+    "fortification.n.01"
+  ],
+  "thinking": [
+    "thinking.n.01"
+  ],
+  "citizenry": [
+    "citizenry.n.01"
+  ],
+  "envy": [
+    "envy.n.02"
+  ],
+  "inherence": [
+    "inherence.n.01"
+  ],
+  "elevation": [
+    "elevation.n.05"
+  ],
+  "lake": [
+    "lake.n.01"
+  ],
+  "inequality": [
+    "inequality.n.01"
+  ],
+  "caste": [
+    "caste.n.03"
+  ],
+  "impossible": [
+    "impossible.n.01"
+  ],
+  "class": [
+    "class.n.03"
+  ],
+  "class_struggle": [
+    "class_struggle.n.01"
+  ],
+  "importance": [
+    "importance.n.01"
+  ],
+  "worth": [
+    "worth.n.01"
+  ],
+  "intercourse": [
+    "intercourse.n.01"
+  ],
+  "predilection": [
+    "predilection.n.01"
+  ],
+  "contentedness": [
+    "contentedness.n.01"
+  ],
+  "guarantee": [
+    "guarantee.n.02"
+  ],
+  "dissatisfaction": [
+    "dissatisfaction.n.01"
+  ],
+  "low_status": [
+    "low_status.n.01"
+  ],
+  "poverty": [
+    "poverty.n.01"
+  ],
+  "meagerness": [
+    "meagerness.n.01"
+  ],
+  "restlessness": [
+    "restlessness.n.02"
+  ],
+  "arrogance": [
+    "arrogance.n.01"
+  ],
+  "extravagance": [
+    "extravagance.n.01",
+    "extravagance.n.02"
+  ],
+  "indulgence": [
+    "indulgence.n.01"
+  ],
+  "degradation": [
+    "degradation.n.01"
+  ],
+  "competence": [
+    "competence.n.01"
+  ],
+  "satisfaction": [
+    "satisfaction.n.01"
+  ],
+  "merit": [
+    "merit.n.01"
+  ],
+  "smoothness": [
+    "smoothness.n.01"
+  ],
+  "path": [
+    "path.n.04"
+  ],
+  "man": [
+    "man.n.01"
+  ],
+  "darkness": [
+    "darkness.n.05",
+    "darkness.n.06"
+  ],
+  "loneliness": [
+    "loneliness.n.01"
+  ],
+  "road": [
+    "road.n.01",
+    "road.n.02"
+  ],
+  "detachment": [
+    "detachment.n.02"
+  ],
+  "eye": [
+    "eye.n.01"
+  ],
+  "ability": [
+    "ability.n.01"
+  ],
+  "sight": [
+    "sight.n.03"
+  ],
+  "lameness": [
+    "lameness.n.01"
+  ],
+  "prince": [
+    "prince.n.01"
+  ],
+  "agent": [
+    "agent.n.02"
+  ],
+  "boss": [
+    "boss.n.03"
+  ],
+  "warrior": [
+    "warrior.n.01"
+  ],
+  "risk": [
+    "risk.n.02"
+  ],
+  "recklessness": [
+    "recklessness.n.01"
+  ],
+  "circumspection": [
+    "circumspection.n.02"
+  ],
+  "simultaneity": [
+    "simultaneity.n.01"
+  ],
+  "examination": [
+    "examination.n.01"
+  ],
+  "mystery": [
+    "mystery.n.01"
+  ],
+  "ignorance": [
+    "ignorance.n.01"
+  ],
+  "profit": [
+    "profit.n.02"
+  ],
+  "february": [
+    "february.n.01"
+  ],
+  "month": [
+    "month.n.02"
+  ],
+  "march": [
+    "march.n.01"
+  ],
+  "spring": [
+    "spring.n.01"
+  ],
+  "commoner": [
+    "commoner.n.01"
+  ],
+  "due": [
+    "due.n.01"
+  ],
+  "meritocracy": [
+    "meritocracy.n.01"
+  ],
+  "utopia": [
+    "utopia.n.02"
+  ],
+  "animality": [
+    "animality.n.01"
+  ],
+  "departure": [
+    "departure.n.01"
+  ],
+  "dominance": [
+    "dominance.n.02"
+  ],
+  "charity": [
+    "charity.n.03"
+  ],
+  "blossoming": [
+    "blossoming.n.01"
+  ],
+  "combination": [
+    "combination.n.01"
+  ],
+  "flux": [
+    "flux.n.08"
+  ],
+  "energy": [
+    "energy.n.01"
+  ],
+  "procedure": [
+    "procedure.n.01"
+  ],
+  "sequence": [
+    "sequence.n.02"
+  ],
+  "phenomenon": [
+    "phenomenon.n.01"
+  ],
+  "compass_point": [
+    "compass_point.n.01"
+  ],
+  "boundary": [
+    "boundary.n.01"
+  ],
+  "encouragement": [
+    "encouragement.n.01"
+  ],
+  "productiveness": [
+    "productiveness.n.01"
+  ],
+  "timing": [
+    "timing.n.01"
+  ],
+  "output": [
+    "output.n.02"
+  ],
+  "grass": [
+    "grass.n.01"
+  ],
+  "turf": [
+    "turf.n.01"
+  ],
+  "kind": [
+    "kind.n.01"
+  ],
+  "like": [
+    "like.n.01"
+  ],
+  "network": [
+    "network.n.01"
+  ],
+  "times": [
+    "times.n.01"
+  ],
+  "ford": [
+    "ford.n.08"
+  ],
+  "farness": [
+    "farness.n.01"
+  ],
+  "companion": [
+    "companion.n.01"
+  ],
+  "neutrality": [
+    "neutrality.n.01"
+  ],
+  "fairness": [
+    "fairness.n.01"
+  ],
+  "plebeian": [
+    "plebeian.n.01"
+  ],
+  "maestro": [
+    "maestro.n.01"
+  ],
+  "material": [
+    "material.n.04"
+  ],
+  "failing": [
+    "failing.n.01"
+  ],
+  "laxness": [
+    "laxness.n.01"
+  ],
+  "watchfulness": [
+    "watchfulness.n.02",
+    "watchfulness.n.01"
+  ],
+  "cabal": [
+    "cabal.n.01"
+  ],
+  "faction": [
+    "faction.n.02"
+  ],
+  "clique": [
+    "clique.n.01"
+  ],
+  "relaxation": [
+    "relaxation.n.04"
+  ],
+  "graduality": [
+    "graduality.n.01"
+  ],
+  "method": [
+    "method.n.01"
+  ],
+  "moderation": [
+    "moderation.n.01"
+  ],
+  "balance": [
+    "balance.n.01"
+  ],
+  "slope": [
+    "slope.n.01"
+  ],
+  "sequel": [
+    "sequel.n.01"
+  ],
+  "nonparticipant": [
+    "nonparticipant.n.01"
+  ],
+  "decline": [
+    "decline.n.02"
+  ],
+  "abeyance": [
+    "abeyance.n.01"
+  ],
+  "possibility": [
+    "possibility.n.02"
+  ],
+  "conviction": [
+    "conviction.n.01"
+  ],
+  "melancholy": [
+    "melancholy.n.01"
+  ],
+  "infallibility": [
+    "infallibility.n.01"
+  ],
+  "desertion": [
+    "desertion.n.01"
+  ],
+  "circumstance": [
+    "circumstance.n.01"
+  ],
+  "togetherness": [
+    "togetherness.n.01"
+  ],
+  "earnest": [
+    "earnest.n.01"
+  ],
+  "rank": [
+    "rank.n.02"
+  ],
+  "humaneness": [
+    "humaneness.n.01"
+  ],
+  "spontaneity": [
+    "spontaneity.n.01"
+  ],
+  "decree": [
+    "decree.n.01"
+  ],
+  "princess": [
+    "princess.n.01"
+  ],
+  "moat": [
+    "moat.n.01"
+  ],
+  "wall": [
+    "wall.n.01"
+  ],
+  "use": [
+    "use.n.01"
+  ],
+  "sinking": [
+    "sinking.n.02"
+  ],
+  "rampart": [
+    "rampart.n.01"
+  ],
+  "doom": [
+    "doom.n.01"
+  ],
+  "collapse": [
+    "collapse.n.01"
+  ],
+  "dissociation": [
+    "dissociation.n.01"
+  ],
+  "deadlock": [
+    "deadlock.n.01"
+  ],
+  "august": [
+    "august.n.01"
+  ],
+  "september": [
+    "september.n.01"
+  ],
+  "pettiness": [
+    "pettiness.n.01"
+  ],
+  "inconsequence": [
+    "inconsequence.n.01"
+  ],
+  "great": [
+    "great.n.01"
+  ],
+  "communion": [
+    "communion.n.02"
+  ],
+  "numbness": [
+    "numbness.n.01"
+  ],
+  "apathy": [
+    "apathy.n.02"
+  ],
+  "disharmony": [
+    "disharmony.n.01"
+  ],
+  "disorder": [
+    "disorder.n.03"
+  ],
+  "harshness": [
+    "harshness.n.01"
+  ],
+  "principle": [
+    "principle.n.01"
+  ],
+  "seclusion": [
+    "seclusion.n.02"
+  ],
+  "payment": [
+    "payment.n.02"
+  ],
+  "public": [
+    "public.n.02"
+  ],
+  "fundamental": [
+    "fundamental.n.01"
+  ],
+  "impossibility": [
+    "impossibility.n.01"
+  ],
+  "cognition": [
+    "cognition.n.01"
+  ],
+  "limelight": [
+    "limelight.n.01"
+  ],
+  "retirement": [
+    "retirement.n.01"
+  ],
+  "effectiveness": [
+    "effectiveness.n.01"
+  ],
+  "value": [
+    "value.n.02"
+  ],
+  "personality": [
+    "personality.n.01"
+  ],
+  "achievability": [
+    "achievability.n.01"
+  ],
+  "flattery": [
+    "flattery.n.01"
+  ],
+  "sycophancy": [
+    "sycophancy.n.01"
+  ],
+  "willingness": [
+    "willingness.n.01"
+  ],
+  "illegitimacy": [
+    "illegitimacy.n.02"
+  ],
+  "concealment": [
+    "concealment.n.03"
+  ],
+  "spuriousness": [
+    "spuriousness.n.01"
+  ],
+  "heart": [
+    "heart.n.01"
+  ],
+  "inverse": [
+    "inverse.n.01"
+  ],
+  "urge": [
+    "urge.n.01"
+  ],
+  "share": [
+    "share.n.02"
+  ],
+  "easing": [
+    "easing.n.01"
+  ],
+  "transition": [
+    "transition.n.03"
+  ],
+  "trepidation": [
+    "trepidation.n.01"
+  ],
+  "resilience": [
+    "resilience.n.02"
+  ],
+  "rejuvenation": [
+    "rejuvenation.n.01"
+  ],
+  "complacency": [
+    "complacency.n.01"
+  ],
+  "wariness": [
+    "wariness.n.01"
+  ],
+  "ruin": [
+    "ruin.n.01"
+  ],
+  "defense": [
+    "defense.n.01"
+  ],
+  "sphere": [
+    "sphere.n.01"
+  ],
+  "patriotism": [
+    "patriotism.n.01"
+  ],
+  "empire": [
+    "empire.n.01"
+  ],
+  "remembrance": [
+    "remembrance.n.01"
+  ],
+  "momentum": [
+    "momentum.n.01"
+  ],
+  "differentiator": [
+    "differentiator.n.01"
+  ],
+  "disintegration": [
+    "disintegration.n.02"
   ]
 }
