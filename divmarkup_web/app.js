@@ -36,6 +36,7 @@ const S = {
   numbered: [],       // flat list backing the 1–9 keys
   // misc
   policies: [], canons: [],   // from the document's annotation_policy block
+  defaultKind: 'prognosis',   // per-document, from annotation_policy default-kind
   claudeOn: localStorage.getItem('divmarkup_claude') === '1',
   claudeAvailable: false,
   canUndo: false,
@@ -380,13 +381,11 @@ function renderMode() {
     step.textContent = S.editing ? '② EDIT SENSES' : '② CHOOSE SENSES';
     what.textContent = (S.editing ? 'of committed ' : '') + '“'
       + span.slice(0, 48) + (span.length > 48 ? '…' : '') + '”';
-    const flag = S.kind === 'gnome' ? ' as GNOME ⚑'
-               : S.kind === 'counsel' ? ' as COUNSEL ☞' : '';
     next.textContent = S.editing
       ? `${n} selected · Enter saves · Esc cancels`
       : n === 0
-      ? `no senses selected yet — add a word or tap a chip${flag ? ' ·' + flag : ''}`
-      : `${n} selected · Enter commits${flag} · g/c set kind · Esc reselects`;
+      ? 'no senses selected yet — add a word or tap a chip'
+      : `${n} selected · Enter commits · Esc reselects`;
   } else {
     const st = effectiveStatus();
     step.textContent = '· BROWSING';
@@ -426,6 +425,20 @@ function activeSpanText() {
   if (S.sel) return S.unmarked.slice(S.sel.start, S.sel.end);
   if (S.editing) return S.editing.text;
   return null;
+}
+
+function renderKindRow() {
+  const row = $('kind-select');
+  row.replaceChildren();
+  if (!S.sel || S.editing) { row.style.display = 'none'; return; }
+  row.style.display = 'flex';
+  row.appendChild(el('span', 'kind-label', 'kind:'));
+  for (const k of ['prognosis', 'gnome', 'counsel']) {
+    const btn = el('button', 'kind-btn' + (S.kind === k ? ' active' : ''), k);
+    btn.title = k === S.defaultKind ? `Commit as ${k} (document default)` : `Commit as ${k}`;
+    btn.addEventListener('click', () => { S.kind = k; renderKindRow(); });
+    row.appendChild(btn);
+  }
 }
 
 function renderSenses() {
@@ -469,6 +482,7 @@ function renderSenses() {
     list.appendChild(g);
   }
 
+  renderKindRow();
   $('commit-btn').disabled = !((S.sel || S.editing) && S.numbered.some(s => s.selected));
   $('commit-btn').textContent = S.editing ? 'Save' : 'Commit';
   const active = activeSpanText();
@@ -612,7 +626,7 @@ function setSelection(start, end, snap = true) {
   S.ghost = null;
   S.buf = '';
   S.matches = [];
-  S.kind = 'prognosis';
+  S.kind = S.defaultKind;
   renderCurrent();
   renderChips(chipsForText(S.unmarked.slice(start, end)));
   renderSenses();
@@ -853,10 +867,9 @@ document.addEventListener('keydown', e => {
           setBuf(S.buf + e.key);
           e.preventDefault();
         }
-      } else if ((e.key === 'g' || e.key === 'c') && S.sel) {
-        const target = e.key === 'g' ? 'gnome' : 'counsel';
-        S.kind = S.kind === target ? 'prognosis' : target;
-        renderMode();
+      } else if ({p: 'prognosis', g: 'gnome', c: 'counsel'}[e.key] && S.sel && !S.editing) {
+        S.kind = {p: 'prognosis', g: 'gnome', c: 'counsel'}[e.key];
+        renderKindRow();
       } else if (e.key === '/') {
         $('addword').focus();
         e.preventDefault();
@@ -888,6 +901,7 @@ claudeToggle.addEventListener('change', () => {
     S.claudeAvailable = d.claude_available;
     S.policies = d.policies || [];
     S.canons = d.canons || [];
+    S.defaultKind = d.default_kind || 'prognosis';
     $('filename').textContent = d.file;
     $('total').textContent = S.total.toLocaleString();
     drawStrip();

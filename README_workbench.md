@@ -53,8 +53,11 @@ no attribute = never reviewed (all pre-existing tags); `kind="prognosis"` =
 reviewed, a conditioned prediction (mood: indicative with an explicit or
 implied condition); `kind="gnome"` = a freestanding indicative assertion, even
 when it instructs by exemplar; `kind="counsel"` = imperative mood. New commits
-always carry an explicit kind (`g` sets gnome, `c` sets counsel, pressing the
-active key returns to prognosis; the mode bar shows the current kind). To review the back catalog, open a span in the
+always carry an explicit kind, chosen via the button row above Commit or the `p`/`g`/`c`
+keys. The per-document default comes from the annotation_policy block:
+`<annotation_policy default-kind="gnome" …>` (fallback: prognosis when absent
+or invalid — a bad value warns at startup). Change texts, change the
+attribute; no code edits. To review the back catalog, open a span in the
 “Committed in this sentence” panel and tap `prognosis`, `gnome`, or `counsel`; ⇧U undoes a
 review like any commit. The vocabulary lives in one constant (`KINDS` in
 divmarkup_server.py) if it ever needs to grow — e.g. a `counsel` kind for

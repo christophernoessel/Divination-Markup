@@ -50,6 +50,7 @@ CONTEXT_SIZE = 3      # dimmed context sentences shown on each side
 WEB_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'divmarkup_web')
 
 POLICY_RE = re.compile(r'<policy\s+([^>]*?)>(.*?)</policy>', re.DOTALL)
+POLICY_BLOCK_RE = re.compile(r'<annotation_policy\b([^>]*)>')
 CANON_RE = re.compile(r'<canon\s+formula="([^"]*)"\s+wn_only="([^"]*)"\s*/?>')
 ATTR_RE = re.compile(r'([a-z_-]+)="([^"]*)"')
 
@@ -128,11 +129,22 @@ def parse_policies(text):
             'applies': [s.strip().lower() for s in attrs.get('applies', '').split(',') if s.strip()],
             'text': m.group(2).strip(),
         })
+    # Normalize formulas exactly the way the client normalizes spans, so a
+    # canon written with stray punctuation can't silently never match.
+    normalize = lambda s: re.sub(r'[.,;:!?"\'\s]+', ' ', s).strip().lower()
     canons = [{
-        'formula': f.strip().lower(),
+        'formula': normalize(f),
         'synsets': [s.strip() for s in ids.split(',') if s.strip()],
     } for f, ids in CANON_RE.findall(text)]
-    return policies, canons
+    default_kind = 'prognosis'
+    block = POLICY_BLOCK_RE.search(text)
+    if block:
+        declared = dict(ATTR_RE.findall(block.group(1))).get('default-kind', '')
+        if declared in KINDS:
+            default_kind = declared
+        elif declared:
+            print(f'Warning: default-kind="{declared}" is not one of {KINDS}; using prognosis.')
+    return policies, canons, default_kind
 
 
 def sentence_status(sentence):
@@ -162,6 +174,7 @@ synset_manager_index = None  # which sentence that session belongs to
 undo_stack = []              # [(index, previous_text)], most recent last
 app_policies = []            # parsed from the document's annotation_policy block
 app_canons = []
+app_default_kind = 'prognosis'   # per-document via <annotation_policy default-kind="…">
 
 
 def fresh_synset_session(index):
@@ -251,6 +264,7 @@ def api_state():
         'claude_available': ask_claude.client is not None,
         'policies': app_policies,
         'canons': app_canons,
+        'default_kind': app_default_kind,
     })
 
 
@@ -382,7 +396,7 @@ def api_claude_synsets():
 @app.route('/api/commit', methods=['POST'])
 def api_commit():
     i, start, end = body('index', 'start', 'end')
-    kind = (request.get_json(force=True).get('kind') or 'prognosis')
+    kind = (request.get_json(force=True).get('kind') or app_default_kind)
     if kind not in KINDS:
         return jsonify({'error': f'Unknown kind “{kind}”.'}), 400
     mgr = session_for(i)
@@ -521,10 +535,11 @@ def main():
         print('No file selected. Exiting.')
         sys.exit(1)
 
-    global app_policies, app_canons
+    global app_policies, app_canons, app_default_kind
     markup_manager = MarkupManager(file_path)
     ask_claude = AskClaude()
-    app_policies, app_canons = parse_policies(markup_manager.source_text)
+    app_policies, app_canons, app_default_kind = parse_policies(markup_manager.source_text)
+    print(f'Default kind for this document: {app_default_kind}')
     if app_policies:
         print(f'Annotation policies found: {", ".join(p["id"] for p in app_policies)}')
 
